@@ -1,4 +1,4 @@
-import { Loading, State, StateIndicator } from '@cryptomines/core';
+import { Loading, State, StateIndicator } from '@platinum/core';
 import React from 'react';
 
 import FullNodeState from '../../constants/FullNodeState';

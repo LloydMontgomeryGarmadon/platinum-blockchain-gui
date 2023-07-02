@@ -1,4 +1,4 @@
-import { useRemoveKeyringPassphraseMutation, useGetKeyringStatusQuery } from '@cryptomines/api-react';
+import { useRemoveKeyringPassphraseMutation, useGetKeyringStatusQuery } from '@platinum/api-react';
 import {
   AlertDialog,
   Button,
@@ -9,7 +9,7 @@ import {
   Suspender,
   TextField,
   Form,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { KeyboardCapslock as KeyboardCapslockIcon, Visibility as VisibilityIcon } from '@mui/icons-material';
 import {

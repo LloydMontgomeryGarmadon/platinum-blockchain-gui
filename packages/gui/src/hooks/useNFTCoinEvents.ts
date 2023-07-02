@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 
-import { useNFTCoinAdded, useNFTCoinRemoved, useNFTCoinUpdated, useNFTCoinDIDSet } from '@cryptomines/api-react';
+import { useNFTCoinAdded, useNFTCoinRemoved, useNFTCoinUpdated, useNFTCoinDIDSet } from '@platinum/api-react';
 import { useCallback, useMemo } from 'react';
 
 type Event = {

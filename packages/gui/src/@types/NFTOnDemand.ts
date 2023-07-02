@@ -1,4 +1,4 @@
-import { type NFTInfo } from '@cryptomines/api';
+import { type NFTInfo } from '@platinum/api';
 
 type NFTOnDemand = {
   nft?: NFTInfo;

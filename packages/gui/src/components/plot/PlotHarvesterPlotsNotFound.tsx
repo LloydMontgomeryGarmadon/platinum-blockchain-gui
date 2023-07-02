@@ -1,6 +1,6 @@
-import { type Plot } from '@cryptomines/api';
-import { useGetHarvesterPlotsKeysMissingQuery, useGetHarvesterQuery } from '@cryptomines/api-react';
-import { TableControlled } from '@cryptomines/core';
+import { type Plot } from '@platinum/api';
+import { useGetHarvesterPlotsKeysMissingQuery, useGetHarvesterQuery } from '@platinum/api-react';
+import { TableControlled } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React, { useState, useMemo } from 'react';

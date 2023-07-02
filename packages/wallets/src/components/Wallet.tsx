@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines/api';
-import { Suspender } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import { Suspender } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Alert } from '@mui/material';
 import React from 'react';

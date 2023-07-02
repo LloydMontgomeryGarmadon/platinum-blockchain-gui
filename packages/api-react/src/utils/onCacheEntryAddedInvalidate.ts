@@ -1,4 +1,4 @@
-import { type ServiceClassWithoutClient, type ServiceClassWithoutClientMethods } from '@cryptomines/api';
+import { type ServiceClassWithoutClient, type ServiceClassWithoutClientMethods } from '@platinum/api';
 
 import { baseQuery } from '../api';
 

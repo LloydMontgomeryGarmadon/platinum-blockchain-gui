@@ -1,4 +1,4 @@
-import { toBech32m } from '@cryptomines/api';
+import { toBech32m } from '@platinum/api';
 import {
   Flex,
   CardKeyValue,
@@ -8,7 +8,7 @@ import {
   truncateValue,
   Link,
   useCurrencyCode,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React, { useMemo } from 'react';

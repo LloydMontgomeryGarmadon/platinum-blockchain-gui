@@ -1,4 +1,4 @@
-import { useGetNetworkInfoQuery } from '@cryptomines/api-react';
+import { useGetNetworkInfoQuery } from '@platinum/api-react';
 
 export default function useCurrencyCode(): string | undefined {
   const { data: networkInfo, isLoading } = useGetNetworkInfoQuery();

@@ -1,17 +1,17 @@
 {
-  "name": "@cryptomines/gui",
+  "name": "@platinum/gui",
   "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
-  "description": "GUI for Cryptomines Blockchain",
+  "description": "GUI for Platinum Blockchain",
   "license": "Apache-2.0",
-  "productName": "Cryptomines Blockchain",
+  "productName": "Platinum Blockchain",
   "homepage": "./",
   "main": "build/electron/main.js",
   "engines": {
     "node": ">=16.15.0"
   },
   "build": {
-    "productName": "cryptomines",
-    "appId": "net.cryptomines.blockchain",
+    "productName": "platinum",
+    "appId": "net.platinum.blockchain",
     "asar": true,
     "asarUnpack": "**/daemon/**",
     "npmRebuild": false,
@@ -24,13 +24,13 @@
     ],
     "protocols": [
       {
-        "name": "Cryptomines URL",
+        "name": "Platinum URL",
         "schemes": [
-          "cryptomines"
+          "platinum"
         ]
       },
       {
-        "name": "Cryptomines PLAT Address",
+        "name": "Platinum PLAT Address",
         "schemes": [
           "plat"
         ]
@@ -38,12 +38,12 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "src/assets/img/cryptomines.ico",
+      "icon": "src/assets/img/platinum.ico",
       "timeStampServer": "http://timestamp.comodoca.com",
-      "executableName": "Cryptomines"
+      "executableName": "Platinum"
     },
     "nsis": {
-      "artifactName": "CryptominesSetup-${env.CRYPTOMINES_INSTALLER_VERSION}.exe",
+      "artifactName": "PlatinumSetup-${env.PLATINUM_INSTALLER_VERSION}.exe",
       "oneClick": false,
       "deleteAppDataOnUninstall": true,
       "allowToChangeInstallationDirectory": true,
@@ -53,11 +53,11 @@
       "include": "installer.nsh"
     },
     "mac": {
-      "executableName": "Cryptomines",
-      "artifactName": "${productName}-${env.CRYPTOMINES_INSTALLER_VERSION}.${ext}",
+      "executableName": "Platinum",
+      "artifactName": "${productName}-${env.PLATINUM_INSTALLER_VERSION}.${ext}",
       "category": "public.app-category.finance",
       "target": "dmg",
-      "icon": "src/assets/img/cryptomines.icns",
+      "icon": "src/assets/img/platinum.icns",
       "entitlements": "entitlements.mac.plist",
       "provisioningProfile": "platinumblockchain.provisionprofile",
       "darkModeSupport": true,
@@ -86,8 +86,8 @@
       }
     },
     "linux": {
-      "artifactName": "${productName}-${env.CRYPTOMINES_INSTALLER_VERSION}.${ext}",
-      "icon": "src/assets/img/cryptomines.icns"
+      "artifactName": "${productName}-${env.PLATINUM_INSTALLER_VERSION}.${ext}",
+      "icon": "src/assets/img/platinum.icns"
     },
     "deb": {
       "afterInstall": "../../../build_scripts/assets/deb/postinst.sh",
@@ -113,7 +113,7 @@
         "--rpm-rpmbuild-define=_enable_debug_package 0",
         "--rpm-rpmbuild-define=debug_package %{nil}",
         "--rpm-rpmbuild-define=__os_install_post /usr/lib/rpm/brp-compress %{nil}",
-        "--rpm-attr=4755,root,root:/opt/cryptomines/chrome-sandbox"
+        "--rpm-attr=4755,root,root:/opt/platinum/chrome-sandbox"
       ]
     }
   },
@@ -144,11 +144,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "@cryptomines/api": "1.0.0",
-    "@cryptomines/api-react": "1.0.0",
-    "@cryptomines/core": "1.0.0",
-    "@cryptomines/icons": "1.0.0",
-    "@cryptomines/wallets": "1.0.0",
+    "@platinum/api": "1.0.0",
+    "@platinum/api-react": "1.0.0",
+    "@platinum/core": "1.0.0",
+    "@platinum/icons": "1.0.0",
+    "@platinum/wallets": "1.0.0",
     "@electron/remote": "2.0.1",
     "@lingui/core": "3.13.0",
     "@lingui/macro": "3.13.0",

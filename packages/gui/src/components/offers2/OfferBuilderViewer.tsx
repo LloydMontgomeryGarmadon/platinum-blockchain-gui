@@ -1,4 +1,4 @@
-import { useGetWalletsQuery, useCheckOfferValidityMutation } from '@cryptomines/api-react';
+import { useGetWalletsQuery, useCheckOfferValidityMutation } from '@platinum/api-react';
 import {
   AlertDialog,
   Flex,
@@ -8,8 +8,8 @@ import {
   Loading,
   useShowError,
   useOpenDialog,
-} from '@cryptomines/core';
-import { useIsWalletSynced } from '@cryptomines/wallets';
+} from '@platinum/core';
+import { useIsWalletSynced } from '@platinum/wallets';
 import { Trans } from '@lingui/macro';
 import { Alert, Grid } from '@mui/material';
 import React, { useCallback, useEffect, useImperativeHandle, useMemo, useRef, useState, forwardRef } from 'react';

@@ -1,4 +1,4 @@
-import { AlertDialog, ButtonLoading, DialogActions, Flex, Form, TextField, useOpenDialog } from '@cryptomines/core';
+import { AlertDialog, ButtonLoading, DialogActions, Flex, Form, TextField, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Button, Dialog, DialogTitle, DialogContent } from '@mui/material';
 import React from 'react';

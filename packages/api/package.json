@@ -1,8 +1,8 @@
 {
-  "name": "@cryptomines/api",
+  "name": "@platinum/api",
   "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
-  "description": "Cryptomines API Library",
-  "productName": "Cryptomines Blockchain",
+  "description": "Platinum API Library",
+  "productName": "Platinum Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"

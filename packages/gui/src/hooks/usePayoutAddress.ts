@@ -1,6 +1,6 @@
-import { toBech32m, fromBech32m } from '@cryptomines/api';
-import type { PlotNFT } from '@cryptomines/api';
-import { useSetPayoutInstructionsMutation, useGetNetworkInfoQuery } from '@cryptomines/api-react';
+import { toBech32m, fromBech32m } from '@platinum/api';
+import type { PlotNFT } from '@platinum/api';
+import { useSetPayoutInstructionsMutation, useGetNetworkInfoQuery } from '@platinum/api-react';
 
 export default function usePayoutAddress(nft: PlotNFT): {
   loading: boolean;

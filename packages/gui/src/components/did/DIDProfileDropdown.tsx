@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines/api';
-import { useGetDIDsQuery } from '@cryptomines/api-react';
-import { DropdownActions, DropdownActionsProps, MenuItem } from '@cryptomines/core';
+import type { Wallet } from '@platinum/api';
+import { useGetDIDsQuery } from '@platinum/api-react';
+import { DropdownActions, DropdownActionsProps, MenuItem } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { PermIdentity as PermIdentityIcon } from '@mui/icons-material';
 import { ListItemIcon } from '@mui/material';

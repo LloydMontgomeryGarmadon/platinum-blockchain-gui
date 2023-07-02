@@ -27,7 +27,7 @@ export default function useNFTMinterDID(nftId: string): UseNFTMinterDIDResult {
     const didIdLocal = didToDIDId(hexDIDIdLocal);
     let didNameLocal;
 
-    if (didIdLocal === 'did:cryptomines:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
+    if (didIdLocal === 'did:platinum:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
       didNameLocal = 'Matthew Crazy';
     }
 

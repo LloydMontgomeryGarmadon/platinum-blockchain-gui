@@ -1,5 +1,5 @@
-import { useDeleteUnconfirmedTransactionsMutation } from '@cryptomines/api-react';
-import { Flex, ConfirmDialog, useOpenDialog, DropdownActions, MenuItem } from '@cryptomines/core';
+import { useDeleteUnconfirmedTransactionsMutation } from '@platinum/api-react';
+import { Flex, ConfirmDialog, useOpenDialog, DropdownActions, MenuItem } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Typography, ListItemIcon, Tab, Tabs } from '@mui/material';

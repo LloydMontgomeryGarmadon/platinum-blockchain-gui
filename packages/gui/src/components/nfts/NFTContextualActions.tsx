@@ -1,14 +1,14 @@
 /* eslint-disable no-bitwise -- enable bitwise operators for this file */
 
-import type { NFTInfo } from '@cryptomines/api';
-import { useSetNFTStatusMutation, useLocalStorage } from '@cryptomines/api-react';
-import { AlertDialog, DropdownActions, MenuItem, useOpenDialog, isValidURL } from '@cryptomines/core';
+import type { NFTInfo } from '@platinum/api';
+import { useSetNFTStatusMutation, useLocalStorage } from '@platinum/api-react';
+import { AlertDialog, DropdownActions, MenuItem, useOpenDialog, isValidURL } from '@platinum/core';
 import {
   Burn as BurnIcon,
   LinkSmall as LinkSmallIcon,
   NFTsSmall as NFTsSmallIcon,
   OffersSmall as OffersSmallIcon,
-} from '@cryptomines/icons';
+} from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import {
   ArrowForward as TransferIcon,

@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines/core';
+import { Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Link as LinkIcon } from '@mui/icons-material';
 import { Avatar, IconButton, Typography } from '@mui/material';

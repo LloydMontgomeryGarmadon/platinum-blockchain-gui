@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
 import _ from 'lodash';
 
 import type OfferBuilderData from '../../../@types/OfferBuilderData';

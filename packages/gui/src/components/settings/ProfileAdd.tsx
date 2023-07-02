@@ -2,7 +2,7 @@ import {
   useCreateNewWalletMutation,
   useGetCurrentAddressQuery,
   useGetWalletBalanceQuery,
-} from '@cryptomines/api-react';
+} from '@platinum/api-react';
 import {
   ButtonLoading,
   EstimatedFee,
@@ -14,7 +14,7 @@ import {
   chiaToMojo,
   mojoToChiaLocaleString,
   useCurrencyCode,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Card, Typography } from '@mui/material';
 import React from 'react';
@@ -121,7 +121,7 @@ export default function ProfileAdd() {
                     <Trans>Need some {currencyCode}?</Trans>
                   </Typography>
                   <Link onClick={handleClick}>
-                    <Trans>Get Mojos from the Cryptomines Faucet</Trans>
+                    <Trans>Get Mojos from the Platinum Faucet</Trans>
                   </Link>
                 </Flex>
               )}

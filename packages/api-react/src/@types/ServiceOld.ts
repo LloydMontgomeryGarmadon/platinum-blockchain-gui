@@ -1,4 +1,4 @@
-import type { Daemon, Events, Farmer, FullNode, Harvester, PlotterService, WalletService } from '@cryptomines/api';
+import type { Daemon, Events, Farmer, FullNode, Harvester, PlotterService, WalletService } from '@platinum/api';
 
 type Service =
   | typeof Daemon

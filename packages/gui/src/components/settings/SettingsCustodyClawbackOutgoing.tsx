@@ -1,10 +1,10 @@
-import { Flex, Form, TextField, ButtonLoading } from '@cryptomines/core';
-import { ConnectCheckmark } from '@cryptomines/icons';
+import { Flex, Form, TextField, ButtonLoading } from '@platinum/core';
+import { ConnectCheckmark } from '@platinum/icons';
 import {
   useClawbackDefaultTime,
   type ClawbackDefaultTimeInput,
   clawbackDefaultTimeDefaults,
-} from '@cryptomines/wallets';
+} from '@platinum/wallets';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

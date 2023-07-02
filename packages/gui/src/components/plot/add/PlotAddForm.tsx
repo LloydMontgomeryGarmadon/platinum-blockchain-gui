@@ -1,6 +1,6 @@
-import { defaultPlotter, toBech32m, fromBech32m } from '@cryptomines/api';
-import { useStartPlottingMutation, useCreateNewPoolWalletMutation } from '@cryptomines/api-react';
-import { Back, useShowError, ButtonLoading, Flex, Form } from '@cryptomines/core';
+import { defaultPlotter, toBech32m, fromBech32m } from '@platinum/api';
+import { useStartPlottingMutation, useCreateNewPoolWalletMutation } from '@platinum/api-react';
+import { Back, useShowError, ButtonLoading, Flex, Form } from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import React, { useState, useEffect, useRef } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';

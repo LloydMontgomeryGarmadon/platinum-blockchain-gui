@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines/core';
-import { Offers as OffersIcon } from '@cryptomines/icons';
+import { Flex } from '@platinum/core';
+import { Offers as OffersIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

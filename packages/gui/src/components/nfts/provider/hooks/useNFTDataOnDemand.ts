@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo } from '@cryptomines/api';
-import { useLazyGetNFTInfoQuery } from '@cryptomines/api-react';
+import { type NFTInfo } from '@platinum/api';
+import { useLazyGetNFTInfoQuery } from '@platinum/api-react';
 import debug from 'debug';
 import { useState, useCallback, useMemo } from 'react';
 
@@ -11,7 +11,7 @@ import getNFTId from '../../../../util/getNFTId';
 import limit from '../../../../util/limit';
 import { launcherIdFromNFTId } from '../../../../util/nfts';
 
-const log = debug('cryptomines-gui:NFTProvider:useMetadataData');
+const log = debug('platinum-gui:NFTProvider:useMetadataData');
 
 export function getChangedEventName(nftId: string) {
   return `nftChanged:${nftId}`;

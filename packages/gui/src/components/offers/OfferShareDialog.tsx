@@ -1,4 +1,4 @@
-import { OfferTradeRecord } from '@cryptomines/api';
+import { OfferTradeRecord } from '@platinum/api';
 import {
   ButtonLoading,
   CopyToClipboard,
@@ -8,7 +8,7 @@ import {
   useOpenDialog,
   useShowError,
   useOpenExternal,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import {
   Button,
@@ -31,7 +31,7 @@ import { NFTOfferSummary } from './NFTOfferViewer';
 import OfferSummary from './OfferSummary';
 import { offerContainsAssetOfType } from './utils';
 
-const log = debug('cryptomines-gui:offers');
+const log = debug('platinum-gui:offers');
 
 /* ========================================================================== */
 
@@ -81,7 +81,7 @@ type CommonShareServiceDialogProps = CommonDialogProps & {
 
 type OfferShareServiceDialogProps = CommonOfferProps & CommonShareServiceDialogProps;
 
-const testnetDummyHost = 'offers-api-sim.cryptomines.pl';
+const testnetDummyHost = 'offers-api-sim.platinum.pl';
 
 const OfferSharingProviders: {
   [key in OfferSharingService]: OfferSharingProvider;

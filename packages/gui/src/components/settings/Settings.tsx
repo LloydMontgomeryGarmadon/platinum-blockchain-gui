@@ -1,5 +1,5 @@
-import { useLocalStorage } from '@cryptomines/api-react';
-import { Flex, LayoutDashboardSub } from '@cryptomines/core';
+import { useLocalStorage } from '@platinum/api-react';
+import { Flex, LayoutDashboardSub } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Tab, Tabs } from '@mui/material';
 import Badge from '@mui/material/Badge';

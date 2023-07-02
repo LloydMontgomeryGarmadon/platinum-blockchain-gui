@@ -1,4 +1,4 @@
-import { Tooltip, isValidURL } from '@cryptomines/core';
+import { Tooltip, isValidURL } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import ErrorIcon from '@mui/icons-material/Error';

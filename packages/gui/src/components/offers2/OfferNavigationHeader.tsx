@@ -1,4 +1,4 @@
-import { Back, Flex } from '@cryptomines/core';
+import { Back, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

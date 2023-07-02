@@ -1,6 +1,6 @@
 import { type Shell } from 'electron';
 
-import { Farming } from '@cryptomines/icons';
+import { Farming } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import {
   WbSunny as WbSunnyIcon,
@@ -122,7 +122,7 @@ export default function SettingsApp(props: SettingsAppProps) {
       <Flex flexDirection="column" gap={1}>
         <Flex flexDirection="row" gap={1}>
           <SettingsLabel>
-            <Trans>Cryptomines Application Version:</Trans>
+            <Trans>Platinum Application Version:</Trans>
           </SettingsLabel>
           {version && (
             <Typography variant="body1" color="textSecondary">

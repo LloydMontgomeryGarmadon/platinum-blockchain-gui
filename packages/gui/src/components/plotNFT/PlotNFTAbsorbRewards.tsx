@@ -1,4 +1,4 @@
-import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery, useGetCurrentAddressQuery } from '@cryptomines/api-react';
+import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery, useGetCurrentAddressQuery } from '@platinum/api-react';
 import {
   UnitFormat,
   CardStep,
@@ -12,7 +12,7 @@ import {
   mojoToChiaLocaleString,
   chiaToMojo,
   Back,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { ChevronRight as ChevronRightIcon } from '@mui/icons-material';
 import { Grid, Typography } from '@mui/material';

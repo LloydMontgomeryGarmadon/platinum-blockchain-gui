@@ -1,5 +1,5 @@
-import { ServiceName } from '@cryptomines/api';
-import { Mode } from '@cryptomines/core';
+import { ServiceName } from '@platinum/api';
+import { Mode } from '@platinum/core';
 
 export default {
   [Mode.WALLET]: [ServiceName.WALLET],

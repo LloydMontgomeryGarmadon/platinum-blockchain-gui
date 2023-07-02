@@ -1,4 +1,4 @@
-import { useGetTimestampForHeightQuery } from '@cryptomines/api-react';
+import { useGetTimestampForHeightQuery } from '@platinum/api-react';
 import React from 'react';
 
 export default function VCGetTimestamp(props: {

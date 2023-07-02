@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines/api';
-import { WalletType } from '@cryptomines/api';
-import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@cryptomines/api-react';
+import type { Wallet } from '@platinum/api';
+import { WalletType } from '@platinum/api';
+import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@platinum/api-react';
 import {
   Amount,
   Fee,
@@ -11,7 +11,7 @@ import {
   mojoToCAT,
   mojoToCATLocaleString,
   useLocale,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Add, Remove } from '@mui/icons-material';
 import { Box, Divider, IconButton, Typography } from '@mui/material';

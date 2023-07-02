@@ -1,5 +1,5 @@
-import { store, walletApi } from '@cryptomines/api-react';
-import { isValidURL } from '@cryptomines/core';
+import { store, walletApi } from '@platinum/api-react';
+import { isValidURL } from '@platinum/core';
 
 import OfferServices from '../constants/OfferServices';
 import offerToOfferBuilderData from './offerToOfferBuilderData';

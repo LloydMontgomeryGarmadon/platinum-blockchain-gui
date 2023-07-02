@@ -1,5 +1,5 @@
-import { useGetWalletBalanceQuery, useGetCurrentDerivationIndexQuery } from '@cryptomines/api-react';
-import { CardSimple, Flex, TooltipIcon } from '@cryptomines/core';
+import { useGetWalletBalanceQuery, useGetCurrentDerivationIndexQuery } from '@platinum/api-react';
+import { CardSimple, Flex, TooltipIcon } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React, { ReactElement } from 'react';

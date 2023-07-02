@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
 
 import getUnknownCATs from './getUnknownCATs';
 

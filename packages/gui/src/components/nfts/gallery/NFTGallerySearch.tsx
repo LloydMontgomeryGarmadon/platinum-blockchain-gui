@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines/core';
+import { Flex } from '@platinum/core';
 import { Search as SearchIcon } from '@mui/icons-material';
 import { InputBase, InputBaseProps } from '@mui/material';
 import React from 'react';

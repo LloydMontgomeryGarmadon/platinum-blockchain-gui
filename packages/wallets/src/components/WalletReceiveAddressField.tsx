@@ -1,6 +1,6 @@
-import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@cryptomines/api-react';
-import { Flex, Loading, truncateValue, useColorModeValue } from '@cryptomines/core';
-import { Reload } from '@cryptomines/icons';
+import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@platinum/api-react';
+import { Flex, Loading, truncateValue, useColorModeValue } from '@platinum/core';
+import { Reload } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Button, IconButton, Tooltip, Typography } from '@mui/material';
 import React, { useState } from 'react';

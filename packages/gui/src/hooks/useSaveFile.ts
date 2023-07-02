@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { useShowSaveDialog } from '@cryptomines/core';
+import { useShowSaveDialog } from '@platinum/core';
 import { useCallback } from 'react';
 
 export type SaveFileParams = {

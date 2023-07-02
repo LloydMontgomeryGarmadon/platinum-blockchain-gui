@@ -1,4 +1,4 @@
-import { ConfirmDialog, CopyToClipboard, Flex } from '@cryptomines/core';
+import { ConfirmDialog, CopyToClipboard, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Divider, Typography } from '@mui/material';
 import React from 'react';

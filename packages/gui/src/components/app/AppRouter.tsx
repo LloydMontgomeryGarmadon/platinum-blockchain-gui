@@ -1,5 +1,5 @@
-import { SelectKey, LayoutHero, LayoutDashboard, Mode, useMode } from '@cryptomines/core';
-import { WalletAdd, WalletImport, Wallets } from '@cryptomines/wallets';
+import { SelectKey, LayoutHero, LayoutDashboard, Mode, useMode } from '@platinum/core';
+import { WalletAdd, WalletImport, Wallets } from '@platinum/wallets';
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 

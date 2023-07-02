@@ -1,8 +1,8 @@
-import { WalletType } from '@cryptomines/api';
-import type { Wallet } from '@cryptomines/api';
-import { useGetWalletsQuery } from '@cryptomines/api-react';
-import { Flex, Loading, catToMojo, mojoToCATLocaleString } from '@cryptomines/core';
-import { Tokens } from '@cryptomines/icons';
+import { WalletType } from '@platinum/api';
+import type { Wallet } from '@platinum/api';
+import { useGetWalletsQuery } from '@platinum/api-react';
+import { Flex, Loading, catToMojo, mojoToCATLocaleString } from '@platinum/core';
+import { Tokens } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import React, { useMemo } from 'react';
@@ -111,7 +111,7 @@ export default function OfferBuilderTokensSection(props: OfferBuilderTokensSecti
     <OfferBuilderSection
       icon={<Tokens />}
       title={<Trans>Tokens</Trans>}
-      subtitle={<Trans>Cryptomines Asset Tokens (CATs) are tokens built on top of PLAT</Trans>}
+      subtitle={<Trans>Platinum Asset Tokens (CATs) are tokens built on top of PLAT</Trans>}
       onAdd={showAdd ? handleAdd : undefined}
       expanded={!!fields.length}
       muted={muted}

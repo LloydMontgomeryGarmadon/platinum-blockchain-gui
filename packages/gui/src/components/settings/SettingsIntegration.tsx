@@ -1,4 +1,4 @@
-import { Flex, MenuItem, SettingsHR, SettingsSection, SettingsTitle, SettingsText } from '@cryptomines/core';
+import { Flex, MenuItem, SettingsHR, SettingsSection, SettingsTitle, SettingsText } from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import {
   Autocomplete,
@@ -140,8 +140,8 @@ export default function SettingsIntegration() {
           </SettingsSection>
           <SettingsText>
             <Trans>
-              WalletConnect enables a decentralized app on the Cryptomines blockchain to communicate and make requests directly
-              to a Cryptomines wallet.
+              WalletConnect enables a decentralized app on the Platinum blockchain to communicate and make requests directly
+              to a Platinum wallet.
             </Trans>
           </SettingsText>
         </Flex>
@@ -358,7 +358,7 @@ export default function SettingsIntegration() {
                   <SettingsText>
                     <Trans>
                       This will restore the selected Dapp's permissions back to their default values. By default, every
-                      command issued by the Dapp will require confirmation in the Cryptomines wallet.
+                      command issued by the Dapp will require confirmation in the Platinum wallet.
                     </Trans>
                   </SettingsText>
                 </Grid>

@@ -1,5 +1,5 @@
-import type { Plot, PlotNFTExternal } from '@cryptomines/api';
-import { useIsWalletSynced } from '@cryptomines/wallets';
+import type { Plot, PlotNFTExternal } from '@platinum/api';
+import { useIsWalletSynced } from '@platinum/wallets';
 import { useMemo } from 'react';
 
 import usePlotNFTName from './usePlotNFTName';

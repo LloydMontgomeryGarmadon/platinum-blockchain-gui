@@ -1,4 +1,4 @@
-import { Back, Flex } from '@cryptomines/core';
+import { Back, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Restore as RestoreIcon, Add as AddIcon } from '@mui/icons-material';
 import { Grid } from '@mui/material';
@@ -22,7 +22,7 @@ export default function WalletCATSelect() {
     <Flex flexDirection="column" gap={3}>
       <Flex flexGrow={1}>
         <Back variant="h5" to="/dashboard/wallets/create">
-          <Trans>Cryptomines Asset Token</Trans>
+          <Trans>Platinum Asset Token</Trans>
         </Back>
       </Flex>
       <Grid spacing={3} alignItems="stretch" container>

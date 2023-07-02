@@ -1,6 +1,6 @@
-import { useGetLatestBlocksQuery, useGetUnfinishedBlockHeadersQuery } from '@cryptomines/api-react';
-import { FormatLargeNumber, Flex, Card, StateColor, Table, LayoutDashboardSub } from '@cryptomines/core';
-import { Status } from '@cryptomines/icons';
+import { useGetLatestBlocksQuery, useGetUnfinishedBlockHeadersQuery } from '@platinum/api-react';
+import { FormatLargeNumber, Flex, Card, StateColor, Table, LayoutDashboardSub } from '@platinum/core';
+import { Status } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Box, Tooltip, Typography } from '@mui/material';
 import { get } from 'lodash';

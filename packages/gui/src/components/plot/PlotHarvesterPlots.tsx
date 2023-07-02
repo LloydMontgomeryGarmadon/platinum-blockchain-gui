@@ -1,6 +1,6 @@
-import { type Plot } from '@cryptomines/api';
-import { useGetHarvesterPlotsValidQuery, useGetHarvesterQuery } from '@cryptomines/api-react';
-import { Address, TableControlled, Flex, FormatBytes, Tooltip, StateColor } from '@cryptomines/core';
+import { type Plot } from '@platinum/api';
+import { useGetHarvesterPlotsValidQuery, useGetHarvesterQuery } from '@platinum/api-react';
+import { Address, TableControlled, Flex, FormatBytes, Tooltip, StateColor } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { Box, Typography } from '@mui/material';

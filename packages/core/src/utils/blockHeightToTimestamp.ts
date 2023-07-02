@@ -1,4 +1,4 @@
-import type { Transaction } from '@cryptomines/api';
+import type { Transaction } from '@platinum/api';
 
 const BLOCK_DURATION_SECONDS = (24 * 60 * 60) / 4608;
 

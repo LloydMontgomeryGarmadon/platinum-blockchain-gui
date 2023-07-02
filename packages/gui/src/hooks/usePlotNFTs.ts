@@ -1,5 +1,5 @@
-import type { PlotNFT } from '@cryptomines/api';
-import { useGetPlotNFTsQuery } from '@cryptomines/api-react';
+import type { PlotNFT } from '@platinum/api';
+import { useGetPlotNFTsQuery } from '@platinum/api-react';
 import PlotNFTExternal from 'types/PlotNFTExternal';
 
 import useUnconfirmedPlotNFTs from './useUnconfirmedPlotNFTs';

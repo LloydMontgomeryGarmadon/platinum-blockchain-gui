@@ -1,5 +1,5 @@
-import { toBech32m } from '@cryptomines/api';
-import { CopyToClipboard, Flex, useCurrencyCode } from '@cryptomines/core';
+import { toBech32m } from '@platinum/api';
+import { CopyToClipboard, Flex, useCurrencyCode } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { InputAdornment } from '@mui/material';
 import React, { useEffect, useMemo } from 'react';

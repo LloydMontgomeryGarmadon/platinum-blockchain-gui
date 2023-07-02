@@ -1,4 +1,4 @@
-import { useGetPrivateKeyQuery, useGetKeyQuery } from '@cryptomines/api-react';
+import { useGetPrivateKeyQuery, useGetKeyQuery } from '@platinum/api-react';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Grid, Typography } from '@mui/material';
 import React, { useState } from 'react';

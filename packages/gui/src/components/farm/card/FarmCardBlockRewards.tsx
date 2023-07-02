@@ -1,5 +1,5 @@
-import { useGetFarmedAmountQuery } from '@cryptomines/api-react';
-import { useCurrencyCode, mojoToChiaLocaleString, CardSimple, useLocale } from '@cryptomines/core';
+import { useGetFarmedAmountQuery } from '@platinum/api-react';
+import { useCurrencyCode, mojoToChiaLocaleString, CardSimple, useLocale } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import React, { useMemo } from 'react';

@@ -1,4 +1,4 @@
-import { useGetHarvesterStats } from '@cryptomines/api-react';
+import { useGetHarvesterStats } from '@platinum/api-react';
 import React from 'react';
 
 import LinearProgressWithLabel from '../helpers/LinearProgressWithLabel';

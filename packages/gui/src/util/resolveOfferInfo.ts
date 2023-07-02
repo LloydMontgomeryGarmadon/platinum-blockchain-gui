@@ -1,6 +1,6 @@
 import { AssetStatusForOffer } from 'util/offerBuilderDataToOffer';
 
-import { OfferSummaryRecord, WalletType } from '@cryptomines/api';
+import { OfferSummaryRecord, WalletType } from '@platinum/api';
 import { t } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import { OfferTradeRecordFormatted } from 'hooks/useWalletOffers';

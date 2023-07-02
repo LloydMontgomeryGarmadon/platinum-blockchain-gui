@@ -1,4 +1,4 @@
-import LRU from '@cryptomines/core';
+import LRU from '@platinum/core';
 import { useContext } from 'react';
 
 import { LRUsContext } from '../components/lrus/LRUsProvider';

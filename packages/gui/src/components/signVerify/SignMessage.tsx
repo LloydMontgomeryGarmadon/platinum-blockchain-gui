@@ -1,6 +1,6 @@
-import { toBech32m, toSnakeCase } from '@cryptomines/api';
-import { useSignMessageByAddressMutation, useSignMessageByIdMutation } from '@cryptomines/api-react';
-import { Button, Card, Flex, Form, TextField, useOpenDialog, useShowError } from '@cryptomines/core';
+import { toBech32m, toSnakeCase } from '@platinum/api';
+import { useSignMessageByAddressMutation, useSignMessageByIdMutation } from '@platinum/api-react';
+import { Button, Card, Flex, Form, TextField, useOpenDialog, useShowError } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { ButtonGroup, DialogActions, Typography } from '@mui/material';
 import React, { ReactNode } from 'react';
@@ -102,7 +102,7 @@ export default function SignMessage(props: SignMessageProps) {
 
       if (missingNFTMatch || missingDIDMatch) {
         const entityPuzzleHash = missingNFTMatch ? missingNFTMatch[1] : missingDIDMatch![1];
-        const entityId = toBech32m(entityPuzzleHash, missingNFTMatch ? 'nft' : 'did:cryptomines:');
+        const entityId = toBech32m(entityPuzzleHash, missingNFTMatch ? 'nft' : 'did:platinum:');
 
         if (missingNFTMatch) {
           showError(new Error(t`Unable to find NFT ${entityId}`));

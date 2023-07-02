@@ -1,4 +1,4 @@
-import { Address, Flex, TooltipIcon } from '@cryptomines/core';
+import { Address, Flex, TooltipIcon } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

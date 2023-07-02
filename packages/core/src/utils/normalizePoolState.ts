@@ -1,4 +1,4 @@
-import type { PoolState } from '@cryptomines/api';
+import type { PoolState } from '@platinum/api';
 
 import removeOldPoints from './removeOldPoints';
 

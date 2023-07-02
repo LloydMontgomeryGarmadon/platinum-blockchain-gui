@@ -1,7 +1,7 @@
-import type { Connection } from '@cryptomines/api';
-import { ServiceName } from '@cryptomines/api';
-import { useGetFarmerFullNodeConnectionsQuery, useService } from '@cryptomines/api-react';
-import { Table, Card, FormatBytes, FormatConnectionStatus } from '@cryptomines/core';
+import type { Connection } from '@platinum/api';
+import { ServiceName } from '@platinum/api';
+import { useGetFarmerFullNodeConnectionsQuery, useService } from '@platinum/api-react';
+import { Table, Card, FormatBytes, FormatConnectionStatus } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Link, Typography, Tooltip, IconButton } from '@mui/material';

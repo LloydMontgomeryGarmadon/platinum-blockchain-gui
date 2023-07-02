@@ -1,5 +1,5 @@
-import { useGetPlotNFTsQuery, usePwSelfPoolMutation, usePwJoinPoolMutation } from '@cryptomines/api-react';
-import { Flex, State, Loading, StateTypography } from '@cryptomines/core';
+import { useGetPlotNFTsQuery, usePwSelfPoolMutation, usePwJoinPoolMutation } from '@platinum/api-react';
+import { Flex, State, Loading, StateTypography } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { ChevronRight as ChevronRightIcon } from '@mui/icons-material';
 import React, { useMemo, ReactNode } from 'react';

@@ -1,4 +1,4 @@
-import { Card, Flex, Loading } from '@cryptomines/core';
+import { Card, Flex, Loading } from '@platinum/core';
 import { Typography } from '@mui/material';
 import React, { useState, ReactNode } from 'react';
 import styled from 'styled-components';

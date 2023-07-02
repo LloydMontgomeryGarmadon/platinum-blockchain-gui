@@ -1,5 +1,5 @@
-import { DropdownBase, Tooltip } from '@cryptomines/core';
-import { WalletConnect } from '@cryptomines/icons';
+import { DropdownBase, Tooltip } from '@platinum/core';
+import { WalletConnect } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Box, Button } from '@mui/material';
 import React from 'react';

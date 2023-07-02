@@ -1,5 +1,5 @@
-import { DropdownBase, Tooltip } from '@cryptomines/core';
-import { Notification as NotificationIcon } from '@cryptomines/icons';
+import { DropdownBase, Tooltip } from '@platinum/core';
+import { Notification as NotificationIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Badge, Box, Button } from '@mui/material';
 import React from 'react';

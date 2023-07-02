@@ -1,5 +1,5 @@
-import type { Transaction } from '@cryptomines/api';
-import { useGetTransactionsQuery, useGetTransactionsCountQuery } from '@cryptomines/api-react';
+import type { Transaction } from '@platinum/api';
+import { useGetTransactionsQuery, useGetTransactionsCountQuery } from '@platinum/api-react';
 import { useState } from 'react';
 
 type UseWalletTransactionsArgs = {

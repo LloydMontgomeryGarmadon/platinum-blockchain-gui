@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
 
 import { getNFTInbox } from './utils';
 
@@ -36,7 +36,7 @@ describe('utils', () => {
         {
           id: 1,
           type: WalletType.STANDARD_WALLET,
-          name: 'Cryptomines',
+          name: 'Platinum',
         },
         {
           id: 2,
@@ -53,7 +53,7 @@ describe('utils', () => {
         {
           id: 1,
           type: WalletType.STANDARD_WALLET,
-          name: 'Cryptomines',
+          name: 'Platinum',
         },
         {
           id: 2,

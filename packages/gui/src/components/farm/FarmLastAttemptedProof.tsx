@@ -1,5 +1,5 @@
-import { useGetFarmingInfoQuery } from '@cryptomines/api-react';
-import { Link, Table, Card } from '@cryptomines/core';
+import { useGetFarmingInfoQuery } from '@platinum/api-react';
+import { Link, Table, Card } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import React from 'react';

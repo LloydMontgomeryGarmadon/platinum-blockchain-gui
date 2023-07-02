@@ -1,7 +1,7 @@
-import type { Wallet } from '@cryptomines/api';
-import { useGetDIDsQuery, useGetNFTWallets, useGetNFTWalletsWithDIDsQuery } from '@cryptomines/api-react';
-import { DropdownActions, MenuItem } from '@cryptomines/core';
-import { NFTsSmall as NFTsSmallIcon } from '@cryptomines/icons';
+import type { Wallet } from '@platinum/api';
+import { useGetDIDsQuery, useGetNFTWallets, useGetNFTWalletsWithDIDsQuery } from '@platinum/api-react';
+import { DropdownActions, MenuItem } from '@platinum/core';
+import { NFTsSmall as NFTsSmallIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { AutoAwesome as AutoAwesomeIcon, PermIdentity as PermIdentityIcon } from '@mui/icons-material';
 import { ListItemIcon } from '@mui/material';

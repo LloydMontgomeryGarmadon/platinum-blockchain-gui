@@ -1,5 +1,5 @@
-import { OfferCoinOfInterest, OfferSummaryRecord } from '@cryptomines/api';
-import { useGetOffersCountQuery, useGetAllOffersQuery } from '@cryptomines/api-react';
+import { OfferCoinOfInterest, OfferSummaryRecord } from '@platinum/api';
+import { useGetOffersCountQuery, useGetAllOffersQuery } from '@platinum/api-react';
 import { useState, useCallback } from 'react';
 
 export type OfferTradeRecordFormatted = {

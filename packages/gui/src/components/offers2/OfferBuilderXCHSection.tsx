@@ -1,5 +1,5 @@
-import { Loading, chiaToMojo, mojoToChiaLocaleString, useCurrencyCode } from '@cryptomines/core';
-import { Farming } from '@cryptomines/icons';
+import { Loading, chiaToMojo, mojoToChiaLocaleString, useCurrencyCode } from '@platinum/core';
+import { Farming } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import React, { useMemo } from 'react';
 import { useFieldArray, useWatch } from 'react-hook-form';
@@ -73,7 +73,7 @@ export default function OfferBuilderXCHSection(props: OfferBuilderXCHSectionProp
     <OfferBuilderSection
       icon={<Farming />}
       title={currencyCode}
-      subtitle={<Trans>Cryptomines ({currencyCode}) is a digital currency that is secure and sustainable</Trans>}
+      subtitle={<Trans>Platinum ({currencyCode}) is a digital currency that is secure and sustainable</Trans>}
       onAdd={!fields.length ? handleAdd : undefined}
       expanded={!!fields.length}
       muted={muted}

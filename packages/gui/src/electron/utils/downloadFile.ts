@@ -5,7 +5,7 @@ import debug from 'debug';
 
 import type Headers from '../../@types/Headers';
 
-const log = debug('cryptomines-gui:downloadFile');
+const log = debug('platinum-gui:downloadFile');
 
 class WriteStreamPromise {
   private stream: WriteStream;

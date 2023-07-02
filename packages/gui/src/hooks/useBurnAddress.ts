@@ -1,5 +1,5 @@
-import { toBech32m } from '@cryptomines/api';
-import { useCurrencyCode } from '@cryptomines/core';
+import { toBech32m } from '@platinum/api';
+import { useCurrencyCode } from '@platinum/core';
 import { useMemo } from 'react';
 
 export default function useBurnAddress(): string | undefined {

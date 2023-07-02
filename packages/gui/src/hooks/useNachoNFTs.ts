@@ -1,4 +1,4 @@
-import { useGetNFTsByNFTIDsQuery, useLocalStorage } from '@cryptomines/api-react';
+import { useGetNFTsByNFTIDsQuery, useLocalStorage } from '@platinum/api-react';
 
 export default function useNachoNFTs() {
   const [nachoNFTsString] = useLocalStorage('nachoNFTs', '');

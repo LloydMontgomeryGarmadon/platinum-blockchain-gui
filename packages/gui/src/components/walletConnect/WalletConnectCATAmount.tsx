@@ -1,4 +1,4 @@
-import { MojoToCAT } from '@cryptomines/core';
+import { MojoToCAT } from '@platinum/core';
 import { t } from '@lingui/macro';
 import React from 'react';
 

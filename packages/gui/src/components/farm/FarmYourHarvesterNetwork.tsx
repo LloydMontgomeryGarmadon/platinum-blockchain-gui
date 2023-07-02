@@ -1,7 +1,7 @@
-import type { Connection } from '@cryptomines/api';
-import { ServiceName } from '@cryptomines/api';
-import { useService, useGetHarvesterConnectionsQuery } from '@cryptomines/api-react';
-import { Table, FormatBytes, FormatConnectionStatus, Card } from '@cryptomines/core';
+import type { Connection } from '@platinum/api';
+import { ServiceName } from '@platinum/api';
+import { useService, useGetHarvesterConnectionsQuery } from '@platinum/api-react';
+import { Table, FormatBytes, FormatConnectionStatus, Card } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Typography, Tooltip, IconButton } from '@mui/material';

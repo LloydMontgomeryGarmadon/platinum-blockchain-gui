@@ -1,4 +1,4 @@
-import { type OfferSummaryRecord } from '@cryptomines/api';
+import { type OfferSummaryRecord } from '@platinum/api';
 
 type Offer = {
   id: string;

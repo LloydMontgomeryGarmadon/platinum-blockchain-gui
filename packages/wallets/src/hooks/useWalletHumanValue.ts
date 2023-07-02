@@ -1,6 +1,6 @@
-import type { Wallet } from '@cryptomines/api';
-import { WalletType } from '@cryptomines/api';
-import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@cryptomines/core';
+import type { Wallet } from '@platinum/api';
+import { WalletType } from '@platinum/api';
+import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@platinum/core';
 import BigNumber from 'bignumber.js';
 import { useMemo } from 'react';
 

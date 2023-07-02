@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines/api';
-import type { Wallet } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
+import type { Wallet } from '@platinum/api';
 
 export default function getWalletPrimaryTitle(wallet: Wallet): string {
   switch (wallet.type) {

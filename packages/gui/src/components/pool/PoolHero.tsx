@@ -1,5 +1,5 @@
-import { Button, CardHero } from '@cryptomines/core';
-import { Pooling } from '@cryptomines/icons';
+import { Button, CardHero } from '@platinum/core';
+import { Pooling } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import React from 'react';

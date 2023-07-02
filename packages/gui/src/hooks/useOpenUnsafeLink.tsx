@@ -1,5 +1,5 @@
-import { usePrefs } from '@cryptomines/api-react';
-import { ConfirmDialog, CopyToClipboard, Flex, useOpenDialog, useOpenExternal } from '@cryptomines/core';
+import { usePrefs } from '@platinum/api-react';
+import { ConfirmDialog, CopyToClipboard, Flex, useOpenDialog, useOpenExternal } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Checkbox, FormControlLabel, InputAdornment, TextField, Typography } from '@mui/material';
 import React from 'react';

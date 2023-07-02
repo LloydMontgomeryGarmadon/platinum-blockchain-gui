@@ -1,6 +1,6 @@
-import type { OfferSummaryRecord, Wallet } from '@cryptomines/api';
-import { useTakeOfferMutation } from '@cryptomines/api-react';
-import { AlertDialog, chiaToMojo, useOpenDialog, useShowError } from '@cryptomines/core';
+import type { OfferSummaryRecord, Wallet } from '@platinum/api';
+import { useTakeOfferMutation } from '@platinum/api-react';
+import { AlertDialog, chiaToMojo, useOpenDialog, useShowError } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import React from 'react';

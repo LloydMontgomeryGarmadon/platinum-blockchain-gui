@@ -9,8 +9,8 @@ import {
   FormatLargeNumber,
   Link,
   useOpenDialog,
-} from '@cryptomines/core';
-import { Plot as PlotIcon } from '@cryptomines/icons';
+} from '@platinum/core';
+import { Plot as PlotIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { /* Link as LinkIcon, */ Payment as PaymentIcon } from '@mui/icons-material';
 import { Box, Card, CardContent, Typography, ListItemIcon } from '@mui/material';

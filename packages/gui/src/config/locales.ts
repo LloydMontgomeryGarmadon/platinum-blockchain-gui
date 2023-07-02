@@ -1,5 +1,5 @@
-import * as coreLocales from '@cryptomines/core/src/locales';
-import * as walletsLocales from '@cryptomines/wallets/src/locales';
+import * as coreLocales from '@platinum/core/src/locales';
+import * as walletsLocales from '@platinum/wallets/src/locales';
 import { i18n } from '@lingui/core';
 import {
   ar,

@@ -1,8 +1,8 @@
 import fs from 'fs';
 
-import { OfferTradeRecord } from '@cryptomines/api';
-import { useGetOfferDataMutation } from '@cryptomines/api-react';
-import { useShowSaveDialog } from '@cryptomines/core';
+import { OfferTradeRecord } from '@platinum/api';
+import { useGetOfferDataMutation } from '@platinum/api-react';
+import { useShowSaveDialog } from '@platinum/core';
 
 import { suggestedFilenameForOffer } from '../components/offers/utils';
 import useAssetIdName from './useAssetIdName';

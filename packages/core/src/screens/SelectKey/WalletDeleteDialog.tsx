@@ -1,4 +1,4 @@
-import { useCheckDeleteKeyMutation, useDeleteKeyMutation, useGetKeyringStatusQuery } from '@cryptomines/api-react';
+import { useCheckDeleteKeyMutation, useDeleteKeyMutation, useGetKeyringStatusQuery } from '@platinum/api-react';
 import { Trans, t } from '@lingui/macro';
 import { Button, Dialog, DialogTitle, DialogContent, Alert, Typography } from '@mui/material';
 import React, { useEffect } from 'react';

@@ -1,4 +1,4 @@
-import { useGetHeightInfoQuery } from '@cryptomines/api-react';
+import { useGetHeightInfoQuery } from '@platinum/api-react';
 import React from 'react';
 
 import FormatLargeNumber from '../../components/FormatLargeNumber';

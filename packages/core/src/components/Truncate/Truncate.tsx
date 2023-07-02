@@ -19,7 +19,7 @@ export function truncateValue(children: string, opts: TruncateValueOptions): str
     leftLength = 4,
     rightLength = 4,
     splitSeparator = ':',
-    prefixes = ['nft1', 'tplat1', 'xch1', 'did:cryptomines:1', '0x'],
+    prefixes = ['nft1', 'tplat1', 'xch1', 'did:platinum:1', '0x'],
   } = opts;
 
   if (!children) {
@@ -28,7 +28,7 @@ export function truncateValue(children: string, opts: TruncateValueOptions): str
 
   const stringValue = children.toString();
 
-  if (stringValue === 'did:cryptomines:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
+  if (stringValue === 'did:platinum:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
     return 'Matthew Crazy';
   }
 

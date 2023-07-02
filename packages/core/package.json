@@ -1,8 +1,8 @@
 {
-  "name": "@cryptomines/core",
+  "name": "@platinum/core",
   "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
-  "description": "Cryptomines Core Library",
-  "productName": "Cryptomines Blockchain",
+  "description": "Platinum Core Library",
+  "productName": "Platinum Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.16.7",
-    "@cryptomines/icons": "1.0.0",
+    "@platinum/icons": "1.0.0",
     "@emoji-mart/data": "1.1.2",
     "@fontsource/roboto": "4.5.1",
     "@lingui/macro": "3.13.0",
@@ -59,8 +59,8 @@
     "@babel/preset-env": "7.16.8",
     "@babel/preset-react": "7.16.7",
     "@babel/preset-typescript": "7.16.7",
-    "@cryptomines/api": "1.0.0",
-    "@cryptomines/api-react": "1.0.0",
+    "@platinum/api": "1.0.0",
+    "@platinum/api-react": "1.0.0",
     "@electron/remote": "2.0.8",
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
@@ -106,8 +106,8 @@
     "vite": "3.2.7"
   },
   "peerDependencies": {
-    "@cryptomines/api": "1.0.0",
-    "@cryptomines/api-react": "1.0.0",
+    "@platinum/api": "1.0.0",
+    "@platinum/api-react": "1.0.0",
     "@electron/remote": "2.0.8",
     "@lingui/core": "3.13.0",
     "@lingui/react": "3.13.0",

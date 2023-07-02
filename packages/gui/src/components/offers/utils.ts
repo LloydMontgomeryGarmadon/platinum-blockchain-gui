@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines/api';
-import type { OfferSummaryAssetInfo, OfferSummaryRecord } from '@cryptomines/api';
-import { mojoToCAT, mojoToChia, mojoToCATLocaleString, mojoToChiaLocaleString } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import type { OfferSummaryAssetInfo, OfferSummaryRecord } from '@platinum/api';
+import { mojoToCAT, mojoToChia, mojoToCATLocaleString, mojoToChiaLocaleString } from '@platinum/core';
 import { t } from '@lingui/macro';
 import type { ChipProps } from '@mui/material';
 

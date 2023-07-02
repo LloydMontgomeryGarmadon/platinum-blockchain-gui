@@ -1,7 +1,7 @@
 import fs, { Stats } from 'fs';
 
-import { useGetOfferSummaryMutation } from '@cryptomines/api-react';
-import { Dropzone, Flex, useSerializedNavigationState, useShowError } from '@cryptomines/core';
+import { useGetOfferSummaryMutation } from '@platinum/api-react';
+import { Dropzone, Flex, useSerializedNavigationState, useShowError } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Box, Card, Typography } from '@mui/material';
 import React from 'react';

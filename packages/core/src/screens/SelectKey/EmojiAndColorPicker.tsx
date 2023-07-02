@@ -1,5 +1,5 @@
-import { Flex /* , Button */ } from '@cryptomines/core';
-import { Search as SearchIcon } from '@cryptomines/icons';
+import { Flex /* , Button */ } from '@platinum/core';
+import { Search as SearchIcon } from '@platinum/icons';
 import data from '@emoji-mart/data';
 import { t, Trans } from '@lingui/macro';
 import ShuffleIcon from '@mui/icons-material/Shuffle';

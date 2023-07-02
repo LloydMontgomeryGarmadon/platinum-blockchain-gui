@@ -34,7 +34,7 @@ describe('WalletService', () => {
       new Message({
         command,
         data,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -49,7 +49,7 @@ describe('WalletService', () => {
     const expected = [
       new Message({
         command: 'get_logged_in_fingerprint',
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -65,7 +65,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_wallets',
         data: { includeData: false },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -81,7 +81,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_wallets',
         data: { includeData: true },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -98,7 +98,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_transaction',
         data: { transactionId },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -115,7 +115,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_transaction_memo',
         data: { transactionId },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -132,7 +132,7 @@ describe('WalletService', () => {
       new Message({
         command: 'pw_status',
         data: { walletId },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -150,7 +150,7 @@ describe('WalletService', () => {
       new Message({
         command: 'pw_absorb_rewards',
         data: { walletId, fee },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -171,7 +171,7 @@ describe('WalletService', () => {
       new Message({
         command: 'pw_join_pool',
         data: { walletId, poolUrl, relativeLockHeight, targetPuzzlehash, fee },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -189,7 +189,7 @@ describe('WalletService', () => {
       new Message({
         command: 'pw_self_pool',
         data: { walletId, fee },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -207,7 +207,7 @@ describe('WalletService', () => {
       new Message({
         command: 'create_new_wallet',
         data: { walletType, ...options },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -224,7 +224,7 @@ describe('WalletService', () => {
       new Message({
         command: 'delete_unconfirmed_transactions',
         data: { walletId },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -241,7 +241,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_wallet_balance',
         data: { walletId },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -257,7 +257,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_farmed_amount',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -280,7 +280,7 @@ describe('WalletService', () => {
       new Message({
         command: 'send_transaction',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -296,7 +296,7 @@ describe('WalletService', () => {
       new Message({
         command: 'generate_mnemonic',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -312,7 +312,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_public_keys',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -332,7 +332,7 @@ describe('WalletService', () => {
       new Message({
         command: 'add_key',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -351,7 +351,7 @@ describe('WalletService', () => {
       new Message({
         command: 'delete_key',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -370,7 +370,7 @@ describe('WalletService', () => {
       new Message({
         command: 'check_delete_key',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -386,7 +386,7 @@ describe('WalletService', () => {
       new Message({
         command: 'delete_all_keys',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -406,7 +406,7 @@ describe('WalletService', () => {
       new Message({
         command: 'log_in',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -425,7 +425,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_private_key',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -454,7 +454,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_transactions',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -473,7 +473,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_transaction_count',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -493,7 +493,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_next_address',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -512,7 +512,7 @@ describe('WalletService', () => {
       new Message({
         command: 'farm_block',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -531,7 +531,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_timestamp_for_height',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -547,7 +547,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_height_info',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -563,7 +563,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_network_info',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -579,7 +579,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_sync_status',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -595,7 +595,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_connections',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -635,7 +635,7 @@ describe('WalletService', () => {
           excludeMyOffers: !args.includeMyOffers,
           excludeTakenOffers: !args.includeTakenOffers,
         },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -651,7 +651,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_offers_count',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -687,7 +687,7 @@ describe('WalletService', () => {
       new Message({
         command: 'create_offer_for_ids',
         data: { driver_dict: driverDict, ...restArgs },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -708,7 +708,7 @@ describe('WalletService', () => {
       new Message({
         command: 'cancel_offer',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -725,7 +725,7 @@ describe('WalletService', () => {
       new Message({
         command: 'check_offer_validity',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -745,7 +745,7 @@ describe('WalletService', () => {
       new Message({
         command: 'take_offer',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -762,7 +762,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_offer_summary',
         data: { offer: args.offerData },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -779,7 +779,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_offer',
         data: { tradeId: args.offerId, fileContents: true },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -796,7 +796,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_offer',
         data: { tradeId: args.offerId, fileContents: false },
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -812,7 +812,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_current_derivation_index',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -829,7 +829,7 @@ describe('WalletService', () => {
       new Message({
         command: 'extend_derivation_index',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -846,7 +846,7 @@ describe('WalletService', () => {
       new Message({
         command: 'sign_message_by_address',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -863,7 +863,7 @@ describe('WalletService', () => {
       new Message({
         command: 'sign_message_by_id',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -880,7 +880,7 @@ describe('WalletService', () => {
       new Message({
         command: 'get_notifications',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -897,7 +897,7 @@ describe('WalletService', () => {
       new Message({
         command: 'delete_notifications',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -914,7 +914,7 @@ describe('WalletService', () => {
       new Message({
         command: 'send_notification',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -937,7 +937,7 @@ describe('WalletService', () => {
       new Message({
         command: 'verify_signature',
         data: args,
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,
@@ -953,7 +953,7 @@ describe('WalletService', () => {
       new Message({
         command: 'set_wallet_resync_on_startup',
         data: {},
-        destination: 'cryptomines_wallet',
+        destination: 'platinum_wallet',
         origin: 'test_origin' as ServiceNameValue,
       }),
       undefined,

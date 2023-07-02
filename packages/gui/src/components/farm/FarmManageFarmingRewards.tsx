@@ -1,6 +1,6 @@
-import { fromBech32m } from '@cryptomines/api';
-import { useSetRewardTargetsMutation, useGetRewardTargetsQuery } from '@cryptomines/api-react';
-import { Button, Flex, Form, TextField, Loading } from '@cryptomines/core';
+import { fromBech32m } from '@platinum/api';
+import { useSetRewardTargetsMutation, useGetRewardTargetsQuery } from '@platinum/api-react';
+import { Button, Flex, Form, TextField, Loading } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Alert, Dialog, DialogActions, DialogTitle, DialogContent, Typography } from '@mui/material';
 import React, { useMemo, useState, useEffect } from 'react';

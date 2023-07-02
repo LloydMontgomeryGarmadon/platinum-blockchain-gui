@@ -1,6 +1,6 @@
-import type { Plot } from '@cryptomines/api';
-import { useDeletePlotMutation } from '@cryptomines/api-react';
-import { ConfirmDialog, More, MenuItem, useOpenDialog } from '@cryptomines/core';
+import type { Plot } from '@platinum/api';
+import { useDeletePlotMutation } from '@platinum/api-react';
+import { ConfirmDialog, More, MenuItem, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { DeleteForever as DeleteForeverIcon } from '@mui/icons-material';
 import { ListItemIcon, Typography } from '@mui/material';

@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines/core';
+import { Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Share as ShareIcon, Speed as SpeedIcon, HomeWork as HomeWorkIcon } from '@mui/icons-material';
 import { Grid, Typography } from '@mui/material';
@@ -29,7 +29,7 @@ export default function WalletCreateList() {
         <Grid xs={12} sm={6} md={4} item>
           <WalletCreateCard
             onSelect={handleCreateCAT}
-            title={<Trans>Cryptomines Asset Token</Trans>}
+            title={<Trans>Platinum Asset Token</Trans>}
             icon={<HomeWorkIcon fontSize="large" color="primary" />}
           />
         </Grid>

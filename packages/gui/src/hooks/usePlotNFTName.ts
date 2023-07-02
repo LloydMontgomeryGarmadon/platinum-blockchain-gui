@@ -1,4 +1,4 @@
-import type { PlotNFTExternal, PlotNFT } from '@cryptomines/api';
+import type { PlotNFTExternal, PlotNFT } from '@platinum/api';
 import { useMemo } from 'react';
 import seedrandom from 'seedrandom';
 import { uniqueNamesGenerator, adjectives, colors, animals } from 'unique-names-generator';

@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines/api';
-import { useGetWalletBalanceQuery } from '@cryptomines/api-react';
-import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@cryptomines/core';
-import { useWallet } from '@cryptomines/wallets';
+import { WalletType } from '@platinum/api';
+import { useGetWalletBalanceQuery } from '@platinum/api-react';
+import { mojoToCATLocaleString, mojoToChiaLocaleString, useLocale } from '@platinum/core';
+import { useWallet } from '@platinum/wallets';
 import { Trans } from '@lingui/macro';
 import React, { useMemo } from 'react';
 

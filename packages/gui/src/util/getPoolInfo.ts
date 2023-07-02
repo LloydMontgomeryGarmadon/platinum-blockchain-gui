@@ -1,5 +1,5 @@
-import type { PoolInfo } from '@cryptomines/api';
-import { toCamelCase } from '@cryptomines/api';
+import type { PoolInfo } from '@platinum/api';
+import { toCamelCase } from '@platinum/api';
 
 export default async function getPoolInfo(poolUrl: string): PoolInfo {
   const url = `${poolUrl}/pool_info`;

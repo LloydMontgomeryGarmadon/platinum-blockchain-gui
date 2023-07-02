@@ -1,4 +1,4 @@
-import { type NFTInfo } from '@cryptomines/api';
+import { type NFTInfo } from '@platinum/api';
 import { throttle } from 'lodash';
 import { useMemo, useEffect, useState, useCallback } from 'react';
 

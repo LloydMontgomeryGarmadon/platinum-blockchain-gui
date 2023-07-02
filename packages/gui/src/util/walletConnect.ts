@@ -5,7 +5,7 @@ import initDebug from 'debug';
 import walletConnectCommands from '../constants/WalletConnectCommands';
 import { type Pairs } from '../hooks/useWalletConnectPairs';
 
-const log = initDebug('cryptomines-gui:walletConnect');
+const log = initDebug('platinum-gui:walletConnect');
 
 const availableCommands = walletConnectCommands.map((command) => `chia_${command.command}`);
 

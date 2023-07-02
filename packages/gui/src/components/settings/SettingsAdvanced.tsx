@@ -6,7 +6,7 @@ import {
   SettingsTitle,
   SettingsText,
   useOpenDialog,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { RateReview as SignIcon, Verified as VerifyIcon } from '@mui/icons-material';
 import { Grid } from '@mui/material';

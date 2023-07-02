@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
 
 type OfferRowData = {
   amount: string;

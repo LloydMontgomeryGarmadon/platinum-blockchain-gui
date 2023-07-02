@@ -1,4 +1,4 @@
-import { type NFTInfo } from '@cryptomines/api';
+import { type NFTInfo } from '@platinum/api';
 
 import type FileType from '../constants/FileType';
 import type Metadata from './Metadata';

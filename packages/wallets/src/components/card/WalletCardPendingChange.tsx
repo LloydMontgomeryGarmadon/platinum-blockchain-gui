@@ -1,5 +1,5 @@
-import { useGetWalletBalanceQuery } from '@cryptomines/api-react';
-import { CardSimple } from '@cryptomines/core';
+import { useGetWalletBalanceQuery } from '@platinum/api-react';
+import { CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React, { ReactElement } from 'react';
 

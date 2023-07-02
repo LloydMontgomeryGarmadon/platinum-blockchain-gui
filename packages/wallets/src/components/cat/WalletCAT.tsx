@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines/api';
-import { useSetCATNameMutation, useGetCatListQuery } from '@cryptomines/api-react';
-import { Flex, Loading, MenuItem, useOpenDialog } from '@cryptomines/core';
-import { Offers as OffersIcon } from '@cryptomines/icons';
+import { WalletType } from '@platinum/api';
+import { useSetCATNameMutation, useGetCatListQuery } from '@platinum/api-react';
+import { Flex, Loading, MenuItem, useOpenDialog } from '@platinum/core';
+import { Offers as OffersIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Edit as RenameIcon, Fingerprint as FingerprintIcon } from '@mui/icons-material';
 import { Box, ListItemIcon, Alert, Typography } from '@mui/material';

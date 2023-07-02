@@ -1,5 +1,5 @@
-import api, { store, useGetLoggedInFingerprintQuery, useLogInMutation } from '@cryptomines/api-react';
-import { useOpenDialog } from '@cryptomines/core';
+import api, { store, useGetLoggedInFingerprintQuery, useLogInMutation } from '@platinum/api-react';
+import { useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import debug from 'debug';
 import React, { type ReactNode } from 'react';
@@ -15,7 +15,7 @@ import waitForWalletSync from '../util/waitForWalletSync';
 import useWalletConnectPairs from './useWalletConnectPairs';
 import useWalletConnectPreferences from './useWalletConnectPreferences';
 
-const log = debug('cryptomines-gui:walletConnectCommand');
+const log = debug('platinum-gui:walletConnectCommand');
 
 type UseWalletConnectCommandOptions = {
   onNotification?: (notification: Notification) => void;

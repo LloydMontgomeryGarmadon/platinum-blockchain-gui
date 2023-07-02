@@ -1,4 +1,4 @@
-import { Flex, SettingsHR, SettingsSection, SettingsTitle, SettingsText } from '@cryptomines/core';
+import { Flex, SettingsHR, SettingsSection, SettingsTitle, SettingsText } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { FormControlLabel, FormHelperText, Grid, Switch } from '@mui/material';
 import React from 'react';
@@ -19,7 +19,7 @@ export default function SettingsDataLayer() {
           </SettingsSection>
           <SettingsText>
             <Trans>
-              DataLayer enables rich data to be stored on mirrored databases that can be verified using the Cryptomines
+              DataLayer enables rich data to be stored on mirrored databases that can be verified using the Platinum
               Blockchain.
             </Trans>
           </SettingsText>
@@ -51,7 +51,7 @@ export default function SettingsDataLayer() {
             <Trans>Turn on/off the DataLayer service.</Trans>
           </SettingsText>
           <FormHelperText>
-            <Trans>Changes will take effect the next time Cryptomines is started.</Trans>
+            <Trans>Changes will take effect the next time Platinum is started.</Trans>
           </FormHelperText>
         </Grid>
       </Grid>

@@ -1,4 +1,4 @@
-import { IconMessage, Loading, Flex, SandboxedIframe, usePersistState, useDarkMode } from '@cryptomines/core';
+import { IconMessage, Loading, Flex, SandboxedIframe, usePersistState, useDarkMode } from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import { NotInterested /* , Error as ErrorIcon */ } from '@mui/icons-material';
 import { Box } from '@mui/material';

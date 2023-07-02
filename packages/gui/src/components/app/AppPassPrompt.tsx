@@ -1,6 +1,6 @@
-import { PassphrasePromptReason } from '@cryptomines/api';
-import { useUnlockKeyringMutation, useGetKeyringStatusQuery } from '@cryptomines/api-react';
-import { Button, Flex, TooltipIcon, useShowError, Suspender, ButtonLoading, Form, TextField } from '@cryptomines/core';
+import { PassphrasePromptReason } from '@platinum/api';
+import { useUnlockKeyringMutation, useGetKeyringStatusQuery } from '@platinum/api-react';
+import { Button, Flex, TooltipIcon, useShowError, Suspender, ButtonLoading, Form, TextField } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { KeyboardCapslock as KeyboardCapslockIcon, Visibility as VisibilityIcon } from '@mui/icons-material';
 import {

@@ -6,14 +6,14 @@ import {
   ServiceName,
   ServiceNameValue,
   PassphrasePromptReason,
-} from '@cryptomines/api';
+} from '@platinum/api';
 import {
   useCloseMutation,
   useGetStateQuery,
   useGetKeyringStatusQuery,
   useServices,
   useGetVersionQuery,
-} from '@cryptomines/api-react';
+} from '@platinum/api-react';
 import {
   Flex,
   LayoutHero,
@@ -23,7 +23,7 @@ import {
   useIsSimulator,
   useAppVersion,
   useCurrencyCode,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Collapse } from '@mui/material';
 import isElectron from 'is-electron';
@@ -150,7 +150,7 @@ export default function AppState(props: Props) {
       ipcRenderer.invoke('processLaunchTasks');
 
       if (isTestnet && !updatedWindowTitle) {
-        ipcRenderer.invoke('setWindowTitle', 'Cryptomines Blockchain (Testnet)');
+        ipcRenderer.invoke('setWindowTitle', 'Platinum Blockchain (Testnet)');
         setUpdatedWindowTitle(true);
       }
 

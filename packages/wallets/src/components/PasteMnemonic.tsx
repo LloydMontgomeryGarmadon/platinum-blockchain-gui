@@ -1,4 +1,4 @@
-import { Form, TextField } from '@cryptomines/core';
+import { Form, TextField } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Button, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import React from 'react';

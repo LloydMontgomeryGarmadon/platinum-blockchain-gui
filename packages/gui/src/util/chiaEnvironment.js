@@ -44,7 +44,7 @@ const getScriptPath = (dist_file) => {
 const getChiaVersion = () => {
   let version = null;
   const exePath = getExecutablePath('chia');
-  // first see if we can get a cryptomines exe in a standard location relative to where we are
+  // first see if we can get a platinum exe in a standard location relative to where we are
   try {
     version = childProcess
       .execFileSync(exePath, ['version'], {
@@ -52,7 +52,7 @@ const getChiaVersion = () => {
       })
       .trim();
   } catch (e1) {
-    // that didn't work, let's try as if we're in the venv or cryptomines is on the path
+    // that didn't work, let's try as if we're in the venv or platinum is on the path
     try {
       version = childProcess
         .execFileSync(path.basename(exePath), ['version'], {

@@ -1,4 +1,4 @@
-import { VC } from '@cryptomines/api';
+import { VC } from '@platinum/api';
 
 import useSubscribeToEvent from './useSubscribeToEvent';
 

@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines/api';
-import { store, walletApi } from '@cryptomines/api-react';
+import type { NFTInfo } from '@platinum/api';
+import { store, walletApi } from '@platinum/api-react';
 import BigNumber from 'bignumber.js';
 
 import type Driver from '../@types/Driver';

@@ -1,4 +1,4 @@
-import { useCurrencyCode, chiaToMojo, ConfirmDialog, Flex, TooltipIcon, FormatLargeNumber } from '@cryptomines/core';
+import { useCurrencyCode, chiaToMojo, ConfirmDialog, Flex, TooltipIcon, FormatLargeNumber } from '@platinum/core';
 import { Trans, Plural } from '@lingui/macro';
 import { Box, Divider, Typography } from '@mui/material';
 import React, { type ReactNode } from 'react';

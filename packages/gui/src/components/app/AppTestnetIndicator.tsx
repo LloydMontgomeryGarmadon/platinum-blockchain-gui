@@ -1,4 +1,4 @@
-import { AlertDialog, Flex, Tooltip, useCurrencyCode, useOpenDialog } from '@cryptomines/core';
+import { AlertDialog, Flex, Tooltip, useCurrencyCode, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Button, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

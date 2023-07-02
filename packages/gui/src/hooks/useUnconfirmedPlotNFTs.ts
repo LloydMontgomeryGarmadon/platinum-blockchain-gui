@@ -1,4 +1,4 @@
-import { useGetLoggedInFingerprintQuery } from '@cryptomines/api-react';
+import { useGetLoggedInFingerprintQuery } from '@platinum/api-react';
 import { useLocalStorage, writeStorage } from '@rehooks/local-storage';
 import { useMemo } from 'react';
 

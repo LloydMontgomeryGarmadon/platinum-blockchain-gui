@@ -1,4 +1,4 @@
-import { CardKeyValue, Flex, Link } from '@cryptomines/core';
+import { CardKeyValue, Flex, Link } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

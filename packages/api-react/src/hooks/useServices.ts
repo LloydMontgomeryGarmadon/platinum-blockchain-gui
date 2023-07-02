@@ -1,4 +1,4 @@
-import { type ServiceNameValue, ServiceName } from '@cryptomines/api';
+import { type ServiceNameValue, ServiceName } from '@platinum/api';
 import { useMemo } from 'react';
 
 import useService, { ServiceState } from './useService';

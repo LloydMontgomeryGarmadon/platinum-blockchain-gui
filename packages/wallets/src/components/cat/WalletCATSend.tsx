@@ -1,5 +1,5 @@
-import { SyncingStatus, toBech32m } from '@cryptomines/api';
-import { useSpendCATMutation, useFarmBlockMutation } from '@cryptomines/api-react';
+import { SyncingStatus, toBech32m } from '@platinum/api';
+import { useSpendCATMutation, useFarmBlockMutation } from '@platinum/api-react';
 import {
   AdvancedOptions,
   Button,
@@ -18,7 +18,7 @@ import {
   useCurrencyCode,
   getTransactionResult,
   TooltipIcon,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import React, { useMemo } from 'react';
@@ -114,10 +114,10 @@ export default function WalletCATSend(props: Props) {
     }
 
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send cryptomines to coloured address. Please enter a cryptomines address.`);
+      throw new Error(t`Cannot send platinum to coloured address. Please enter a platinum address.`);
     }
 
-    if (address.includes('cryptomines_addr') || address.includes('colour_desc')) {
+    if (address.includes('platinum_addr') || address.includes('colour_desc')) {
       throw new Error(t`Recipient address is not a coloured wallet address. Please enter a coloured wallet address`);
     }
     if (address.slice(0, 14) === 'colour_addr://') {
@@ -128,7 +128,7 @@ export default function WalletCATSend(props: Props) {
       }
     }
 
-    if (address.slice(0, 12) === 'cryptomines_addr://') {
+    if (address.slice(0, 12) === 'platinum_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {

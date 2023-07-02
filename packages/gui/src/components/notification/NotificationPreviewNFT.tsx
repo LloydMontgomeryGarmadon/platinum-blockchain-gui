@@ -1,4 +1,4 @@
-import { Loading } from '@cryptomines/core';
+import { Loading } from '@platinum/core';
 import { Error as ErrorIcon } from '@mui/icons-material';
 import React from 'react';
 

@@ -1,4 +1,4 @@
-import { useGetLoggedInFingerprintQuery, usePrefs } from '@cryptomines/api-react';
+import { useGetLoggedInFingerprintQuery, usePrefs } from '@platinum/api-react';
 import { useCallback } from 'react';
 
 export default function useHiddenWallet(): {

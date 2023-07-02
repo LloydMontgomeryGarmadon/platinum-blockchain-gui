@@ -1,4 +1,4 @@
-import { useLocalStorage } from '@cryptomines/api-react';
+import { useLocalStorage } from '@platinum/api-react';
 import { useState, useEffect } from 'react';
 
 export default function useAppVersion() {

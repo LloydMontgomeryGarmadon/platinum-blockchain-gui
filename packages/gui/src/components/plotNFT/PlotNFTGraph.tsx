@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines/core';
-import { WalletGraphTooltip } from '@cryptomines/wallets';
+import { Flex } from '@platinum/core';
+import { WalletGraphTooltip } from '@platinum/wallets';
 import { t } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React, { ReactNode } from 'react';

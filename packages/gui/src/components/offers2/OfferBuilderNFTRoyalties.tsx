@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines/api';
-import { useGetCatListQuery } from '@cryptomines/api-react';
+import type { NFTInfo } from '@platinum/api';
+import { useGetCatListQuery } from '@platinum/api-react';
 import {
   CopyToClipboard,
   Flex,
@@ -13,7 +13,7 @@ import {
   mojoToChiaLocaleString,
   mojoToCAT,
   mojoToCATLocaleString,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React, { useMemo } from 'react';

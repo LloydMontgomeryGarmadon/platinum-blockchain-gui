@@ -1,4 +1,4 @@
-import { useGetKeyringStatusQuery } from '@cryptomines/api-react';
+import { useGetKeyringStatusQuery } from '@platinum/api-react';
 import { t, plural, Trans } from '@lingui/macro';
 import React from 'react';
 

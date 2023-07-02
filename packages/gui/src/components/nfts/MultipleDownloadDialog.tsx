@@ -1,4 +1,4 @@
-import { FormatBytes } from '@cryptomines/core';
+import { FormatBytes } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Dialog, DialogTitle, DialogActions, DialogContent, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

@@ -1,6 +1,6 @@
-import { useRefreshPlotsMutation } from '@cryptomines/api-react';
-import { Button, CardHero, Flex, Link, useOpenDialog } from '@cryptomines/core';
-import { Plots } from '@cryptomines/icons';
+import { useRefreshPlotsMutation } from '@platinum/api-react';
+import { Button, CardHero, Flex, Link, useOpenDialog } from '@platinum/core';
+import { Plots } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography, Divider } from '@mui/material';
 import React from 'react';
@@ -32,7 +32,7 @@ export default function PlotOverviewHero() {
           <Plots color="primary" fontSize="extraLarge" />
           <Typography variant="body1">
             <Trans>
-              Plots are allocated space on your hard drive used to farm and earn Cryptomines. &nbsp;
+              Plots are allocated space on your hard drive used to farm and earn Platinum. &nbsp;
               <Link target="_blank" href="https://github.com/Chia-Network/platinum-blockchain/wiki/Network-Architecture">
                 Learn more
               </Link>

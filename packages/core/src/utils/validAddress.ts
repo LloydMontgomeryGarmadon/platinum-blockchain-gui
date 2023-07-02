@@ -1,4 +1,4 @@
-import { decodeBech32m } from '@cryptomines/api';
+import { decodeBech32m } from '@platinum/api';
 
 export default function validAddress(address: string, allowedPrefixes?: string[]) {
   const response = decodeBech32m(address);

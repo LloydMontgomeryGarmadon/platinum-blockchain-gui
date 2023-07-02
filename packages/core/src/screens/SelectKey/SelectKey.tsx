@@ -1,12 +1,12 @@
-import type { KeyData } from '@cryptomines/api';
+import type { KeyData } from '@platinum/api';
 import {
   usePrefs,
   useGetKeyringStatusQuery,
   useDeleteAllKeysMutation,
   useGetKeysQuery,
   type Serializable,
-} from '@cryptomines/api-react';
-import { ChiaBlack, Coins } from '@cryptomines/icons';
+} from '@platinum/api-react';
+import { ChiaBlack, Coins } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Alert, Typography, Container, ListItemIcon } from '@mui/material';
@@ -259,7 +259,7 @@ export default function SelectKey() {
                 color="textSecondary"
                 sx={{ fontWeight: 400, fontSize: '18px' }}
               >
-                <Trans>Create a new wallet key to get started with Cryptomines.</Trans>
+                <Trans>Create a new wallet key to get started with Platinum.</Trans>
               </Typography>
               <Button
                 onClick={() => handleNavigationIfKeyringIsMutable('/wallet/add')}

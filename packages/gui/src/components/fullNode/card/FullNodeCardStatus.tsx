@@ -1,5 +1,5 @@
-import { useGetBlockchainStateQuery } from '@cryptomines/api-react';
-import { FormatLargeNumber, CardSimple, StateColor } from '@cryptomines/core';
+import { useGetBlockchainStateQuery } from '@platinum/api-react';
+import { FormatLargeNumber, CardSimple, StateColor } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import styled from 'styled-components';

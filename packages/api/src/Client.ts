@@ -13,7 +13,7 @@ import type Service from './services/Service';
 import ErrorData from './utils/ErrorData';
 import sleep from './utils/sleep';
 
-const log = debug('cryptomines-api:client');
+const log = debug('platinum-api:client');
 
 type Options = {
   url: string;

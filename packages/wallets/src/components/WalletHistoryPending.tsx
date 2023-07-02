@@ -1,5 +1,5 @@
-import { TransactionType, TransactionTypeFilterMode } from '@cryptomines/api';
-import { TableControlledRow } from '@cryptomines/core';
+import { TransactionType, TransactionTypeFilterMode } from '@platinum/api';
+import { TableControlledRow } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { AccessTime as AccessTimeIcon } from '@mui/icons-material';
 import { TableCell, TableRow, Chip } from '@mui/material';

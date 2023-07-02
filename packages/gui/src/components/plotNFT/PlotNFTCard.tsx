@@ -1,4 +1,4 @@
-import { useDeleteUnconfirmedTransactionsMutation } from '@cryptomines/api-react';
+import { useDeleteUnconfirmedTransactionsMutation } from '@platinum/api-react';
 import {
   Button,
   TooltipTypography,
@@ -15,8 +15,8 @@ import {
   ConfirmDialog,
   useOpenDialog,
   mojoToChiaLocaleString,
-} from '@cryptomines/core';
-import { Plot as PlotIcon } from '@cryptomines/icons';
+} from '@platinum/core';
+import { Plot as PlotIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon, Link as LinkIcon, Payment as PaymentIcon } from '@mui/icons-material';
 import { Box, Grid, Card, CardContent, Typography, ListItemIcon } from '@mui/material';

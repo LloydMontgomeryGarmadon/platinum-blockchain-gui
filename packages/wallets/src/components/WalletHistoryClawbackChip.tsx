@@ -1,7 +1,7 @@
-import { TransactionType } from '@cryptomines/api';
-import type { Transaction } from '@cryptomines/api';
-import { useGetAutoClaimQuery } from '@cryptomines/api-react';
-import { useTrans, Button } from '@cryptomines/core';
+import { TransactionType } from '@platinum/api';
+import type { Transaction } from '@platinum/api';
+import { useGetAutoClaimQuery } from '@platinum/api-react';
+import { useTrans, Button } from '@platinum/core';
 import { defineMessage } from '@lingui/macro';
 import { AccessTime as AccessTimeIcon } from '@mui/icons-material';
 import { Chip } from '@mui/material';

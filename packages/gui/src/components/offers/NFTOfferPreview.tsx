@@ -1,4 +1,4 @@
-import { Button, Flex, Loading, TooltipIcon, useColorModeValue } from '@cryptomines/core';
+import { Button, Flex, Loading, TooltipIcon, useColorModeValue } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Card, Grid, Typography } from '@mui/material';
 import React from 'react';

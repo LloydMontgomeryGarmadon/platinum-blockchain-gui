@@ -1,10 +1,10 @@
-import * as chiaCore from '@cryptomines/core';
+import * as chiaCore from '@platinum/core';
 import BigNumber from 'bignumber.js';
 
 import { AssetIdMapEntry } from '../hooks/useAssetIdName';
 import createOfferForIdsToOfferBuilderData from './createOfferForIdsToOfferBuilderData';
 
-jest.mock('@cryptomines/core', () => ({
+jest.mock('@platinum/core', () => ({
   mojoToChia: jest.fn(),
   mojoToCAT: jest.fn(),
 }));
@@ -22,7 +22,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Cryptomines',
+          name: 'Platinum',
           symbol: 'PLAT',
           displayName: 'PLAT',
           assetId: 'plat',
@@ -48,7 +48,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
         2: 600_000,
       };
 
-      jest.mock('@cryptomines/core', () => ({
+      jest.mock('@platinum/core', () => ({
         mojoToChia: jest.fn(),
         mojoToCAT: jest.fn(),
       }));
@@ -85,7 +85,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Cryptomines',
+          name: 'Platinum',
           symbol: 'PLAT',
           displayName: 'PLAT',
           assetId: 'plat',
@@ -151,7 +151,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Cryptomines',
+          name: 'Platinum',
           symbol: 'PLAT',
           displayName: 'PLAT',
           assetId: 'plat',
@@ -218,7 +218,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletId: 1,
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
-          name: 'Cryptomines',
+          name: 'Platinum',
           symbol: 'PLAT',
           displayName: 'PLAT',
           assetId: 'plat',

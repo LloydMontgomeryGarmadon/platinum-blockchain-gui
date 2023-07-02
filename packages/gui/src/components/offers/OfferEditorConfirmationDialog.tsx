@@ -1,4 +1,4 @@
-import { ConfirmDialog } from '@cryptomines/core';
+import { ConfirmDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

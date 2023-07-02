@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines/api';
-import type { CATToken, Wallet } from '@cryptomines/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines/api-react';
+import { WalletType } from '@platinum/api';
+import type { CATToken, Wallet } from '@platinum/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@platinum/api-react';
 import { Trans, t } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem, Select, Typography } from '@mui/material';
 import { orderBy } from 'lodash';

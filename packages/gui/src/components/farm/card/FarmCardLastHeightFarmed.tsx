@@ -1,5 +1,5 @@
-import { useGetFarmedAmountQuery } from '@cryptomines/api-react';
-import { FormatLargeNumber, CardSimple } from '@cryptomines/core';
+import { useGetFarmedAmountQuery } from '@platinum/api-react';
+import { FormatLargeNumber, CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

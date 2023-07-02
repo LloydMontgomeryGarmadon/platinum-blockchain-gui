@@ -1,4 +1,4 @@
-import { Button, Flex } from '@cryptomines/core';
+import { Button, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogTitle, DialogContent, DialogActions, Typography } from '@mui/material';
 import React from 'react';
@@ -33,16 +33,16 @@ function WarningDialog(props: DialogProps) {
           <Flex flexDirection="column" gap={1}>
             <Typography variant="body2" color="textSecondary">
               <Trans>
-                The Cryptomines application and its services are using different versions. Some functionality may not be behave
+                The Platinum application and its services are using different versions. Some functionality may not be behave
                 properly as a result.
                 <br />
                 <br />
-                Cryptomines services version: {backV}
+                Platinum services version: {backV}
                 <br />
-                Cryptomines application version: {guiV}
+                Platinum application version: {guiV}
                 <br />
                 <br />
-                It is recommended that you quit the Cryptomines application and stop all Cryptomines services.
+                It is recommended that you quit the Platinum application and stop all Platinum services.
               </Trans>
             </Typography>
           </Flex>

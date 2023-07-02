@@ -1,5 +1,5 @@
-import { useGetSignagePointsQuery, useGetTotalHarvestersSummaryQuery } from '@cryptomines/api-react';
-import { Table, Card } from '@cryptomines/core';
+import { useGetSignagePointsQuery, useGetTotalHarvestersSummaryQuery } from '@platinum/api-react';
+import { Table, Card } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

@@ -1,4 +1,4 @@
-// import { usePrefs } from '@cryptomines/api-react';
+// import { usePrefs } from '@platinum/api-react';
 import {
   Flex,
   SettingsHR,
@@ -9,7 +9,7 @@ import {
   useOpenDialog,
   FormatBytes,
   ConfirmDialog,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Button, Switch, FormControlLabel, Typography } from '@mui/material';
 import React from 'react';

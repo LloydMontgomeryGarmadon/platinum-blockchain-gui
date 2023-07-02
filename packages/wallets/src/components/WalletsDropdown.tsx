@@ -1,6 +1,6 @@
-import { WalletType, type Wallet } from '@cryptomines/api';
-import { useGetWalletsQuery } from '@cryptomines/api-react';
-import { Dropdown, Flex, Loading, useTrans } from '@cryptomines/core';
+import { WalletType, type Wallet } from '@platinum/api';
+import { useGetWalletsQuery } from '@platinum/api-react';
+import { Dropdown, Flex, Loading, useTrans } from '@platinum/core';
 import { ListItemIcon, ListItemText, Typography } from '@mui/material';
 import React, { useMemo } from 'react';
 import { useNavigate } from 'react-router';

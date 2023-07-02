@@ -23,7 +23,7 @@ test('Verify that new address button creates new address', async () => {
   await page.locator('h6:has-text("Testnet-10k-NFT")').click();
 
   //And I confirm page has correct Title
-  expect(page).toHaveTitle('Cryptomines Blockchain');
+  expect(page).toHaveTitle('Platinum Blockchain');
 
   //And I navigate to Receive page
   await page.locator('[data-testid="WalletHeader-tab-receive"]').click();

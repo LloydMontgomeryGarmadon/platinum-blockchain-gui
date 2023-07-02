@@ -1,7 +1,7 @@
-import { SyncingStatus } from '@cryptomines/api';
-import { useExtendDerivationIndexMutation, useGetCurrentDerivationIndexQuery } from '@cryptomines/api-react';
-import { AlertDialog, ButtonLoading, Flex, Form, TextField, useOpenDialog } from '@cryptomines/core';
-import { useWalletState } from '@cryptomines/wallets';
+import { SyncingStatus } from '@platinum/api';
+import { useExtendDerivationIndexMutation, useGetCurrentDerivationIndexQuery } from '@platinum/api-react';
+import { AlertDialog, ButtonLoading, Flex, Form, TextField, useOpenDialog } from '@platinum/core';
+import { useWalletState } from '@platinum/wallets';
 import { Trans, t } from '@lingui/macro';
 import React, { useEffect } from 'react';
 import { useForm } from 'react-hook-form';

@@ -1,6 +1,6 @@
 import { EventEmitter } from 'events';
 
-import { type NFTInfo } from '@cryptomines/api';
+import { type NFTInfo } from '@platinum/api';
 import debug from 'debug';
 import { useState, useCallback, useMemo } from 'react';
 
@@ -9,7 +9,7 @@ import useNachoNFTs from '../../../../hooks/useNachoNFTs';
 import getNFTId from '../../../../util/getNFTId';
 import { getChangedEventName } from './useNFTDataOnDemand';
 
-const log = debug('cryptomines-gui:NFTProvider:useMetadataData');
+const log = debug('platinum-gui:NFTProvider:useMetadataData');
 
 // warning: only used by NFTProvider
 export default function useNFTDataNachos() {

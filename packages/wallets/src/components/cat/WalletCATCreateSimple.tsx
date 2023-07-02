@@ -1,7 +1,7 @@
-import type { CATToken } from '@cryptomines/api';
-import { SyncingStatus } from '@cryptomines/api';
-import { useGetWalletsQuery, useAddCATTokenMutation, useGetCatListQuery } from '@cryptomines/api-react';
-import { Back, Flex, Loading, useShowError } from '@cryptomines/core';
+import type { CATToken } from '@platinum/api';
+import { SyncingStatus } from '@platinum/api';
+import { useGetWalletsQuery, useAddCATTokenMutation, useGetCatListQuery } from '@platinum/api-react';
+import { Back, Flex, Loading, useShowError } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Add as AddIcon } from '@mui/icons-material';
 import { Grid } from '@mui/material';

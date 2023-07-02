@@ -1,6 +1,6 @@
-import { fromBech32m } from '@cryptomines/api';
-import { useGetDIDQuery, useGetDIDNameQuery, useSetDIDNameMutation } from '@cryptomines/api-react';
-import { CopyToClipboard, Flex, Suspender, Tooltip, truncateValue } from '@cryptomines/core';
+import { fromBech32m } from '@platinum/api';
+import { useGetDIDQuery, useGetDIDNameQuery, useSetDIDNameMutation } from '@platinum/api-react';
+import { CopyToClipboard, Flex, Suspender, Tooltip, truncateValue } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Card, TextField, Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';

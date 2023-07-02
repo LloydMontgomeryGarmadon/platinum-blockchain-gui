@@ -1,11 +1,11 @@
-import { fungibleAssetFromAssetIdAndAmount, royaltyAssetFromNFTInfo } from '@cryptomines/api';
-import type { CalculateRoyaltiesRequest, NFTInfo } from '@cryptomines/api';
+import { fungibleAssetFromAssetIdAndAmount, royaltyAssetFromNFTInfo } from '@platinum/api';
+import type { CalculateRoyaltiesRequest, NFTInfo } from '@platinum/api';
 import {
   useCalculateRoyaltiesForNFTsQuery,
   useGetNFTsByNFTIDsQuery,
   useGetWalletsQuery,
-} from '@cryptomines/api-react';
-import { catToMojo, chiaToMojo } from '@cryptomines/core';
+} from '@platinum/api-react';
+import { catToMojo, chiaToMojo } from '@platinum/core';
 import { uniq } from 'lodash';
 import React, { ReactNode, useMemo } from 'react';
 import { useWatch } from 'react-hook-form';

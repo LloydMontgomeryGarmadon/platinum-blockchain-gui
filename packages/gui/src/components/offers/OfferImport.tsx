@@ -1,7 +1,7 @@
 import fs, { Stats } from 'fs';
 
-import { type OfferSummaryRecord } from '@cryptomines/api';
-import { useGetOfferSummaryMutation } from '@cryptomines/api-react';
+import { type OfferSummaryRecord } from '@platinum/api';
+import { useGetOfferSummaryMutation } from '@platinum/api-react';
 import {
   Back,
   Card,
@@ -10,7 +10,7 @@ import {
   useOpenDialog,
   useSerializedNavigationState,
   useShowError,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Button, Grid, Typography } from '@mui/material';
 import React from 'react';

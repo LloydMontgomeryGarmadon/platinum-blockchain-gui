@@ -1,4 +1,4 @@
-import { ConfirmDialog, Flex } from '@cryptomines/core';
+import { ConfirmDialog, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Divider } from '@mui/material';
 import BigNumber from 'bignumber.js';

@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines/api';
-import { Button, useColorModeValue, Spinner, Flex, Tooltip, useTrans } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import { Button, useColorModeValue, Spinner, Flex, Tooltip, useTrans } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Add, KeyboardArrowDown, KeyboardArrowUp } from '@mui/icons-material';
 import SearchIcon from '@mui/icons-material/Search';

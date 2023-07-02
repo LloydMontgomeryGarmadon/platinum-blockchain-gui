@@ -1,5 +1,5 @@
-import { ServiceName } from '@cryptomines/api';
-import { MojoToChia } from '@cryptomines/core';
+import { ServiceName } from '@platinum/api';
+import { MojoToChia } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

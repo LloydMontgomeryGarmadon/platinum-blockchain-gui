@@ -1,4 +1,4 @@
-import { AlertDialog, Flex } from '@cryptomines/core';
+import { AlertDialog, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

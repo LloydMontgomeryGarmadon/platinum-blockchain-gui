@@ -5,9 +5,9 @@ import {
   useLocalStorage,
   useGetLoggedInFingerprintQuery,
   useGetTransactionAsyncMutation,
-} from '@cryptomines/api-react';
-import { Truncate, Button, useOpenDialog, AlertDialog, Flex, More, MenuItem } from '@cryptomines/core';
-import { Burn as BurnIcon } from '@cryptomines/icons';
+} from '@platinum/api-react';
+import { Truncate, Button, useOpenDialog, AlertDialog, Flex, More, MenuItem } from '@platinum/core';
+import { Burn as BurnIcon } from '@platinum/icons';
 import { Trans, t } from '@lingui/macro';
 import { Delete as DeleteIcon, Edit as EditIcon } from '@mui/icons-material';
 import { Box, Card, Typography, Table, TableRow, TableCell, ListItemIcon, IconButton } from '@mui/material';

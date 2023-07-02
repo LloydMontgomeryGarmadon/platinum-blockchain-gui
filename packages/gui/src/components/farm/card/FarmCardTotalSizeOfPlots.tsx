@@ -1,5 +1,5 @@
-import { useGetTotalHarvestersSummaryQuery } from '@cryptomines/api-react';
-import { FormatBytes, CardSimple } from '@cryptomines/core';
+import { useGetTotalHarvestersSummaryQuery } from '@platinum/api-react';
+import { FormatBytes, CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

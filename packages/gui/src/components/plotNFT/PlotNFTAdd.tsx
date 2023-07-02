@@ -1,5 +1,5 @@
-import { useCreateNewPoolWalletMutation } from '@cryptomines/api-react';
-import { Flex, Suspender } from '@cryptomines/core';
+import { useCreateNewPoolWalletMutation } from '@platinum/api-react';
+import { Flex, Suspender } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { ChevronRight as ChevronRightIcon } from '@mui/icons-material';
 import React, { ReactNode } from 'react';

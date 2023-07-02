@@ -1,4 +1,4 @@
-import { ServiceNameValue } from '@cryptomines/api';
+import { ServiceNameValue } from '@platinum/api';
 import { useEffect, useState, useMemo, useCallback } from 'react';
 
 import { useClientStartServiceMutation } from '../services/client';

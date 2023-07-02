@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines/api';
-import type { NFTInfo } from '@cryptomines/api';
-import { useCreateOfferForIdsMutation, useGetWalletBalanceQuery } from '@cryptomines/api-react';
+import { WalletType } from '@platinum/api';
+import type { NFTInfo } from '@platinum/api';
+import { useCreateOfferForIdsMutation, useGetWalletBalanceQuery } from '@platinum/api-react';
 import {
   Amount,
   AmountProps,
@@ -26,7 +26,7 @@ import {
   useLocale,
   useOpenDialog,
   useShowError,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Warning as WarningIcon } from '@mui/icons-material';
 import { Box, Divider, Grid, Tabs, Tab, Typography, useTheme } from '@mui/material';
@@ -549,7 +549,7 @@ export default function NFTOfferEditor(props: NFTOfferEditorProps) {
       walletId: 1,
       walletType: WalletType.STANDARD_WALLET,
       symbol: currencyCode,
-      name: 'Cryptomines',
+      name: 'Platinum',
       spendableBalance: new BigNumber(0),
     },
     tokenAmount: '',

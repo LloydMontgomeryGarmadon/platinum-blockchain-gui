@@ -1,5 +1,5 @@
-import { useGetHarvesterQuery } from '@cryptomines/api-react';
-import { Accordion, Flex, FormatBytes, Tooltip, FormatLargeNumber } from '@cryptomines/core';
+import { useGetHarvesterQuery } from '@platinum/api-react';
+import { Accordion, Flex, FormatBytes, Tooltip, FormatLargeNumber } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { ExpandMore, ExpandLess } from '@mui/icons-material';
 import { Typography, Chip, Box, Tab, Tabs } from '@mui/material';

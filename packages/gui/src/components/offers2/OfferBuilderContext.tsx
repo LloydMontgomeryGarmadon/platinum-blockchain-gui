@@ -1,4 +1,4 @@
-import type { CalculateRoyaltiesResponse } from '@cryptomines/api';
+import type { CalculateRoyaltiesResponse } from '@platinum/api';
 import { createContext } from 'react';
 
 import OfferState from '../offers/OfferState';

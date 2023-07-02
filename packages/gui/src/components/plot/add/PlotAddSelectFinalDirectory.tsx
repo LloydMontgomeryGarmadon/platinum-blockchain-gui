@@ -1,5 +1,5 @@
-import { usePrefs } from '@cryptomines/api-react';
-import { ButtonSelected, CardStep, Flex, TextField } from '@cryptomines/core';
+import { usePrefs } from '@platinum/api-react';
+import { ButtonSelected, CardStep, Flex, TextField } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

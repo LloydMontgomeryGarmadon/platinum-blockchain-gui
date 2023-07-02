@@ -1,5 +1,5 @@
-import { toBech32m, fromBech32m } from '@cryptomines/api';
-import { useGetCurrentAddressQuery, useSendNotificationMutation } from '@cryptomines/api-react';
+import { toBech32m, fromBech32m } from '@platinum/api';
+import { useGetCurrentAddressQuery, useSendNotificationMutation } from '@platinum/api-react';
 import {
   AlertDialog,
   Amount,
@@ -14,7 +14,7 @@ import {
   chiaToMojo,
   useCurrencyCode,
   useOpenDialog,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import {
   Box,

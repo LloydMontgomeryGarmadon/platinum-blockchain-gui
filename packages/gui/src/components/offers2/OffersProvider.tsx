@@ -1,7 +1,7 @@
 import { EventEmitter } from 'events';
 
-import { useGetOfferSummaryMutation, useCheckOfferValidityMutation } from '@cryptomines/api-react';
-import { isValidURL } from '@cryptomines/core';
+import { useGetOfferSummaryMutation, useCheckOfferValidityMutation } from '@platinum/api-react';
+import { isValidURL } from '@platinum/core';
 import debug from 'debug';
 import React, { useState, createContext, useMemo, useCallback, type ReactNode } from 'react';
 
@@ -23,7 +23,7 @@ export const OffersContext = createContext<
   | undefined
 >(undefined);
 
-const log = debug('cryptomines-gui:OfferProvider');
+const log = debug('platinum-gui:OfferProvider');
 
 export function getChangedEventName(id: string) {
   return `offerChanged:${id}`;

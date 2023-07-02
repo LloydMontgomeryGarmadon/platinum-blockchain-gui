@@ -11,7 +11,7 @@ import {
   StateColor,
   Tooltip,
   TooltipIcon,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Remove } from '@mui/icons-material';
 import { Box, Typography, IconButton } from '@mui/material';

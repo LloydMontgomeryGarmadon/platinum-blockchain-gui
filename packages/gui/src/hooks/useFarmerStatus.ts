@@ -1,5 +1,5 @@
-import { ServiceName } from '@cryptomines/api';
-import { useService } from '@cryptomines/api-react';
+import { ServiceName } from '@platinum/api';
+import { useService } from '@platinum/api-react';
 
 import FarmerStatus from '../constants/FarmerStatus';
 import FullNodeState from '../constants/FullNodeState';

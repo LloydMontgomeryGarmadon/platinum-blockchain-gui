@@ -1,4 +1,4 @@
-import { type BlockRecord } from '@cryptomines/api';
+import { type BlockRecord } from '@platinum/api';
 import { useRef, useMemo } from 'react';
 
 import useGetLatestBlocksQuery from './useGetLatestBlocksQuery';

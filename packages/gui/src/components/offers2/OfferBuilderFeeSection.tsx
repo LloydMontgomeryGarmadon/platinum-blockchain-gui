@@ -1,6 +1,6 @@
-import { Loading } from '@cryptomines/core';
-import { Fees } from '@cryptomines/icons';
-import { useWallet } from '@cryptomines/wallets';
+import { Loading } from '@platinum/core';
+import { Fees } from '@platinum/icons';
+import { useWallet } from '@platinum/wallets';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useFieldArray } from 'react-hook-form';

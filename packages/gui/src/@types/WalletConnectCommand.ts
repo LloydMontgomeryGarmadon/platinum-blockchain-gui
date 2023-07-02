@@ -1,4 +1,4 @@
-import { type ServiceNameValue } from '@cryptomines/api';
+import { type ServiceNameValue } from '@platinum/api';
 import { ReactNode } from 'react';
 
 import type WalletConnectCommandParam from './WalletConnectCommandParam';

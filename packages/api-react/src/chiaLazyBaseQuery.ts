@@ -1,4 +1,4 @@
-import Client from '@cryptomines/api';
+import Client from '@platinum/api';
 
 import type ServiceConstructor from './@types/ServiceConstructor';
 import { selectApiConfig } from './slices/api';

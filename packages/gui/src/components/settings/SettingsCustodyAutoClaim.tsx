@@ -1,6 +1,6 @@
-import { useGetAutoClaimQuery, useSetAutoClaimMutation } from '@cryptomines/api-react';
-import { Flex, SettingsText, Form, ButtonLoading, Fee, chiaToMojo, mojoToChia } from '@cryptomines/core';
-import { ConnectCheckmark } from '@cryptomines/icons';
+import { useGetAutoClaimQuery, useSetAutoClaimMutation } from '@platinum/api-react';
+import { Flex, SettingsText, Form, ButtonLoading, Fee, chiaToMojo, mojoToChia } from '@platinum/core';
+import { ConnectCheckmark } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

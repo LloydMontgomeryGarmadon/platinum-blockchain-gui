@@ -1,4 +1,4 @@
-import { Copy as AssignmentIcon } from '@cryptomines/icons';
+import { Copy as AssignmentIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Tooltip, IconButton } from '@mui/material';
 import React, { useState } from 'react';

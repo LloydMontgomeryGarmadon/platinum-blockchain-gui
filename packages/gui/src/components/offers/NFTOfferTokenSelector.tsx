@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines/api';
-import type { CATToken, Wallet } from '@cryptomines/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines/api-react';
-import { useCurrencyCode } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import type { CATToken, Wallet } from '@platinum/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@platinum/api-react';
+import { useCurrencyCode } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import React, { useMemo } from 'react';
@@ -48,9 +48,9 @@ export default function NFTOfferTokenSelector(props: Props) {
       (wallet: WalletType) => ({
         walletId: wallet.id,
         walletType: wallet.type,
-        name: 'Cryptomines',
+        name: 'Platinum',
         symbol: currencyCode,
-        displayName: `Cryptomines (${currencyCode})`,
+        displayName: `Platinum (${currencyCode})`,
         disabled: false,
         tail: '',
       })

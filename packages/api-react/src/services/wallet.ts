@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign -- This file use Immer */
-import { CAT, DID, Farmer, NFT, Pool, WalletService, WalletType, toBech32m, VC } from '@cryptomines/api';
-import type { NFTInfo, Transaction, Wallet, WalletBalance } from '@cryptomines/api';
+import { CAT, DID, Farmer, NFT, Pool, WalletService, WalletType, toBech32m, VC } from '@platinum/api';
+import type { NFTInfo, Transaction, Wallet, WalletBalance } from '@platinum/api';
 import BigNumber from 'bignumber.js';
 
 import api, { baseQuery } from '../api';

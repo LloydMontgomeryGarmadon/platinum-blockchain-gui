@@ -1,6 +1,6 @@
-import { SyncingStatus } from '@cryptomines/api';
-import { useAddCATTokenMutation } from '@cryptomines/api-react';
-import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@cryptomines/core';
+import { SyncingStatus } from '@platinum/api';
+import { useAddCATTokenMutation } from '@platinum/api-react';
+import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import React from 'react';

@@ -15,7 +15,7 @@ import fs from 'fs';
 import path from 'path';
 import url from 'url';
 
-import { NFTInfo } from '@cryptomines/api';
+import { NFTInfo } from '@platinum/api';
 import { initialize, enable } from '@electron/remote/main';
 import axios from 'axios';
 import windowStateKeeper from 'electron-window-state';
@@ -27,7 +27,7 @@ import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 // handle setupevents as quickly as possible
 import '../config/env';
 import packageJson from '../../package.json';
-import AppIcon from '../assets/img/cryptomines64x64.png';
+import AppIcon from '../assets/img/platinum64x64.png';
 import About from '../components/about/About';
 import { i18n } from '../config/locales';
 import chiaEnvironment from '../util/chiaEnvironment';
@@ -68,7 +68,7 @@ let mainWindow: BrowserWindow | null = null;
 let currentDownloadRequest: any;
 let abortDownloadingFiles: boolean = false;
 
-// Set the userData directory to its location within CRYPTOMINES_ROOT/gui
+// Set the userData directory to its location within PLATINUM_ROOT/gui
 setUserDataDir();
 
 function renderAbout(): string {
@@ -736,12 +736,12 @@ function getMenuTemplate() {
   ];
 
   if (process.platform === 'darwin') {
-    // Cryptomines Blockchain menu (Mac)
+    // Platinum Blockchain menu (Mac)
     template.unshift({
-      label: i18n._(/* i18n */ { id: 'Cryptomines' }),
+      label: i18n._(/* i18n */ { id: 'Platinum' }),
       submenu: [
         {
-          label: i18n._(/* i18n */ { id: 'About Cryptomines Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Platinum Blockchain' }),
           click: () => {
             openAbout();
           },
@@ -834,7 +834,7 @@ function getMenuTemplate() {
         type: 'separator',
       },
       {
-        label: i18n._(/* i18n */ { id: 'About Cryptomines Blockchain' }),
+        label: i18n._(/* i18n */ { id: 'About Platinum Blockchain' }),
         click() {
           openAbout();
         },

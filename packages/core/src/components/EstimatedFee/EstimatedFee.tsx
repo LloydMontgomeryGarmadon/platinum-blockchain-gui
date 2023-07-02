@@ -1,4 +1,4 @@
-import { useGetFeeEstimateQuery } from '@cryptomines/api-react';
+import { useGetFeeEstimateQuery } from '@platinum/api-react';
 import { Trans, t } from '@lingui/macro';
 import {
   Box,

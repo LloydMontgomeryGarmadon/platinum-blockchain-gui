@@ -1,4 +1,4 @@
-import type { Point } from '@cryptomines/api';
+import type { Point } from '@platinum/api';
 
 const DAY_SECONDS = 60 * 60 * 24;
 

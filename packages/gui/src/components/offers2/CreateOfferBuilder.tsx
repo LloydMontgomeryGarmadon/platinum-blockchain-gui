@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines/api';
-import { useGetWalletsQuery, useCreateOfferForIdsMutation } from '@cryptomines/api-react';
-import { Flex, ButtonLoading, useOpenDialog, Loading } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import { useGetWalletsQuery, useCreateOfferForIdsMutation } from '@platinum/api-react';
+import { Flex, ButtonLoading, useOpenDialog, Loading } from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import React, { useRef, useMemo, useCallback } from 'react';

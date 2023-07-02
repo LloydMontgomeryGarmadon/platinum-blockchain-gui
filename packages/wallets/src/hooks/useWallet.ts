@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines/api';
-import type { Wallet } from '@cryptomines/api';
-import { useGetWalletsQuery, useGetCatListQuery } from '@cryptomines/api-react';
-import { useCurrencyCode } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import type { Wallet } from '@platinum/api';
+import { useGetWalletsQuery, useGetCatListQuery } from '@platinum/api-react';
+import { useCurrencyCode } from '@platinum/core';
 import { useMemo } from 'react';
 
 export default function useWallet(walletId?: number | string): {

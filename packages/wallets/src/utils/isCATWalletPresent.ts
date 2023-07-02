@@ -1,5 +1,5 @@
-import type { Wallet, CATToken } from '@cryptomines/api';
-import { WalletType } from '@cryptomines/api';
+import type { Wallet, CATToken } from '@platinum/api';
+import { WalletType } from '@platinum/api';
 
 export default function isCATWalletPresent(wallets: Wallet[], token: CATToken): boolean {
   return !!wallets?.find((wallet) => {

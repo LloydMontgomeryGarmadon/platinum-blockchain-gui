@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign -- This file use Immer */
-import { Farmer, type HarvesterSummary } from '@cryptomines/api';
+import { Farmer, type HarvesterSummary } from '@platinum/api';
 
 import api, { baseQuery } from '../api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';

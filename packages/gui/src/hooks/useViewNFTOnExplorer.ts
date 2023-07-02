@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines/api';
-import { useCurrencyCode } from '@cryptomines/core';
+import type { NFTInfo } from '@platinum/api';
+import { useCurrencyCode } from '@platinum/core';
 
 import useOpenExternal from './useOpenExternal';
 

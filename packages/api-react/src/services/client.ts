@@ -1,4 +1,4 @@
-import Client from '@cryptomines/api';
+import Client from '@platinum/api';
 
 import api, { baseQuery } from '../api';
 import { query, mutation } from '../utils/reduxToolkitEndpointAbstractions';

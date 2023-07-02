@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines/core';
+import { Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography, type TypographyProps } from '@mui/material';
 import React, { useMemo } from 'react';

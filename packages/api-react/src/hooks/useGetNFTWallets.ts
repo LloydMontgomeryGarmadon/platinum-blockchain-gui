@@ -1,5 +1,5 @@
-import type { Wallet } from '@cryptomines/api';
-import { WalletType } from '@cryptomines/api';
+import type { Wallet } from '@platinum/api';
+import { WalletType } from '@platinum/api';
 import { useMemo } from 'react';
 
 import { useGetWalletsQuery } from '../services';

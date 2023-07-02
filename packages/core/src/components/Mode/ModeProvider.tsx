@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines/api-react';
+import { usePrefs } from '@platinum/api-react';
 import React, { createContext, ReactNode, useState, useMemo, useCallback } from 'react';
 
 import Mode from '../../constants/Mode';

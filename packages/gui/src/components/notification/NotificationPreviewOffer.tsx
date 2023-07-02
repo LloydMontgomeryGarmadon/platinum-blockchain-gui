@@ -1,4 +1,4 @@
-import { Loading } from '@cryptomines/core';
+import { Loading } from '@platinum/core';
 import React, { useMemo } from 'react';
 
 import Notification from '../../@types/Notification';

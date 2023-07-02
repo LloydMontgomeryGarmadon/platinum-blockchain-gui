@@ -1,5 +1,5 @@
-import { SyncingStatus } from '@cryptomines/api';
-import { useGetSyncStatusQuery } from '@cryptomines/api-react';
+import { SyncingStatus } from '@platinum/api';
+import { useGetSyncStatusQuery } from '@platinum/api-react';
 // import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

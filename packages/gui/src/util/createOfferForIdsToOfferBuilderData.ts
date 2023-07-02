@@ -1,5 +1,5 @@
-import { toBech32m, WalletType } from '@cryptomines/api';
-import { mojoToChia, mojoToCAT } from '@cryptomines/core';
+import { toBech32m, WalletType } from '@platinum/api';
+import { mojoToChia, mojoToCAT } from '@platinum/core';
 import BigNumber from 'bignumber.js';
 
 import OfferBuilderData from '../@types/OfferBuilderData';

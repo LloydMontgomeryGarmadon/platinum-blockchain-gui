@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines/api-react';
+import { usePrefs } from '@platinum/api-react';
 import { Theme } from '@mui/material';
 
 export default function useWalletThemeColor(theme: Theme, variant?: string): string {

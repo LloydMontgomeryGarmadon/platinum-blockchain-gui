@@ -1,4 +1,4 @@
-import { toBech32m } from '@cryptomines/api';
+import { toBech32m } from '@platinum/api';
 import { Box } from '@mui/material';
 import React from 'react';
 

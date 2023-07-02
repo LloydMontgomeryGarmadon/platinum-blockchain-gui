@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines/api';
-import { Flex } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import { Flex } from '@platinum/core';
 import { ImportExport } from '@mui/icons-material';
 import { InputAdornment, TextField, Typography } from '@mui/material';
 import React, { useMemo, useState } from 'react';

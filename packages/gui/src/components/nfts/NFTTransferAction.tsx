@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines/api';
-import { useTransferNFTMutation } from '@cryptomines/api-react';
+import type { NFTInfo } from '@platinum/api';
+import { useTransferNFTMutation } from '@platinum/api-react';
 import {
   Button,
   ButtonLoading,
@@ -13,7 +13,7 @@ import {
   useOpenDialog,
   validAddress,
   useShowError,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import React from 'react';

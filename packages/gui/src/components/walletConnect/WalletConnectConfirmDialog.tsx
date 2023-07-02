@@ -1,5 +1,5 @@
-import { useGetKeysQuery } from '@cryptomines/api-react';
-import { ConfirmDialog, Flex, LoadingOverlay } from '@cryptomines/core';
+import { useGetKeysQuery } from '@platinum/api-react';
+import { ConfirmDialog, Flex, LoadingOverlay } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Divider, Switch } from '@mui/material';
 import React, { type ReactNode, useState, useMemo } from 'react';

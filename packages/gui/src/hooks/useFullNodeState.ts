@@ -1,4 +1,4 @@
-import { useGetBlockchainStateQuery } from '@cryptomines/api-react';
+import { useGetBlockchainStateQuery } from '@platinum/api-react';
 
 import FullNodeState from '../constants/FullNodeState';
 

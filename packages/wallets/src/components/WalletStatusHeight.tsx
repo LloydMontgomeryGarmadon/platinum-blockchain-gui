@@ -1,5 +1,5 @@
-import { useGetHeightInfoQuery } from '@cryptomines/api-react';
-import { FormatLargeNumber } from '@cryptomines/core';
+import { useGetHeightInfoQuery } from '@platinum/api-react';
+import { FormatLargeNumber } from '@platinum/core';
 import React from 'react';
 
 export default function WalletStatusHeight() {

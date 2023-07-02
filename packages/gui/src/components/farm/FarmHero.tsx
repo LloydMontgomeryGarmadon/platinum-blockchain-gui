@@ -1,5 +1,5 @@
-import { Button, CardHero, Link, useOpenDialog } from '@cryptomines/core';
-import { Farming } from '@cryptomines/icons';
+import { Button, CardHero, Link, useOpenDialog } from '@platinum/core';
+import { Farming } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Divider, Grid, Typography } from '@mui/material';
 import React from 'react';

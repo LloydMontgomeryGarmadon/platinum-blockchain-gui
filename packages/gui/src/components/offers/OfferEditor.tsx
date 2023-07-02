@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines/api';
-import { useCreateOfferForIdsMutation } from '@cryptomines/api-react';
+import { WalletType } from '@platinum/api';
+import { useCreateOfferForIdsMutation } from '@platinum/api-react';
 import {
   Back,
   Button,
@@ -11,7 +11,7 @@ import {
   useShowError,
   chiaToMojo,
   catToMojo,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Grid } from '@mui/material';
 import BigNumber from 'bignumber.js';

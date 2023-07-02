@@ -1,8 +1,8 @@
 {
-  "name": "@cryptomines/api-react",
+  "name": "@platinum/api-react",
   "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
-  "description": "Cryptomines API react store library",
-  "productName": "Cryptomines Blockchain",
+  "description": "Platinum API react store library",
+  "productName": "Platinum Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"
@@ -27,7 +27,7 @@
     "regenerator-runtime": "0.13.9"
   },
   "peerDependencies": {
-    "@cryptomines/api": "1.0.0",
+    "@platinum/api": "1.0.0",
     "@reduxjs/toolkit": "1.7.1",
     "react": "^17.0.0",
     "react-redux": "^7.2.6"
@@ -38,7 +38,7 @@
     "@babel/plugin-transform-runtime": "7.16.8",
     "@babel/preset-env": "7.16.8",
     "@babel/preset-typescript": "7.16.7",
-    "@cryptomines/api": "1.0.0",
+    "@platinum/api": "1.0.0",
     "@reduxjs/toolkit": "1.7.1",
     "@rollup/plugin-babel": "5.3.0",
     "@rollup/plugin-commonjs": "21.0.1",

@@ -1,7 +1,7 @@
 import path from 'path';
 
-import { OfferTradeRecord } from '@cryptomines/api';
-import { Flex, useColorModeValue } from '@cryptomines/core';
+import { OfferTradeRecord } from '@platinum/api';
+import { Flex, useColorModeValue } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import moment from 'moment';

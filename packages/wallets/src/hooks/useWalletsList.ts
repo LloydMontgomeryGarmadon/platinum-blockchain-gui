@@ -1,12 +1,12 @@
-import { WalletType } from '@cryptomines/api';
-import type { Wallet } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
+import type { Wallet } from '@platinum/api';
 import {
   useGetWalletsQuery,
   useGetStrayCatsQuery,
   useGetCatListQuery,
   useAddCATTokenMutation,
-} from '@cryptomines/api-react';
-import { useShowError } from '@cryptomines/core';
+} from '@platinum/api-react';
+import { useShowError } from '@platinum/core';
 import { orderBy } from 'lodash';
 import { useMemo } from 'react';
 

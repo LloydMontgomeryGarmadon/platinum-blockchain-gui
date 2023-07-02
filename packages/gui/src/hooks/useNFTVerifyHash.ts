@@ -1,4 +1,4 @@
-import type { NFTInfo } from '@cryptomines/api';
+import type { NFTInfo } from '@platinum/api';
 import debug from 'debug';
 import { useEffect, useState, useCallback, useMemo } from 'react';
 
@@ -8,7 +8,7 @@ import useCache from './useCache';
 import useNFT from './useNFT';
 import useNFTMetadata from './useNFTMetadata';
 
-const log = debug('cryptomines-gui:useNFTVerifyHash');
+const log = debug('platinum-gui:useNFTVerifyHash');
 
 type PreviewState = {
   isVerified: boolean;

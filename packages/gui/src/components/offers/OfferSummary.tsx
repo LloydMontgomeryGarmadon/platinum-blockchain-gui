@@ -1,5 +1,5 @@
-import { type OfferSummaryRecord } from '@cryptomines/api';
-import { Flex, FormatLargeNumber, StateColor, TooltipIcon, mojoToChia, mojoToCAT } from '@cryptomines/core';
+import { type OfferSummaryRecord } from '@platinum/api';
+import { Flex, FormatLargeNumber, StateColor, TooltipIcon, mojoToChia, mojoToCAT } from '@platinum/core';
 import { Plural, Trans } from '@lingui/macro';
 import { Box, Divider, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

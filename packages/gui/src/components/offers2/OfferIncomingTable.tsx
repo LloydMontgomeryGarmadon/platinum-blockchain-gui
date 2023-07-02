@@ -1,4 +1,4 @@
-import { toBech32m } from '@cryptomines/api';
+import { toBech32m } from '@platinum/api';
 import {
   Card,
   Flex,
@@ -10,8 +10,8 @@ import {
   useCurrencyCode,
   useOpenDialog,
   ConfirmDialog,
-} from '@cryptomines/core';
-import { Offers as OffersIcon } from '@cryptomines/icons';
+} from '@platinum/core';
+import { Offers as OffersIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React, { useMemo, type ReactNode } from 'react';

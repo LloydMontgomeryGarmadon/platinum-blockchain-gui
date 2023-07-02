@@ -1,6 +1,6 @@
-import { WalletType } from '@cryptomines/api';
-import { useGetWalletsQuery } from '@cryptomines/api-react';
-import { Flex, CardListItem } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import { useGetWalletsQuery } from '@platinum/api-react';
+import { Flex, CardListItem } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, Theme } from '@mui/material';
 import { orderBy } from 'lodash';

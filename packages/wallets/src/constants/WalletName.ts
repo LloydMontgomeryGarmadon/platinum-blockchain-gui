@@ -1,4 +1,4 @@
-import { WalletType } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
 import { defineMessage } from '@lingui/macro';
 
 const WalletName = {
@@ -21,7 +21,7 @@ const WalletName = {
     message: 'Custody Wallet',
   }),
   [WalletType.CAT]: defineMessage({
-    message: 'Cryptomines Asset Token',
+    message: 'Platinum Asset Token',
   }),
   [WalletType.RECOVERABLE]: defineMessage({
     message: 'Recoverable Wallet',

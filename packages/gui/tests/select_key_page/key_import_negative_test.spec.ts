@@ -47,7 +47,7 @@ test('Read data from Json file', async () => {
   //Verify user is on the Enter 12 Mnemonics page
   await expect(
     page.getByRole('heading', {
-      name: 'Enter the 12 word mnemonic that you have saved in order to restore your Cryptomines wallet.',
+      name: 'Enter the 12 word mnemonic that you have saved in order to restore your Platinum wallet.',
     })
   ).toBeVisible();
 

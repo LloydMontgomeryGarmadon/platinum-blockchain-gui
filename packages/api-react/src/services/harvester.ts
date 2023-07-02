@@ -1,4 +1,4 @@
-import { Harvester } from '@cryptomines/api';
+import { Harvester } from '@platinum/api';
 
 import { query, mutation } from '../utils/reduxToolkitEndpointAbstractions';
 import { apiWithTag } from './farmer';

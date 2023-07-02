@@ -1,5 +1,5 @@
-import { useGetNetworkInfoQuery } from '@cryptomines/api-react';
-import { CardSimple } from '@cryptomines/core';
+import { useGetNetworkInfoQuery } from '@platinum/api-react';
+import { CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

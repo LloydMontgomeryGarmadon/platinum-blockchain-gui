@@ -1,10 +1,10 @@
-import { WalletType, TransactionType, TransactionTypeFilterMode, toBech32m } from '@cryptomines/api';
-import type { Transaction } from '@cryptomines/api';
+import { WalletType, TransactionType, TransactionTypeFilterMode, toBech32m } from '@platinum/api';
+import type { Transaction } from '@platinum/api';
 import {
   useGetOfferRecordMutation,
   useGetSyncStatusQuery,
   useGetTransactionMemoMutation,
-} from '@cryptomines/api-react';
+} from '@platinum/api-react';
 import {
   Card,
   CopyToClipboard,
@@ -17,8 +17,8 @@ import {
   mojoToCAT,
   FormatLargeNumber,
   truncateValue,
-} from '@cryptomines/core';
-import type { Row } from '@cryptomines/core';
+} from '@platinum/core';
+import type { Row } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { ExpandLess as ExpandLessIcon, ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
 import {

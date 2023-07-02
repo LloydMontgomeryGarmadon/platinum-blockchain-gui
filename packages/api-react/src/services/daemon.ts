@@ -1,5 +1,5 @@
-import { Daemon, optionsForPlotter, defaultsForPlotter, PlotterName } from '@cryptomines/api';
-import type { Plotter, PlotterMap, PlotterApi } from '@cryptomines/api';
+import { Daemon, optionsForPlotter, defaultsForPlotter, PlotterName } from '@platinum/api';
+import type { Plotter, PlotterMap, PlotterApi } from '@platinum/api';
 
 import api, { baseQuery } from '../api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';

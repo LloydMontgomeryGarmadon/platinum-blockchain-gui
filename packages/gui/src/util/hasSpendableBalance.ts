@@ -1,7 +1,7 @@
-import { store, walletApi } from '@cryptomines/api-react';
+import { store, walletApi } from '@platinum/api-react';
 import BigNumber from 'bignumber.js';
 
-// The original content of the type comes from '@cryptomines/src/services/wallet.ts'
+// The original content of the type comes from '@platinum/src/services/wallet.ts'
 export type WalletBalanceFormatted = {
   confirmedWalletBalance: number;
   maxSendAmount: number;

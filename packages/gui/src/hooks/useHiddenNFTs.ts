@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines/api';
-import { useHiddenList } from '@cryptomines/core';
+import type { NFTInfo } from '@platinum/api';
+import { useHiddenList } from '@platinum/core';
 import { useCallback } from 'react';
 
 export default function useHiddenNFTs() {

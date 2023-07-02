@@ -1,4 +1,4 @@
-import { PlotterService } from '@cryptomines/api';
+import { PlotterService } from '@platinum/api';
 
 import api, { baseQuery } from '../api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';

@@ -1,4 +1,4 @@
-import { CardStep, ConfirmDialog, Link, Select, StateColor, useOpenDialog } from '@cryptomines/core';
+import { CardStep, ConfirmDialog, Link, Select, StateColor, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Grid, FormControl, Typography, InputLabel, MenuItem, FormHelperText } from '@mui/material';
 import React, { useEffect, useState } from 'react';

@@ -1,5 +1,5 @@
-import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@cryptomines/api-react';
-import { State, CardSimple } from '@cryptomines/core';
+import { useGetBlockchainStateQuery, useGetTotalHarvestersSummaryQuery } from '@platinum/api-react';
+import { State, CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
 import moment from 'moment';

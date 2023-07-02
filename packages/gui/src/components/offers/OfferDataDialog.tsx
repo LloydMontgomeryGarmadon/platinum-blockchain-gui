@@ -1,4 +1,4 @@
-import { CopyToClipboard, DialogActions } from '@cryptomines/core';
+import { CopyToClipboard, DialogActions } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Button, Grid, Dialog, DialogTitle, DialogContent, InputAdornment, TextField } from '@mui/material';
 import React from 'react';

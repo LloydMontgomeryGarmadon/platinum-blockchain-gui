@@ -1,5 +1,5 @@
-import { useCloseFullNodeConnectionMutation } from '@cryptomines/api-react';
-import { ConfirmDialog, useOpenDialog } from '@cryptomines/core';
+import { useCloseFullNodeConnectionMutation } from '@platinum/api-react';
+import { ConfirmDialog, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

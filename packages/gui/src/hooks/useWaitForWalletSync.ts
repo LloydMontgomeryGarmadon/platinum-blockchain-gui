@@ -1,5 +1,5 @@
-import { SyncingStatus } from '@cryptomines/api';
-import { useWalletState } from '@cryptomines/wallets';
+import { SyncingStatus } from '@platinum/api';
+import { useWalletState } from '@platinum/wallets';
 import { useCallback, useState, useRef, useEffect } from 'react';
 
 export default function useWaitForWalletSync() {

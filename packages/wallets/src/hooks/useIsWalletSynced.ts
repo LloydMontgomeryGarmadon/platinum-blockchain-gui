@@ -1,4 +1,4 @@
-import { SyncingStatus } from '@cryptomines/api';
+import { SyncingStatus } from '@platinum/api';
 
 import useWalletState from './useWalletState';
 

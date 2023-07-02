@@ -1,4 +1,4 @@
-import type { Wallet } from '@cryptomines/api';
+import type { Wallet } from '@platinum/api';
 
 import findCATWalletByAssetId from './findCATWalletByAssetId';
 

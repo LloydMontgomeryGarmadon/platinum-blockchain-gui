@@ -1,5 +1,5 @@
-import { type NFTInfo } from '@cryptomines/api';
-import { Flex } from '@cryptomines/core';
+import { type NFTInfo } from '@platinum/api';
+import { Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Autocomplete, Box, Typography, TextField, TextFieldProps } from '@mui/material';
 import { get } from 'lodash';

@@ -15,14 +15,14 @@ export default function WalletStandardCards(props: Props) {
       walletId={walletId}
       totalBalanceTooltip={
         <Trans>
-          This is the total amount of cryptomines in the blockchain at the current peak block that is controlled by your
+          This is the total amount of platinum in the blockchain at the current peak block that is controlled by your
           private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions.
         </Trans>
       }
       spendableBalanceTooltip={
         <Trans>
-          This is the amount of Cryptomines that you can currently use to make transactions. It does not include pending
-          farming rewards, pending incoming transactions, and Cryptomines that you have just spent but is not yet in the
+          This is the amount of Platinum that you can currently use to make transactions. It does not include pending
+          farming rewards, pending incoming transactions, and Platinum that you have just spent but is not yet in the
           blockchain.
         </Trans>
       }

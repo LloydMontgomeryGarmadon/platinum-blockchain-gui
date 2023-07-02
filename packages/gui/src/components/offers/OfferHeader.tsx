@@ -1,4 +1,4 @@
-import { Flex, Link, useColorModeValue } from '@cryptomines/core';
+import { Flex, Link, useColorModeValue } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';

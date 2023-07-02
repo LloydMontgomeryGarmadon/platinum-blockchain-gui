@@ -1,6 +1,6 @@
 // eslint-ignore-file - in progress
-import type { NFTInfo } from '@cryptomines/api';
-import { useLocalStorage } from '@cryptomines/api-react';
+import type { NFTInfo } from '@platinum/api';
+import { useLocalStorage } from '@platinum/api-react';
 import {
   Button,
   FormatLargeNumber,
@@ -9,7 +9,7 @@ import {
   Tooltip,
   usePersistState,
   Mute,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import { FilterList as FilterListIcon, LibraryAddCheck as LibraryAddCheckIcon } from '@mui/icons-material';
 import {

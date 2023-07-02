@@ -1,6 +1,6 @@
-import { ServiceName } from '@cryptomines/api';
-import { useService } from '@cryptomines/api-react';
-import { CardSimple } from '@cryptomines/core';
+import { ServiceName } from '@platinum/api';
+import { useService } from '@platinum/api-react';
+import { CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 

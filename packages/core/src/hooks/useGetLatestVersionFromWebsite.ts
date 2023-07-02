@@ -1,4 +1,4 @@
-import { useLocalStorage } from '@cryptomines/api-react';
+import { useLocalStorage } from '@platinum/api-react';
 import { useCallback, useState, useEffect } from 'react';
 
 import compareAppVersions from '../utils/compareAppVersion';

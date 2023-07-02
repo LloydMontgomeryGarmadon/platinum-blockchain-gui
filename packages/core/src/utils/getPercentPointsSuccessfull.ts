@@ -1,4 +1,4 @@
-import type { Point } from '@cryptomines/api';
+import type { Point } from '@platinum/api';
 import { sumBy } from 'lodash';
 
 function sumPoints(points: Point[]): number {

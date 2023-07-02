@@ -1,6 +1,6 @@
-import type { UnconfirmedPlotNFT } from '@cryptomines/api';
-import { useGetTransactionQuery } from '@cryptomines/api-react';
-import { Flex, Link, Loading } from '@cryptomines/core';
+import type { UnconfirmedPlotNFT } from '@platinum/api';
+import { useGetTransactionQuery } from '@platinum/api-react';
+import { Flex, Link, Loading } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import React, { useEffect } from 'react';

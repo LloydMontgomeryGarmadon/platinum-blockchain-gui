@@ -1,4 +1,4 @@
-import { WalletService } from '@cryptomines/api';
+import { WalletService } from '@platinum/api';
 
 import useSubscribeToEvent from './useSubscribeToEvent';
 

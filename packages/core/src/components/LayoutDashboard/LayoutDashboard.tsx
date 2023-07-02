@@ -1,5 +1,5 @@
-import { useGetLoggedInFingerprintQuery, useGetKeyQuery, useFingerprintSettings } from '@cryptomines/api-react';
-import { Exit as ExitIcon } from '@cryptomines/icons';
+import { useGetLoggedInFingerprintQuery, useGetKeyQuery, useFingerprintSettings } from '@platinum/api-react';
+import { Exit as ExitIcon } from '@platinum/icons';
 import { t, Trans } from '@lingui/macro';
 import { ExitToApp as ExitToAppIcon, Edit as EditIcon } from '@mui/icons-material';
 import {

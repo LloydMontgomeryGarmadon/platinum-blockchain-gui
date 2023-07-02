@@ -1,4 +1,4 @@
-import { Search as SearchIcon } from '@cryptomines/icons';
+import { Search as SearchIcon } from '@platinum/icons';
 import { t } from '@lingui/macro';
 import { InputBase /* , InputBaseProps */, Box } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

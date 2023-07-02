@@ -1,5 +1,5 @@
-import type { NFTAttribute } from '@cryptomines/api';
-import { CopyToClipboard, Flex, Loading, TooltipIcon, truncateValue } from '@cryptomines/core';
+import type { NFTAttribute } from '@platinum/api';
+import { CopyToClipboard, Flex, Loading, TooltipIcon, truncateValue } from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';

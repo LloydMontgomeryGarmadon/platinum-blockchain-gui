@@ -1,6 +1,6 @@
 import fs, { Stats } from 'fs';
 
-import { Dropzone, Flex, useShowError } from '@cryptomines/core';
+import { Dropzone, Flex, useShowError } from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Box, Card, Typography } from '@mui/material';
 import React, { useState } from 'react';

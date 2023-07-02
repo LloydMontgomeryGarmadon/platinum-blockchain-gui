@@ -1,4 +1,4 @@
-import { type NFTInfo } from '@cryptomines/api';
+import { type NFTInfo } from '@platinum/api';
 import { createContext } from 'react';
 
 import type MetadataState from '../../../@types/MetadataState';

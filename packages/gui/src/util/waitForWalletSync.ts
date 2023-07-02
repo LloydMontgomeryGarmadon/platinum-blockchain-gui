@@ -1,5 +1,5 @@
-import api, { store } from '@cryptomines/api-react';
-import { getWalletSyncingStatus } from '@cryptomines/wallets';
+import api, { store } from '@platinum/api-react';
+import { getWalletSyncingStatus } from '@platinum/wallets';
 
 import SyncingStatus from '../constants/SyncingStatus';
 

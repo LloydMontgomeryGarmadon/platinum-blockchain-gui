@@ -1,5 +1,5 @@
-import { useLocalStorage } from '@cryptomines/api-react';
-import { Flex, SettingsLabel } from '@cryptomines/core';
+import { useLocalStorage } from '@platinum/api-react';
+import { Flex, SettingsLabel } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { FormGroup, FormControlLabel, Grid, Switch } from '@mui/material';
 import React from 'react';

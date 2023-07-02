@@ -1,4 +1,4 @@
-import { FullNode } from '@cryptomines/api';
+import { FullNode } from '@platinum/api';
 
 // import MethodReturnType from '../@types/MethodReturnType'
 // import MethodFirstParameter from '../@types/MethodFirstParameter'

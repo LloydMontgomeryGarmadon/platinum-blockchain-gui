@@ -1,5 +1,5 @@
-import type { KeyData } from '@cryptomines/api';
-import { useFingerprintSettings, useGetLoggedInFingerprintQuery } from '@cryptomines/api-react';
+import type { KeyData } from '@platinum/api';
+import { useFingerprintSettings, useGetLoggedInFingerprintQuery } from '@platinum/api-react';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon, Visibility as VisibilityIcon, Edit as EditIcon } from '@mui/icons-material';
 import { Box, Typography, ListItemIcon, Chip } from '@mui/material';

@@ -1,5 +1,5 @@
-import { useGetThrottlePlotQueueQuery, useGetTotalHarvestersSummaryQuery } from '@cryptomines/api-react';
-import { Loading, Flex } from '@cryptomines/core';
+import { useGetThrottlePlotQueueQuery, useGetTotalHarvestersSummaryQuery } from '@platinum/api-react';
+import { Loading, Flex } from '@platinum/core';
 import { Grid } from '@mui/material';
 import React from 'react';
 

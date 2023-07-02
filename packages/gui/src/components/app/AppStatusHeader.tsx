@@ -1,5 +1,5 @@
-import { Flex, useMode, Mode, useDarkMode } from '@cryptomines/core';
-import { WalletConnections, WalletStatus, WalletReceiveAddressField } from '@cryptomines/wallets';
+import { Flex, useMode, Mode, useDarkMode } from '@platinum/core';
+import { WalletConnections, WalletStatus, WalletReceiveAddressField } from '@platinum/wallets';
 import { Trans } from '@lingui/macro';
 import { Box, ButtonGroup, Button, Popover, PopoverProps } from '@mui/material';
 import { useTheme, styled, alpha } from '@mui/material/styles';

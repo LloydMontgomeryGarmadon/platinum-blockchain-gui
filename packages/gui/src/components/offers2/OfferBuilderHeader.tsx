@@ -1,4 +1,4 @@
-import { Flex } from '@cryptomines/core';
+import { Flex } from '@platinum/core';
 import { Typography } from '@mui/material';
 import React, { ReactNode } from 'react';
 

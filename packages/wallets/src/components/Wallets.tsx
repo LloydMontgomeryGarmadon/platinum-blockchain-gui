@@ -1,4 +1,4 @@
-import { LayoutDashboardSub } from '@cryptomines/core';
+import { LayoutDashboardSub } from '@platinum/core';
 import React from 'react';
 import { Navigate, Routes, Route } from 'react-router-dom';
 

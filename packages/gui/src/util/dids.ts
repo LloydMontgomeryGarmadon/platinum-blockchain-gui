@@ -1,9 +1,9 @@
-import { toBech32m, fromBech32m } from '@cryptomines/api';
+import { toBech32m, fromBech32m } from '@platinum/api';
 
 import removeHexPrefix from './removeHexPrefix';
 
 export function didToDIDId(did: string): string {
-  return toBech32m(removeHexPrefix(did), 'did:cryptomines:');
+  return toBech32m(removeHexPrefix(did), 'did:platinum:');
 }
 
 export function didFromDIDId(didId: string): string | undefined {

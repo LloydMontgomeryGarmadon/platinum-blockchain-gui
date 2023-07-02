@@ -1,4 +1,4 @@
-import { Button, Flex, CardStep, useCurrencyCode } from '@cryptomines/core';
+import { Button, Flex, CardStep, useCurrencyCode } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Typography } from '@mui/material';
 import React from 'react';

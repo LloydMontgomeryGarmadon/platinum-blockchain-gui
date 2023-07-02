@@ -1,5 +1,5 @@
-import { Button, Flex, Logo, Card, useMode, Mode } from '@cryptomines/core';
-import { Farming as FarmingIcon } from '@cryptomines/icons';
+import { Button, Flex, Logo, Card, useMode, Mode } from '@platinum/core';
+import { Farming as FarmingIcon } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import {
   AccountBalanceWallet as AccountBalanceWalletIcon,

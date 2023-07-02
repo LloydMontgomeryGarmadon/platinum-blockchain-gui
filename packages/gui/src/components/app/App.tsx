@@ -1,4 +1,4 @@
-import { ModeProvider, Persist } from '@cryptomines/core';
+import { ModeProvider, Persist } from '@platinum/core';
 import React from 'react';
 
 import AppRouter from './AppRouter';

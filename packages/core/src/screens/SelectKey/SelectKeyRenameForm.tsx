@@ -1,5 +1,5 @@
-import type { KeyData } from '@cryptomines/api';
-import { useDeleteLabelMutation, useSetLabelMutation } from '@cryptomines/api-react';
+import type { KeyData } from '@platinum/api';
+import { useDeleteLabelMutation, useSetLabelMutation } from '@platinum/api-react';
 import { Trans } from '@lingui/macro';
 import { ButtonGroup, Chip, InputAdornment } from '@mui/material';
 import React from 'react';

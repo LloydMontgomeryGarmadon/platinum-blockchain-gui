@@ -1,5 +1,5 @@
-import { Flex } from '@cryptomines/core';
-import { NFTs } from '@cryptomines/icons';
+import { Flex } from '@platinum/core';
+import { NFTs } from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useFieldArray } from 'react-hook-form';

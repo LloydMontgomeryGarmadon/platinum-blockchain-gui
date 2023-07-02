@@ -1,4 +1,4 @@
-import { Flex, SettingsLabel } from '@cryptomines/core';
+import { Flex, SettingsLabel } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { FormGroup, FormControlLabel, Grid, Switch, Typography } from '@mui/material';
 import React from 'react';
@@ -29,7 +29,7 @@ export default function SettingsStartup() {
             />
           </FormGroup>
           <Typography variant="body2" color="textSecondary">
-            <Trans>Changes will take effect the next time Cryptomines is started</Trans>
+            <Trans>Changes will take effect the next time Platinum is started</Trans>
           </Typography>
         </Flex>
       </Grid>

@@ -1,11 +1,11 @@
-import { SyncingStatus } from '@cryptomines/api';
+import { SyncingStatus } from '@platinum/api';
 import {
   useGetNotificationsQuery,
   useDeleteNotificationsMutation,
   useLazyGetTimestampForHeightQuery,
-} from '@cryptomines/api-react';
-import { ConfirmDialog, useOpenDialog, useAuth } from '@cryptomines/core';
-import { useWalletState } from '@cryptomines/wallets';
+} from '@platinum/api-react';
+import { ConfirmDialog, useOpenDialog, useAuth } from '@platinum/core';
+import { useWalletState } from '@platinum/wallets';
 import { Trans } from '@lingui/macro';
 import debug from 'debug';
 import { orderBy } from 'lodash';
@@ -15,7 +15,7 @@ import type Notification from '../@types/Notification';
 import NotificationType from '../constants/NotificationType';
 import useStateAbort from './useStateAbort';
 
-const log = debug('cryptomines-gui:useNotifications');
+const log = debug('platinum-gui:useNotifications');
 
 type BlockchainNotification = {
   id: string;

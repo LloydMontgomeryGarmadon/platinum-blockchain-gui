@@ -2,7 +2,7 @@ import {
   useGetLoggedInFingerprintQuery,
   useCurrentFingerprintSettings,
   useLocalStorage,
-} from '@cryptomines/api-react';
+} from '@platinum/api-react';
 import { orderBy } from 'lodash';
 import React, { useMemo, useEffect, useCallback, createContext, type ReactNode } from 'react';
 

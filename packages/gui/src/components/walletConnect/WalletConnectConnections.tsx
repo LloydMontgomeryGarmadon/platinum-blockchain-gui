@@ -1,4 +1,4 @@
-import { Flex, Loading, useOpenDialog, More, MenuItem, useShowError } from '@cryptomines/core';
+import { Flex, Loading, useOpenDialog, More, MenuItem, useShowError } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import {
   CheckCircleTwoTone as CheckCircleTwoToneIcon,

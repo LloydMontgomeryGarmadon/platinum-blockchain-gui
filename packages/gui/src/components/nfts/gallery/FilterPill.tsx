@@ -1,4 +1,4 @@
-import { DropdownBase } from '@cryptomines/core';
+import { DropdownBase } from '@platinum/core';
 import { ArrowDropDown as ArrowDropDownIcon } from '@mui/icons-material';
 import { Button, Box } from '@mui/material';
 import React, { type ReactNode } from 'react';

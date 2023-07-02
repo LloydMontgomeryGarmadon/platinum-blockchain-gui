@@ -1,6 +1,6 @@
-import { Connection } from '@cryptomines/api';
-import { useGetFullNodeConnectionsQuery } from '@cryptomines/api-react';
-import { Card, FormatBytes, FormatLargeNumber, IconButton, Loading, Table, useOpenDialog } from '@cryptomines/core';
+import { Connection } from '@platinum/api';
+import { useGetFullNodeConnectionsQuery } from '@platinum/api-react';
+import { Card, FormatBytes, FormatLargeNumber, IconButton, Loading, Table, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Delete as DeleteIcon } from '@mui/icons-material';
 import { Button, Tooltip } from '@mui/material';

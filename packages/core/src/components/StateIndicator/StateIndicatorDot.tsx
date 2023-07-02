@@ -1,4 +1,4 @@
-import { ConnectCheckmark, ConnectCancel, ConnectReload } from '@cryptomines/icons';
+import { ConnectCheckmark, ConnectCancel, ConnectReload } from '@platinum/icons';
 import React from 'react';
 import styled from 'styled-components';
 

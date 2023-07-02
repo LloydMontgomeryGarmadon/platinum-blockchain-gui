@@ -1,5 +1,5 @@
-import { useLocalStorage } from '@cryptomines/api-react';
-import { Flex, SettingsHR, SettingsSection, SettingsText } from '@cryptomines/core';
+import { useLocalStorage } from '@platinum/api-react';
+import { Flex, SettingsHR, SettingsSection, SettingsText } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Box } from '@mui/material';
 import React from 'react';

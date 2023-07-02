@@ -1,5 +1,5 @@
-import { useLocalStorage } from '@cryptomines/api-react';
-import { Flex, SideBarItem } from '@cryptomines/core';
+import { useLocalStorage } from '@platinum/api-react';
+import { Flex, SideBarItem } from '@platinum/core';
 import {
   Farming as FarmingIcon,
   FullNode as FullNodeIcon,
@@ -10,7 +10,7 @@ import {
   Tokens as TokensIcon,
   Settings as SettingsIcon,
   VC as VCIcon,
-} from '@cryptomines/icons';
+} from '@platinum/icons';
 import { Trans } from '@lingui/macro';
 import { Box } from '@mui/material';
 import React from 'react';

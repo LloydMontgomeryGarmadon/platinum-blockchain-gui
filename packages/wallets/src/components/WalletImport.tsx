@@ -1,5 +1,5 @@
-import { english } from '@cryptomines/api';
-import { useAddPrivateKeyMutation, useLogInMutation } from '@cryptomines/api-react';
+import { english } from '@platinum/api';
+import { useAddPrivateKeyMutation, useLogInMutation } from '@platinum/api-react';
 import {
   AlertDialog,
   Autocomplete,
@@ -11,7 +11,7 @@ import {
   useOpenDialog,
   useTrans,
   TextField,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography, Container, Grid } from '@mui/material';
 import React from 'react';
@@ -156,7 +156,7 @@ export default function WalletImport() {
           </Grid>
           <Typography variant="subtitle1" align="center">
             <Trans>
-              Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Cryptomines wallet.
+              Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Platinum wallet.
             </Trans>
           </Typography>
           <Grid spacing={2} rowSpacing={3} container>

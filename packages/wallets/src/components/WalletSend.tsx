@@ -3,7 +3,7 @@ import {
   useSendTransactionMutation,
   useFarmBlockMutation,
   useLocalStorage,
-} from '@cryptomines/api-react';
+} from '@platinum/api-react';
 import {
   Amount,
   ButtonLoading,
@@ -19,8 +19,8 @@ import {
   useIsSimulator,
   TooltipIcon,
   Button,
-} from '@cryptomines/core';
-import { ConnectCheckmark } from '@cryptomines/icons';
+} from '@platinum/core';
+import { ConnectCheckmark } from '@platinum/icons';
 import { Trans, t } from '@lingui/macro';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Grid, Typography, Accordion, AccordionDetails, AccordionSummary, Badge, Alert } from '@mui/material';
@@ -139,10 +139,10 @@ export default function WalletSend(props: SendCardProps) {
 
     let { address } = data;
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send cryptomines to coloured address. Please enter a cryptomines address.`);
+      throw new Error(t`Cannot send platinum to coloured address. Please enter a platinum address.`);
     }
 
-    if (address.slice(0, 12) === 'cryptomines_addr://') {
+    if (address.slice(0, 12) === 'platinum_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {

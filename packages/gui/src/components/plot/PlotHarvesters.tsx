@@ -1,5 +1,5 @@
-import { useGetHarvestersSummaryQuery } from '@cryptomines/api-react';
-import { Loading, Flex } from '@cryptomines/core';
+import { useGetHarvestersSummaryQuery } from '@platinum/api-react';
+import { Loading, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import { orderBy } from 'lodash';

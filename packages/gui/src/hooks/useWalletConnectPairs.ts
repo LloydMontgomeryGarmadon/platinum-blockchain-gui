@@ -1,4 +1,4 @@
-import { useLocalStorage } from '@cryptomines/api-react';
+import { useLocalStorage } from '@platinum/api-react';
 import { useCallback, useRef, useMemo } from 'react';
 
 import type Pair from '../@types/Pair';

@@ -1,5 +1,5 @@
-import { useGenerateMnemonicMutation, useAddPrivateKeyMutation, useLogInMutation } from '@cryptomines/api-react';
-import { ButtonLoading, Form, TextField, Flex, Loading, Logo, useShowError } from '@cryptomines/core';
+import { useGenerateMnemonicMutation, useAddPrivateKeyMutation, useLogInMutation } from '@platinum/api-react';
+import { ButtonLoading, Form, TextField, Flex, Loading, Logo, useShowError } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { TextField as TextFieldMaterial, Typography, Grid, Container } from '@mui/material';
 import React from 'react';

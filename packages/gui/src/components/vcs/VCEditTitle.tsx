@@ -1,5 +1,5 @@
-import { usePrefs } from '@cryptomines/api-react';
-import { ButtonLoading, Flex, Form, TextField, Tooltip } from '@cryptomines/core';
+import { usePrefs } from '@platinum/api-react';
+import { ButtonLoading, Flex, Form, TextField, Tooltip } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { ButtonGroup, Chip, InputAdornment } from '@mui/material';
 import React from 'react';

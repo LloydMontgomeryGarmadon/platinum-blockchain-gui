@@ -1,5 +1,5 @@
-import { useGetLatestPeakTimestampQuery } from '@cryptomines/api-react';
-import { CardSimple } from '@cryptomines/core';
+import { useGetLatestPeakTimestampQuery } from '@platinum/api-react';
+import { CardSimple } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import moment from 'moment';
 import React from 'react';

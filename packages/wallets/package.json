@@ -1,7 +1,7 @@
 {
-  "name": "@cryptomines/wallets",
+  "name": "@platinum/wallets",
   "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
-  "description": "Cryptomines wallets Library",
+  "description": "Platinum wallets Library",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"
@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "@babel/runtime": "7.16.7",
-    "@cryptomines/api": "1.0.0",
-    "@cryptomines/core": "1.0.0",
-    "@cryptomines/icons": "1.0.0",
+    "@platinum/api": "1.0.0",
+    "@platinum/core": "1.0.0",
+    "@platinum/icons": "1.0.0",
     "@lingui/macro": "3.13.0",
     "@rehooks/local-storage": "2.4.4",
     "bignumber.js": "9.0.2",
@@ -54,7 +54,7 @@
     "@babel/preset-env": "7.16.8",
     "@babel/preset-react": "7.16.7",
     "@babel/preset-typescript": "7.16.7",
-    "@cryptomines/api-react": "1.0.0",
+    "@platinum/api-react": "1.0.0",
     "@lingui/cli": "3.13.0",
     "@lingui/core": "3.13.0",
     "@lingui/react": "3.13.0",
@@ -91,7 +91,7 @@
     "typescript": "4.9.5"
   },
   "peerDependencies": {
-    "@cryptomines/api-react": "1.0.0",
+    "@platinum/api-react": "1.0.0",
     "@lingui/core": "3.13.0",
     "@lingui/react": "3.13.0",
     "@mui/icons-material": "5.8.4",

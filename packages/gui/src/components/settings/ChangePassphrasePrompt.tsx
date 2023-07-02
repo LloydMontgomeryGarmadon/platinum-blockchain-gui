@@ -2,7 +2,7 @@ import {
   useGetKeyringStatusQuery,
   useRemoveKeyringPassphraseMutation,
   useSetKeyringPassphraseMutation,
-} from '@cryptomines/api-react';
+} from '@platinum/api-react';
 import {
   AlertDialog,
   Button,
@@ -14,7 +14,7 @@ import {
   Form,
   TextField,
   Checkbox,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { t, Trans } from '@lingui/macro';
 import {
   Help as HelpIcon,
@@ -274,7 +274,7 @@ export default function ChangePassphrasePrompt(props: Props) {
                 style={{ marginRight: '8px' }}
               />
               <Tooltip
-                title={t`Your passphrase can be stored in your system's secure credential store. Cryptomines will be able to access your keys without prompting for your passphrase.`}
+                title={t`Your passphrase can be stored in your system's secure credential store. Platinum will be able to access your keys without prompting for your passphrase.`}
               >
                 <HelpIcon style={{ color: '#c8c8c8', fontSize: 12 }} />
               </Tooltip>

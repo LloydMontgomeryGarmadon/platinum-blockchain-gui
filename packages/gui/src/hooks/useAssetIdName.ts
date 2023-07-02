@@ -1,7 +1,7 @@
-import { WalletType } from '@cryptomines/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@cryptomines/api-react';
-import type { CATToken, Wallet } from '@cryptomines/core';
-import { useCurrencyCode } from '@cryptomines/core';
+import { WalletType } from '@platinum/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@platinum/api-react';
+import type { CATToken, Wallet } from '@platinum/core';
+import { useCurrencyCode } from '@platinum/core';
 import { useMemo, useRef, useCallback } from 'react';
 
 export type AssetIdMapEntry = {
@@ -40,7 +40,7 @@ export default function useAssetIdName() {
 
       if (walletType === WalletType.STANDARD_WALLET) {
         assetId = 'plat';
-        name = 'Cryptomines';
+        name = 'Platinum';
         symbol = currencyCode;
         isVerified = true;
       } else if (walletType === WalletType.CAT) {
@@ -96,7 +96,7 @@ export default function useAssetIdName() {
     // If using testnet, add a TPLAT assetId entry
     if (currencyCode === 'TPLAT') {
       const assetId = 'tplat';
-      const name = 'Cryptomines (Testnet)';
+      const name = 'Platinum (Testnet)';
       const symbol = 'TPLAT';
       const displayName = symbol || name;
       const entry: AssetIdMapEntry = {

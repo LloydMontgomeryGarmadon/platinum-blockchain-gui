@@ -1,6 +1,6 @@
-import { Connection, ServiceConnectionName } from '@cryptomines/api';
-import { useGetWalletConnectionsQuery } from '@cryptomines/api-react';
-import { Card, FormatBytes, Loading, Table } from '@cryptomines/core';
+import { Connection, ServiceConnectionName } from '@platinum/api';
+import { useGetWalletConnectionsQuery } from '@platinum/api-react';
+import { Card, FormatBytes, Loading, Table } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Tooltip } from '@mui/material';
 import React from 'react';

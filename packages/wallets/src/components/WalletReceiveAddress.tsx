@@ -1,5 +1,5 @@
-import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@cryptomines/api-react';
-import { ButtonLoading, CopyToClipboard, Card, Loading, Flex, TooltipIcon } from '@cryptomines/core';
+import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@platinum/api-react';
+import { ButtonLoading, CopyToClipboard, Card, Loading, Flex, TooltipIcon } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, TextField, InputAdornment, Grid, Typography } from '@mui/material';
 import React from 'react';

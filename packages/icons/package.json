@@ -1,8 +1,8 @@
 {
-  "name": "@cryptomines/icons",
+  "name": "@platinum/icons",
   "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
-  "description": "Cryptomines Icons Library",
-  "productName": "Cryptomines Blockchain",
+  "description": "Platinum Icons Library",
+  "productName": "Platinum Blockchain",
   "version": "1.0.0",
   "engines": {
     "node": ">=16.15.0"

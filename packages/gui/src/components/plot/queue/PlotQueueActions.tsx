@@ -1,5 +1,5 @@
-import { useStopPlottingMutation } from '@cryptomines/api-react';
-import { ConfirmDialog, More, MenuItem, useOpenDialog } from '@cryptomines/core';
+import { useStopPlottingMutation } from '@platinum/api-react';
+import { ConfirmDialog, More, MenuItem, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { DeleteForever as DeleteForeverIcon, Info as InfoIcon } from '@mui/icons-material';
 import { Divider, ListItemIcon, Typography } from '@mui/material';

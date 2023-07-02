@@ -1,4 +1,4 @@
-import { Button, Flex, Suspender } from '@cryptomines/core';
+import { Button, Flex, Suspender } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@mui/material';
 import React from 'react';

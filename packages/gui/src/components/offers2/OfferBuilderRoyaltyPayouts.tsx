@@ -1,5 +1,5 @@
-import { RoyaltyCalculationFungibleAssetPayout } from '@cryptomines/api';
-import { CopyToClipboard, Flex } from '@cryptomines/core';
+import { RoyaltyCalculationFungibleAssetPayout } from '@platinum/api';
+import { CopyToClipboard, Flex } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Box, Divider } from '@mui/material';
 import React from 'react';

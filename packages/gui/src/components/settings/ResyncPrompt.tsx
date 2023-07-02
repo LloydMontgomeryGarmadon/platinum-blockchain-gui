@@ -1,5 +1,5 @@
-import { useResyncWalletMutation } from '@cryptomines/api-react';
-import { AlertDialog, Button, DialogActions, useOpenDialog } from '@cryptomines/core';
+import { useResyncWalletMutation } from '@platinum/api-react';
+import { AlertDialog, Button, DialogActions, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Dialog, DialogContent, DialogContentText, DialogTitle } from '@mui/material';
 import React from 'react';
@@ -39,8 +39,8 @@ export default function ResyncPrompt(props: Props) {
       <DialogContent>
         <DialogContentText>
           <Trans>
-            To initiate a wallet resync, all Cryptomines services must first be shut down. After shutting down, you will be
-            required to restart Cryptomines to begin the resyncing process. Are you sure you want to shut down and resync?
+            To initiate a wallet resync, all Platinum services must first be shut down. After shutting down, you will be
+            required to restart Platinum to begin the resyncing process. Are you sure you want to shut down and resync?
           </Trans>
         </DialogContentText>
       </DialogContent>

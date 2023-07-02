@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@cryptomines/api';
-import { Flex, LayoutDashboardSub, useOpenDialog, Tooltip } from '@cryptomines/core';
+import type { NFTInfo } from '@platinum/api';
+import { Flex, LayoutDashboardSub, useOpenDialog, Tooltip } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import {
   MoreVert,

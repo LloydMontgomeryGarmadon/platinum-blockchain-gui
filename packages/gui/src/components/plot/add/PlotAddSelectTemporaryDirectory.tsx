@@ -1,5 +1,5 @@
-import { usePrefs } from '@cryptomines/api-react';
-import { AdvancedOptions, ButtonSelected, CardStep, Flex, TextField, Checkbox, TooltipIcon } from '@cryptomines/core';
+import { usePrefs } from '@platinum/api-react';
+import { AdvancedOptions, ButtonSelected, CardStep, Flex, TextField, Checkbox, TooltipIcon } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { FormControl, FormControlLabel, Typography } from '@mui/material';
 import React from 'react';

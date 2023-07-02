@@ -1,6 +1,6 @@
-import { NFTInfo } from '@cryptomines/api';
-import type { Wallet } from '@cryptomines/api';
-import { useGetDIDsQuery, useGetNFTWallets, useSetNFTDIDMutation, useLocalStorage } from '@cryptomines/api-react';
+import { NFTInfo } from '@platinum/api';
+import type { Wallet } from '@platinum/api';
+import { useGetDIDsQuery, useGetNFTWallets, useSetNFTDIDMutation, useLocalStorage } from '@platinum/api-react';
 import {
   AlertDialog,
   Button,
@@ -16,7 +16,7 @@ import {
   truncateValue,
   useOpenDialog,
   useShowError,
-} from '@cryptomines/core';
+} from '@platinum/core';
 import { Trans, t } from '@lingui/macro';
 import { Box, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle, Typography } from '@mui/material';
 import React, { useMemo } from 'react';

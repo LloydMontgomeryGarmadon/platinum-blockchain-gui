@@ -2,8 +2,8 @@ import {
   useAddPlotDirectoryMutation,
   useRemovePlotDirectoryMutation,
   useGetPlotDirectoriesQuery,
-} from '@cryptomines/api-react';
-import { useShowError, Button, Suspender } from '@cryptomines/core';
+} from '@platinum/api-react';
+import { useShowError, Button, Suspender } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import { Folder as FolderIcon, Delete as DeleteIcon } from '@mui/icons-material';
 import {

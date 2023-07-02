@@ -1,4 +1,4 @@
-import { AlertDialog, useOpenDialog } from '@cryptomines/core';
+import { AlertDialog, useOpenDialog } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import React from 'react';
 import { useNavigate } from 'react-router';

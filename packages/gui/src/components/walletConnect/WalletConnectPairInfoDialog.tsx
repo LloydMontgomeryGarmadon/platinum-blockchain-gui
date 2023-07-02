@@ -1,5 +1,5 @@
-import { useGetKeysQuery } from '@cryptomines/api-react';
-import { ButtonLoading, DialogActions, Flex, Button, Loading, useShowError, CardListItem } from '@cryptomines/core';
+import { useGetKeysQuery } from '@platinum/api-react';
+import { ButtonLoading, DialogActions, Flex, Button, Loading, useShowError, CardListItem } from '@platinum/core';
 import { Trans } from '@lingui/macro';
 import CloseIcon from '@mui/icons-material/Close';
 import { Divider, Dialog, DialogContent, DialogTitle, IconButton, Typography } from '@mui/material';

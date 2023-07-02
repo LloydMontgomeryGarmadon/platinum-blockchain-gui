@@ -1,5 +1,5 @@
-import { WalletType } from '@cryptomines/api';
-import type { Wallet } from '@cryptomines/api';
+import { WalletType } from '@platinum/api';
+import type { Wallet } from '@platinum/api';
 
 /**
  * Locate the NFT "inbox" from a list of NFT wallets. The inbox is the NFT wallet

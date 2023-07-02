@@ -1,4 +1,4 @@
-import type { NFTInfo } from '@cryptomines/api';
+import type { NFTInfo } from '@platinum/api';
 import { t } from '@lingui/macro';
 import React from 'react';
 import styled from 'styled-components';

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import icon from '../../assets/img/cryptomines_circle.svg';
+import icon from '../../assets/img/platinum_circle.svg';
 
 const GlobalStyle = createGlobalStyle`
   body,
@@ -115,7 +115,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) {currentYear} Cryptomines Network</div>
+        <div className="copyright">Copyright (c) {currentYear} Platinum Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (

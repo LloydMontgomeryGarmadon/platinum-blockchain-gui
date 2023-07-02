@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines/api-react';
+import { usePrefs } from '@platinum/api-react';
 
 export default function useEnableAutoLogin() {
   return usePrefs<boolean>('enableAutoLogin', true);

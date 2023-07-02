@@ -1,4 +1,4 @@
-import { Flex, LayoutDashboardSub } from '@cryptomines/core';
+import { Flex, LayoutDashboardSub } from '@platinum/core';
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 

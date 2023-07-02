@@ -1,9 +1,9 @@
-import { store, walletApi } from '@cryptomines/api-react';
+import { store, walletApi } from '@platinum/api-react';
 import BigNumber from 'bignumber.js';
 
 import { prepareNFTOffer, prepareNFTOfferFromNFTId } from './prepareNFTOffer';
 
-jest.mock('@cryptomines/api-react', () => ({
+jest.mock('@platinum/api-react', () => ({
   store: {
     dispatch: jest.fn(),
   },

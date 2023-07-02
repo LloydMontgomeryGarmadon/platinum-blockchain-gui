@@ -1,4 +1,4 @@
-import { usePrefs } from '@cryptomines/api-react';
+import { usePrefs } from '@platinum/api-react';
 import { useCallback, useMemo } from 'react';
 
 type List<Type> = {
