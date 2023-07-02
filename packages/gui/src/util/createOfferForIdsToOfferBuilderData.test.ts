@@ -14,7 +14,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     jest.clearAllMocks();
   });
 
-  describe('when offering KOP for CAT', () => {
+  describe('when offering PLAT for CAT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -23,9 +23,9 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Cryptomines',
-          symbol: 'KOP',
-          displayName: 'KOP',
-          assetId: 'kop',
+          symbol: 'PLAT',
+          displayName: 'PLAT',
+          assetId: 'plat',
         },
         2: {
           walletId: 2,
@@ -62,13 +62,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          kop: [{ amount: '111.555' }],
+          plat: [{ amount: '111.555' }],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [{ amount: '600', assetId: 'f17f88130c63522821f1a75466849354eee69c414c774bd9f3873ab643e9574d' }],
           nfts: [],
           fee: [],
@@ -77,7 +77,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
     });
   });
 
-  describe('when offering a CAT for KOP', () => {
+  describe('when offering a CAT for PLAT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -86,9 +86,9 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Cryptomines',
-          symbol: 'KOP',
-          displayName: 'KOP',
-          assetId: 'kop',
+          symbol: 'PLAT',
+          displayName: 'PLAT',
+          assetId: 'plat',
         },
         2: {
           walletId: 2,
@@ -120,7 +120,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [
             {
               amount: '1.234',
@@ -131,7 +131,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           fee: [],
         },
         requested: {
-          kop: [
+          plat: [
             {
               amount: '2',
             },
@@ -143,7 +143,7 @@ describe('createOfferForIdsToOfferBuilderData', () => {
       });
     });
   });
-  describe('when offering KOP for an NFT', () => {
+  describe('when offering PLAT for an NFT', () => {
     it('should return a valid offer builder data object', () => {
       const calledLookupByWalletIdWithIds: string[] = [];
       const assetIdMapEntriesByWalletId: Record<string, AssetIdMapEntry> = {
@@ -152,9 +152,9 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Cryptomines',
-          symbol: 'KOP',
-          displayName: 'KOP',
-          assetId: 'kop',
+          symbol: 'PLAT',
+          displayName: 'PLAT',
+          assetId: 'plat',
         },
       };
 
@@ -179,13 +179,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          kop: [{ amount: '3' }],
+          plat: [{ amount: '3' }],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [
             {
@@ -219,9 +219,9 @@ describe('createOfferForIdsToOfferBuilderData', () => {
           walletType: 0, // STANDARD_WALLET
           isVerified: true,
           name: 'Cryptomines',
-          symbol: 'KOP',
-          displayName: 'KOP',
-          assetId: 'kop',
+          symbol: 'PLAT',
+          displayName: 'PLAT',
+          assetId: 'plat',
         },
         2: {
           walletId: 2,
@@ -252,13 +252,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [
+          plat: [
             {
               amount: '0.5',
             },
@@ -299,13 +299,13 @@ describe('createOfferForIdsToOfferBuilderData', () => {
 
       expect(result).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],

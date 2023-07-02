@@ -41,7 +41,7 @@ export default function WalletConnectAddConnectionDialog(props: WalletConnectAdd
   const { pair, isLoading: isLoadingWallet } = useWalletConnectContext();
   const { data: keys, isLoading: isLoadingPublicKeys } = useGetKeysQuery({});
   const { data: fingerprint, isLoading: isLoadingLoggedInFingerprint } = useGetLoggedInFingerprintQuery();
-  const mainnet = useCurrencyCode() === 'KOP';
+  const mainnet = useCurrencyCode() === 'PLAT';
   const methods = useForm<FormData>({
     defaultValues: {
       uri: '',

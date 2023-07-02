@@ -7,13 +7,13 @@ describe('createDefaultValues', () => {
     it('should return an object with empty value arrays', () => {
       expect(createDefaultValues()).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -25,13 +25,13 @@ describe('createDefaultValues', () => {
     it('should return an object with empty value arrays', () => {
       expect(createDefaultValues({})).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -39,17 +39,17 @@ describe('createDefaultValues', () => {
       });
     });
   });
-  describe('when an KOP wallet type is provided', () => {
-    it('should return an object with an KOP entry', () => {
+  describe('when an PLAT wallet type is provided', () => {
+    it('should return an object with an PLAT entry', () => {
       expect(createDefaultValues({ walletType: WalletType.STANDARD_WALLET })).toEqual({
         offered: {
-          kop: [{ amount: '' }],
+          plat: [{ amount: '' }],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -61,13 +61,13 @@ describe('createDefaultValues', () => {
     it('should return an object with a token entry only if an assetId is also provided', () => {
       expect(createDefaultValues({ walletType: WalletType.CAT })).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -75,13 +75,13 @@ describe('createDefaultValues', () => {
       });
       expect(createDefaultValues({ walletType: WalletType.CAT, assetId: '123' })).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [{ assetId: '123', amount: '' }],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -93,13 +93,13 @@ describe('createDefaultValues', () => {
     it('should return an object with a requested NFT entry only if nftWalletId is not provided', () => {
       expect(createDefaultValues({ nftId: '123' })).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [{ nftId: '123' }],
           fee: [],
@@ -109,13 +109,13 @@ describe('createDefaultValues', () => {
     it('should return an object with an offered NFT entry if nftWalletId is provided', () => {
       expect(createDefaultValues({ nftId: '123', nftWalletId: 1 })).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [{ nftId: '123' }],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -127,13 +127,13 @@ describe('createDefaultValues', () => {
     it('should return an object with an offered NFT entry if nftWalletId is provided', () => {
       expect(createDefaultValues({ nftIds: ['123', '456'], nftWalletId: 1 })).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [{ nftId: '123' }, { nftId: '456' }],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
@@ -143,13 +143,13 @@ describe('createDefaultValues', () => {
     it('should not return offered NFT entries if nftWalletId is omitted', () => {
       expect(createDefaultValues({ nftIds: ['123', '456'] })).toEqual({
         offered: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],
         },
         requested: {
-          kop: [],
+          plat: [],
           tokens: [],
           nfts: [],
           fee: [],

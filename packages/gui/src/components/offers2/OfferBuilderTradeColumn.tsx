@@ -65,7 +65,7 @@ export default function OfferBuilderTradeColumn(props: OfferBuilderTradeColumnPr
   const { readOnly } = useOfferBuilderContext();
 
   const xch = useWatch({
-    name: `${name}.kop`,
+    name: `${name}.plat`,
   });
 
   const nfts = useWatch({
@@ -104,7 +104,7 @@ export default function OfferBuilderTradeColumn(props: OfferBuilderTradeColumnPr
           padding: 1,
         }}
       >
-        {showXCH && <OfferBuilderXCHSection name={`${name}.kop`} offering={offering} muted={mutedXCH} />}
+        {showXCH && <OfferBuilderXCHSection name={`${name}.plat`} offering={offering} muted={mutedXCH} />}
 
         {showTokensSection && (
           <OfferBuilderTokensSection name={`${name}.tokens`} offering={offering} muted={mutedTokens} />

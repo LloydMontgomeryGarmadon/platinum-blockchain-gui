@@ -21,9 +21,9 @@ export class SendFunds {
     await this.page.getByTestId('WalletSend-amount').fill(amount);
 
     // And I enter a valid Fee
-    //await this.page.locator('text=Fee *TKOP >> input[type="text"]').fill(fee);
-    //await this.page.getByRole('button', { name: '0 (>5 min) TKOP' }).click();
-    //await this.page.getByRole('option', { name: '0.00000275276505264396 TKOP Likely in 60 seconds' }).getByText('0.00000275276505264396 TKOP').click();
+    //await this.page.locator('text=Fee *TPLAT >> input[type="text"]').fill(fee);
+    //await this.page.getByRole('button', { name: '0 (>5 min) TPLAT' }).click();
+    //await this.page.getByRole('option', { name: '0.00000275276505264396 TPLAT Likely in 60 seconds' }).getByText('0.00000275276505264396 TPLAT').click();
 
     // Then I can click Send button
     //await this.page.locator('[data-testid="WalletSend-send"]').click();
@@ -31,7 +31,7 @@ export class SendFunds {
   }
 
   async check_balance() {
-    if (this.page.locator('text=Spendable Balance0 TKOP >> h5')) {
+    if (this.page.locator('text=Spendable Balance0 TPLAT >> h5')) {
       console.log('No Funds available!');
       // And I navigate to a wallet with funds
       await this.page.locator('[data-testid="LayoutDashboard-log-out"]').click();

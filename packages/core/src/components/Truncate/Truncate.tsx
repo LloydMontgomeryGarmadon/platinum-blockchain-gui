@@ -19,7 +19,7 @@ export function truncateValue(children: string, opts: TruncateValueOptions): str
     leftLength = 4,
     rightLength = 4,
     splitSeparator = ':',
-    prefixes = ['nft1', 'tkop1', 'xch1', 'did:cryptomines:1', '0x'],
+    prefixes = ['nft1', 'tplat1', 'xch1', 'did:cryptomines:1', '0x'],
   } = opts;
 
   if (!children) {

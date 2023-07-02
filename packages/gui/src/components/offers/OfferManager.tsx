@@ -81,7 +81,7 @@ function OfferList(props: OfferListProps) {
   const [saveOffer] = useSaveOfferFile();
   const { isLoading: isLoadingWallets } = useGetWalletsQuery();
   const { lookupByAssetId } = useAssetIdName();
-  const testnet = useCurrencyCode() === 'TKOP';
+  const testnet = useCurrencyCode() === 'TPLAT';
   const openDialog = useOpenDialog();
   const { navigate } = useSerializedNavigationState();
   const {
@@ -326,7 +326,7 @@ export function OfferManager() {
                       </Typography>
                       <Typography variant="body1" color="textSecondary">
                         <Trans>
-                          Create a file that you can use to trade KOP, Cryptomines Asset Tokens, or NFTs with no counter-party
+                          Create a file that you can use to trade PLAT, Cryptomines Asset Tokens, or NFTs with no counter-party
                           risk.
                         </Trans>
                       </Typography>
@@ -366,7 +366,7 @@ export function CreateOffer() {
   const openDialog = useOpenDialog();
   const [saveOffer] = useSaveOfferFile();
   const currencyCode = useCurrencyCode();
-  const testnet = currencyCode === 'TKOP';
+  const testnet = currencyCode === 'TPLAT';
 
   async function handleOfferCreated(obj: { offerRecord: any; offerData: any; address?: string }) {
     const { offerRecord, offerData, address: ph } = obj;

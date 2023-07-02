@@ -14,7 +14,7 @@ import { prepareNFTOfferFromNFTId } from './prepareNFTOffer';
 // Status of existing assets in offers
 // A combination of `type` and `assetId` must be unique through an array of `AssetStatusForOffer`.
 export type AssetStatusForOffer = {
-  type: 'KOP' | 'CAT' | 'SINGLETON';
+  type: 'PLAT' | 'CAT' | 'SINGLETON';
   assetId: string;
   assetName?: string; // Used just for labeling
   nftId?: string;
@@ -59,8 +59,8 @@ export default async function offerBuilderDataToOffer({
   assetsToUnlock: AssetStatusForOffer[];
 }> {
   const {
-    offered: { kop: offeredXch = [], tokens: offeredTokens = [], nfts: offeredNfts = [], fee: [firstFee] = [] },
-    requested: { kop: requestedXch = [], tokens: requestedTokens = [], nfts: requestedNfts = [] },
+    offered: { plat: offeredXch = [], tokens: offeredTokens = [], nfts: offeredNfts = [], fee: [firstFee] = [] },
+    requested: { plat: requestedXch = [], tokens: requestedTokens = [], nfts: requestedNfts = [] },
   } = data;
 
   const usedNFTs: string[] = [];
@@ -87,22 +87,22 @@ export default async function offerBuilderDataToOffer({
       for (let k = 0; k < assetIds.length; k++) {
         const assetId = assetIds[k];
         const lockedAmount = new BigNumber(o.pending[assetId]);
-        if (assetId.toUpperCase() === 'KOP' || assetId.toUpperCase() === 'UNKNOWN') {
+        if (assetId.toUpperCase() === 'PLAT' || assetId.toUpperCase() === 'UNKNOWN') {
           // 'UNKNOWN' is the diff between removals and additions of coins in this offer
           // It is assumed to be the amount of the 'fee'
-          const idx = pendingOffers.findIndex((po) => po.type === 'KOP');
+          const idx = pendingOffers.findIndex((po) => po.type === 'PLAT');
           if (idx > -1) {
             pendingOffers[idx].lockedAmount = pendingOffers[idx].lockedAmount.plus(lockedAmount);
             pendingOffers[idx].relevantOffers.push(o);
             if (pendingOffers[idx].assetId.toUpperCase() !== assetId.toUpperCase()) {
-              // Now we can distinguish that we have kop spending which is only KOP, only Fee or both KOP and Fee
-              pendingOffers[idx].assetId = 'KOP+FEE';
+              // Now we can distinguish that we have plat spending which is only PLAT, only Fee or both PLAT and Fee
+              pendingOffers[idx].assetId = 'PLAT+FEE';
             }
           } else {
             pendingOffers.push({
-              type: 'KOP',
+              type: 'PLAT',
               assetId,
-              assetName: 'KOP',
+              assetName: 'PLAT',
               lockedAmount,
               status: '',
               spendingAmount: new BigNumber(0),
@@ -143,7 +143,7 @@ export default async function offerBuilderDataToOffer({
     standardWallet = wallets.find((w) => w.type === WalletType.STANDARD_WALLET);
     for (let i = 0; i < pendingOffers.length; i++) {
       const po = pendingOffers[i];
-      if (po.type === 'KOP') {
+      if (po.type === 'PLAT') {
         pendingXchOffer = po;
         pendingXch = po.lockedAmount;
         break;
@@ -158,7 +158,7 @@ export default async function offerBuilderDataToOffer({
   const xchTasks = offeredXch.map(async (xch) => {
     const { amount } = xch;
     if (!amount || amount === '0') {
-      throw new Error(t`Please enter an KOP amount`);
+      throw new Error(t`Please enter an PLAT amount`);
     }
     if (!standardWallet || !standardWalletBalance) {
       throw new Error(t`No standard wallet found`);
@@ -170,7 +170,7 @@ export default async function offerBuilderDataToOffer({
     const spendableBalance = new BigNumber(standardWalletBalance.spendableBalance);
     const hasEnoughTotalBalance = spendableBalance.plus(pendingXch).minus(feeInMojos).gte(mojoAmount);
     if (!hasEnoughTotalBalance) {
-      throw new Error(t`Amount exceeds KOP total balance`);
+      throw new Error(t`Amount exceeds PLAT total balance`);
     }
 
     if (pendingXchOffer) {
@@ -186,7 +186,7 @@ export default async function offerBuilderDataToOffer({
       }
     }
   });
-  // Treat fee as kop spending
+  // Treat fee as plat spending
   if (offeredXch.length === 0 && feeInMojos.gt(0)) {
     if (!standardWallet || !standardWalletBalance) {
       throw new Error(t`No standard wallet found`);
@@ -195,7 +195,7 @@ export default async function offerBuilderDataToOffer({
     const spendableBalance = new BigNumber(standardWalletBalance.spendableBalance);
     const hasEnoughTotalBalance = spendableBalance.gte(feeInMojos);
     if (!hasEnoughTotalBalance) {
-      throw new Error(t`Fee exceeds KOP total balance`);
+      throw new Error(t`Fee exceeds PLAT total balance`);
     }
     if (pendingXchOffer) {
       pendingXchOffer.spendingAmount = feeInMojos;
@@ -294,7 +294,7 @@ export default async function offerBuilderDataToOffer({
     }
 
     if (!amount) {
-      throw new Error(t`Please enter an KOP amount`);
+      throw new Error(t`Please enter an PLAT amount`);
     }
 
     const wallet = wallets.find((w) => w.type === WalletType.STANDARD_WALLET);

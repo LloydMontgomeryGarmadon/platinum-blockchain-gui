@@ -46,7 +46,7 @@
 //   await page.locator('li[role="menuitem"]:has-text("NFT Offer")').click();
 
 //   // When I enter an Amount
-//   await page.locator('text=Amount *TKOP >> input[type="text"]').fill('0.05');
+//   await page.locator('text=Amount *TPLAT >> input[type="text"]').fill('0.05');
 
 //   // And I enter invalid text in Exchange field
 //   await page.locator('[placeholder="NFT Identifier"]').fill('hjuyt');
@@ -62,7 +62,7 @@
 
 //   // Given I Click Back Button
 //   await page
-//     .locator('text=Create an NFT OfferBuy an NFTSell an NFTYou will offerAmount *TKOP50,000,000,000 >> button')
+//     .locator('text=Create an NFT OfferBuy an NFTSell an NFTYou will offerAmount *TPLAT50,000,000,000 >> button')
 //     .first()
 //     .click();
 
@@ -73,10 +73,10 @@
 //   await page.locator('text=Token Offer').click();
 
 //   // When I complete Amount under heading You will offer
-//   await page.locator('text=You will offerAsset Type *​Amount *TKOP >> input[type="text"]').fill('0.00000000005');
+//   await page.locator('text=You will offerAsset Type *​Amount *TPLAT >> input[type="text"]').fill('0.00000000005');
 
 //   // And I complete Amount under heading In exchange for
-//   await page.locator('text=In exchange forAsset Type *​Amount *TKOP >> input[type="text"]').fill('0.00000000005');
+//   await page.locator('text=In exchange forAsset Type *​Amount *TPLAT >> input[type="text"]').fill('0.00000000005');
 
 //   // And I Click text=Create Offer
 //   await page.locator('text=Create Offer').click();

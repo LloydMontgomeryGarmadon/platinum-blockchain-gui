@@ -194,7 +194,7 @@ async function postToMintGarden(offerData: string, testnet: boolean): Promise<st
 
 enum HashgreenErrorCodes {
   OFFERED_AMOUNT_TOO_SMALL = 40_020, // The offered amount is too small
-  MARKET_NOT_FOUND = 50_029, // Pairing doesn't exist e.g. KOP/RandoCoin
+  MARKET_NOT_FOUND = 50_029, // Pairing doesn't exist e.g. PLAT/RandoCoin
   OFFER_FILE_EXISTS = 50_037, // Offer already shared
   COINS_ALREADY_COMMITTED = 50_041, // Coins in the offer are already committed in another offer
 }
@@ -282,7 +282,7 @@ async function postToSpacescan(offerData: string, testnet: boolean): Promise<{ v
     protocol: 'https:',
     hostname: 'api2.spacescan.io',
     port: 443,
-    path: `/api/offer/upload?coin=${testnet ? 'tkop' : 'kop'}&version=1`,
+    path: `/api/offer/upload?coin=${testnet ? 'tplat' : 'plat'}&version=1`,
   };
   const requestHeaders = {
     'Content-Type': 'application/json',

@@ -15,11 +15,11 @@ export default function offerToOfferBuilderData(
 
   const defaultFeeXCH = defaultFee ? mojoToChia(defaultFee).toFixed() : '';
 
-  const offeredXch: OfferBuilderData['offered']['kop'] = [];
+  const offeredXch: OfferBuilderData['offered']['plat'] = [];
   const offeredTokens: OfferBuilderData['offered']['tokens'] = [];
   const offeredNfts: OfferBuilderData['offered']['nfts'] = [];
   const offeredFee: OfferBuilderData['offered']['fee'] = setDefaultOfferedFee ? [{ amount: defaultFeeXCH }] : [];
-  const requestedXch: OfferBuilderData['requested']['kop'] = [];
+  const requestedXch: OfferBuilderData['requested']['plat'] = [];
   const requestedTokens: OfferBuilderData['requested']['tokens'] = [];
   const requestedNfts: OfferBuilderData['requested']['nfts'] = [];
 
@@ -38,7 +38,7 @@ export default function offerToOfferBuilderData(
       offeredNfts.push({
         nftId: launcherIdToNFTId(info.launcherId),
       });
-    } else if (id === 'kop') {
+    } else if (id === 'plat') {
       offeredXch.push({
         amount: mojoToChia(amount).toFixed(),
       });
@@ -58,7 +58,7 @@ export default function offerToOfferBuilderData(
       requestedNfts.push({
         nftId: launcherIdToNFTId(info.launcherId),
       });
-    } else if (id === 'kop') {
+    } else if (id === 'plat') {
       requestedXch.push({
         amount: mojoToChia(amount).toFixed(),
       });
@@ -67,13 +67,13 @@ export default function offerToOfferBuilderData(
 
   return {
     offered: {
-      kop: offeredXch,
+      plat: offeredXch,
       tokens: offeredTokens,
       nfts: offeredNfts,
       fee: offeredFee,
     },
     requested: {
-      kop: requestedXch,
+      plat: requestedXch,
       tokens: requestedTokens,
       nfts: requestedNfts,
       fee: [

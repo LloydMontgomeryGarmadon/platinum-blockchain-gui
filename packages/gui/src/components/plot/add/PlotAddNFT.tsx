@@ -39,7 +39,7 @@ const PlotAddNFT = forwardRef((props: Props, ref) => {
         title={<Trans>Create a Plot NFT</Trans>}
         description={
           <Trans>
-            Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less
+            Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less
             volatile.
           </Trans>
         }
@@ -128,7 +128,7 @@ const PlotAddNFT = forwardRef((props: Props, ref) => {
         <>
           <Typography variant="subtitle1">
             <Trans>
-              Join a pool and get more consistent KOP farming rewards. Create a plot NFT and assign your new plots to a
+              Join a pool and get more consistent PLAT farming rewards. Create a plot NFT and assign your new plots to a
               group.
             </Trans>
           </Typography>

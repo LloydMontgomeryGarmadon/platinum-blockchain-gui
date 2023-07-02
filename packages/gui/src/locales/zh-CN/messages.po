@@ -47,7 +47,7 @@ msgid "+ Add a Plot"
 msgstr "+ 开垦农田"
 
 #: src/components/settings/ProfileAdd.tsx:80
-msgid "<0>Need some KOP?</0>"
+msgid "<0>Need some PLAT?</0>"
 msgstr "<0>需要一些XCH？</0>"
 
 #: src/components/settings/ProfileAdd.tsx:92
@@ -208,7 +208,7 @@ msgid "Amount before adding royalties"
 msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:59
-msgid "Amount exceeds KOP spendable balance"
+msgid "Amount exceeds PLAT spendable balance"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:596
@@ -319,8 +319,8 @@ msgid "Back"
 msgstr "后退"
 
 #: src/components/settings/ProfileAdd.tsx:98
-msgid "Balance: {standardBalance} KOP"
-msgstr "余额: {standardBalance} KOP"
+msgid "Balance: {standardBalance} PLAT"
+msgstr "余额: {standardBalance} PLAT"
 
 #: src/components/block/Block.jsx:235
 msgid "Base Farmer Reward Amount"
@@ -508,7 +508,7 @@ msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainabl
 msgstr ""
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:114
-msgid "Chia Asset Tokens (CATs) are tokens built on top of KOP"
+msgid "Chia Asset Tokens (CATs) are tokens built on top of PLAT"
 msgstr ""
 
 #: src/electron/main.tsx:1047
@@ -748,7 +748,7 @@ msgid "Create a Plot NFT"
 msgstr "创建农田NFT"
 
 #: src/components/offers/OfferManager.tsx:440
-msgid "Create a file that you can use to trade KOP, Chia Asset Tokens, or NFTs with no counter-party risk."
+msgid "Create a file that you can use to trade PLAT, Chia Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:75
@@ -1559,8 +1559,8 @@ msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:91
 #: src/components/offers/OfferEditorConditionsPanel.tsx:392
-msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 KOP (5,000,000 mojos)"
-msgstr "在报价中加入收费可以帮助在接受报价时加速交易。建议的最低费用为0.000005 KOP (5,000,000 mojos)"
+msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 PLAT (5,000,000 mojos)"
+msgstr "在报价中加入收费可以帮助在接受报价时加速交易。建议的最低费用为0.000005 PLAT (5,000,000 mojos)"
 
 #: src/components/offers2/OfferIncomingTable.tsx:112
 msgid "Incoming Offers"
@@ -1628,15 +1628,15 @@ msgid "Join a Pool"
 msgstr "加入农业合作社"
 
 #: src/components/plot/add/PlotAddNFT.tsx:41
-msgid "Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less volatile."
 msgstr "加入农业合作社来获得持续的XCH耕种收益。平均回报是相同的，但是收益会更加稳定。"
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:61
-msgid "Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr "加入农业合作社来获得持续的XCH耕种收益。平均回报是相同的，但是收益会更加稳定。为已开垦的农田分配农田NFT。你可以轻松切换耕种池，而不比重新开垦现有农田。"
 
 #: src/components/plot/add/PlotAddNFT.tsx:122
-msgid "Join a pool and get more consistent KOP farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent PLAT farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr "加入农业合作社来获得持续的XCH耕种收益。创建一个农田NFT，然后将新农田分配到组。"
 
 #: src/components/app/AppSelectMode.tsx:133
@@ -2458,7 +2458,7 @@ msgstr "请输入一个NFT标识符。"
 
 #: src/util/offerBuilderDataToOffer.ts:46
 #: src/util/offerBuilderDataToOffer.ts:111
-msgid "Please enter an KOP amount"
+msgid "Please enter an PLAT amount"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:591
@@ -2801,8 +2801,8 @@ msgid "Recommended"
 msgstr "推荐"
 
 #: src/components/settings/ProfileAdd.tsx:114
-msgid "Recommended: 0.000005 KOP"
-msgstr "推荐：0.000005 KOP"
+msgid "Recommended: 0.000005 PLAT"
+msgstr "推荐：0.000005 PLAT"
 
 #: src/components/nfts/NFTContextualActions.tsx:602
 msgid "Refresh NFT data"
@@ -3006,7 +3006,7 @@ msgid "Self Pooling"
 msgstr "自耕种"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:86
-msgid "Self pool. When you win a block you will earn KOP rewards."
+msgid "Self pool. When you win a block you will earn PLAT rewards."
 msgstr "自耕种。一旦发现新区块，你将得到全部XCH区块奖励。"
 
 #: src/components/offers/NFTOfferEditor.tsx:313
@@ -3172,7 +3172,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "勾选此项，将不会自动把最终目录添加到收割机进行耕种"
 
 #: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your KOP farming rewards by joining a pool."
+msgid "Smooth out your PLAT farming rewards by joining a pool."
 msgstr "加入农业合作社来稳定XCH耕作收益。"
 
 #: src/components/notification/NotificationNFTTitle.tsx:30
@@ -3234,8 +3234,8 @@ msgid "Status"
 msgstr "状态"
 
 #: src/components/app/AppSelectMode.tsx:78
-msgid "Store and Send KOP"
-msgstr "存储并发送 KOP"
+msgid "Store and Send PLAT"
+msgstr "存储并发送 PLAT"
 
 #: src/components/app/AppPassPrompt.tsx:111
 msgid "Submit"
@@ -3312,8 +3312,8 @@ msgid "The NFT transfer transaction has been successfully submitted to the block
 msgstr "NFT 传输交易已成功提交到区块链。"
 
 #: src/components/settings/SettingsPanel.tsx:165
-msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for KOP, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
-msgstr "衍生指数设置钱包链扫描钱包地址的范围。 如果您有大量交易或取消了 KOP、CATs 或 NFT 的报价，这个数字通常更高。 如果你认为你的余额是不正确的，因为它缺少硬币， 增加衍生指数可以帮助钱包在余额总额中包括缺失的硬币。"
+msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for PLAT, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
+msgstr "衍生指数设置钱包链扫描钱包地址的范围。 如果您有大量交易或取消了 PLAT、CATs 或 NFT 的报价，这个数字通常更高。 如果你认为你的余额是不正确的，因为它缺少硬币， 增加衍生指数可以帮助钱包在余额总额中包括缺失的硬币。"
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:88
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:137
@@ -3395,7 +3395,7 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "本区块上奖励给农民的全部交易费用。"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:91
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an KOP address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an PLAT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr "这是农民耕种奖励的支付方式。默认情况下，这将是一个XCH钱包地址，但是你可以设置任意长度小于1024的字符串，也就是说，你可以指定其它区块链或者支付系统标识。"
 
 #: src/components/plot/card/PlotCardPlotsFailedToOpen.tsx:13

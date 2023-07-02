@@ -165,7 +165,7 @@ export default function SettingsPanel() {
             <TooltipIcon>
               <Trans>
                 The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This
-                number is generally higher if you have a lot of transactions or canceled offers for KOP, CATs, or NFTs.
+                number is generally higher if you have a lot of transactions or canceled offers for PLAT, CATs, or NFTs.
                 If you believe your balance is incorrect because it’s missing coins, then increasing the derivation
                 index could help the wallet include the missing coins in the balance total.
               </Trans>

@@ -11,7 +11,7 @@ function getMintGardenURL(nft: NFTInfo, testnet: boolean) {
 }
 
 function getSpacescanURL(nft: NFTInfo, testnet: boolean) {
-  const url = `https://spacescan.io/${testnet ? 'tkop10' : 'kop'}/nft/${nft.$nftId}`;
+  const url = `https://spacescan.io/${testnet ? 'tplat10' : 'plat'}/nft/${nft.$nftId}`;
   return url;
 }
 
@@ -29,7 +29,7 @@ const UrlBuilderMapping = {
 
 export default function useViewNFTOnExplorer() {
   const openExternal = useOpenExternal();
-  const testnet = useCurrencyCode() === 'TKOP';
+  const testnet = useCurrencyCode() === 'TPLAT';
 
   function handleViewNFTOnExplorer(nft: NFTInfo, explorer: NFTExplorer) {
     const urlBuilder = UrlBuilderMapping[explorer];

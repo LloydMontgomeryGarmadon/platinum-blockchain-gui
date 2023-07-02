@@ -34,11 +34,11 @@ export default function OfferBuilderProvider(props: OfferBuilderProviderProps) {
   })?.map(({ nftId }) => nftId);
 
   const requestedXCH = useWatch({
-    name: 'requested.kop',
+    name: 'requested.plat',
   });
 
   const offeredXCH = useWatch({
-    name: 'offered.kop',
+    name: 'offered.plat',
   });
 
   const requestedTokens = useWatch({
@@ -91,7 +91,7 @@ export default function OfferBuilderProvider(props: OfferBuilderProviderProps) {
   const requestedFungibleAssets = [
     ...(requestedXCH ?? [])
       .filter(({ amount }) => amount > 0)
-      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('kop', chiaToMojo(amount))),
+      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('plat', chiaToMojo(amount))),
     ...(requestedTokens ?? [])
       .filter(({ assetId, amount }) => assetId?.length > 0 && amount > 0)
       .map(({ amount, assetId }) => fungibleAssetFromAssetIdAndAmount(assetId, catToMojo(amount))),
@@ -100,7 +100,7 @@ export default function OfferBuilderProvider(props: OfferBuilderProviderProps) {
   const offeredFungibleAssets = [
     ...(offeredXCH ?? [])
       .filter(({ amount }) => amount > 0)
-      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('kop', chiaToMojo(amount))),
+      .map(({ amount }) => fungibleAssetFromAssetIdAndAmount('plat', chiaToMojo(amount))),
     ...(offeredTokens ?? [])
       .filter(({ assetId, amount }) => assetId?.length > 0 && amount > 0)
       .map(({ amount, assetId }) => fungibleAssetFromAssetIdAndAmount(assetId, catToMojo(amount))),

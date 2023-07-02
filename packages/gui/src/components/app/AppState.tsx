@@ -71,7 +71,7 @@ export default function AppState(props: Props) {
   const { data: backendVersion } = useGetVersionQuery();
   const { version } = useAppVersion();
   const lru = useNFTMetadataLRU();
-  const isTestnet = useCurrencyCode() === 'TKOP';
+  const isTestnet = useCurrencyCode() === 'TPLAT';
 
   const runServices = useMemo<ServiceNameValue[] | undefined>(() => {
     if (mode) {

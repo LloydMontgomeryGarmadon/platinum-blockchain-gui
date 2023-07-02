@@ -35,7 +35,7 @@ test('Verify that an NFT can be Transfer to another account', async () => {
   //Then I should be able to transfer the NFT to another account
   await page.getByRole('menuitem', { name: 'Transfer NFT' }).click();
   await page.getByLabel('Send to Address *').type(send_wallet);
-  await page.getByRole('button', { name: '0 (>5 min) TKOP' }).click();
+  await page.getByRole('button', { name: '0 (>5 min) TPLAT' }).click();
   await page.getByRole('option', { name: 'Enter a custom fee...' }).click();
   await page.getByLabel('Fee').fill('0.00003');
   await page.getByRole('button', { name: 'Transfer' }).click();
@@ -56,7 +56,7 @@ test('Verify that an NFT can be Transfer to another account', async () => {
   await page.getByRole('button', { name: 'Bobble #3' }).getByRole('button').click();
   await page.getByRole('menuitem', { name: 'Transfer NFT' }).click();
   await page.getByLabel('Send to Address *').type(receive_nft_wallet);
-  await page.getByRole('button', { name: '0 (>5 min) TKOP' }).click();
+  await page.getByRole('button', { name: '0 (>5 min) TPLAT' }).click();
   await page.getByRole('option', { name: 'Enter a custom fee...' }).click();
   await page.getByLabel('Fee').fill('0.00003');
   await page.getByRole('button', { name: 'Transfer' }).click();

@@ -1,6 +1,6 @@
 type OfferBuilderData = {
   offered: {
-    kop: {
+    plat: {
       amount: string;
     }[];
     tokens: {
@@ -15,7 +15,7 @@ type OfferBuilderData = {
     }[];
   };
   requested: {
-    kop: {
+    plat: {
       amount: string;
     }[];
     tokens: {

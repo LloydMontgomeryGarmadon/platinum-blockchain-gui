@@ -111,7 +111,7 @@ export default function OfferBuilderTokensSection(props: OfferBuilderTokensSecti
     <OfferBuilderSection
       icon={<Tokens />}
       title={<Trans>Tokens</Trans>}
-      subtitle={<Trans>Cryptomines Asset Tokens (CATs) are tokens built on top of KOP</Trans>}
+      subtitle={<Trans>Cryptomines Asset Tokens (CATs) are tokens built on top of PLAT</Trans>}
       onAdd={showAdd ? handleAdd : undefined}
       expanded={!!fields.length}
       muted={muted}

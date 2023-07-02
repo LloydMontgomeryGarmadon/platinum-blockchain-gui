@@ -47,7 +47,7 @@ msgid "+ Add a Plot"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:80
-msgid "<0>Need some KOP?</0>"
+msgid "<0>Need some PLAT?</0>"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:92
@@ -209,7 +209,7 @@ msgid "Amount before adding royalties"
 msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:59
-msgid "Amount exceeds KOP spendable balance"
+msgid "Amount exceeds PLAT spendable balance"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:596
@@ -320,7 +320,7 @@ msgid "Back"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:98
-msgid "Balance: {standardBalance} KOP"
+msgid "Balance: {standardBalance} PLAT"
 msgstr ""
 
 #: src/components/block/Block.jsx:235
@@ -510,7 +510,7 @@ msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainabl
 msgstr ""
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:114
-msgid "Chia Asset Tokens (CATs) are tokens built on top of KOP"
+msgid "Chia Asset Tokens (CATs) are tokens built on top of PLAT"
 msgstr ""
 
 #: src/electron/main.tsx:1047
@@ -750,7 +750,7 @@ msgid "Create a Plot NFT"
 msgstr ""
 
 #: src/components/offers/OfferManager.tsx:440
-msgid "Create a file that you can use to trade KOP, Chia Asset Tokens, or NFTs with no counter-party risk."
+msgid "Create a file that you can use to trade PLAT, Chia Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:75
@@ -1561,7 +1561,7 @@ msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:91
 #: src/components/offers/OfferEditorConditionsPanel.tsx:392
-msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 KOP (5,000,000 mojos)"
+msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 PLAT (5,000,000 mojos)"
 msgstr ""
 
 #: src/components/offers2/OfferIncomingTable.tsx:112
@@ -1628,15 +1628,15 @@ msgid "Join a Pool"
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:41
-msgid "Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less volatile."
+msgid "Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less volatile."
 msgstr ""
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:61
-msgid "Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgid "Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
 msgstr ""
 
 #: src/components/plot/add/PlotAddNFT.tsx:122
-msgid "Join a pool and get more consistent KOP farming rewards. Create a plot NFT and assign your new plots to a group."
+msgid "Join a pool and get more consistent PLAT farming rewards. Create a plot NFT and assign your new plots to a group."
 msgstr ""
 
 #: src/components/app/AppSelectMode.tsx:133
@@ -2458,7 +2458,7 @@ msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:46
 #: src/util/offerBuilderDataToOffer.ts:111
-msgid "Please enter an KOP amount"
+msgid "Please enter an PLAT amount"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:591
@@ -2801,7 +2801,7 @@ msgid "Recommended"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:114
-msgid "Recommended: 0.000005 KOP"
+msgid "Recommended: 0.000005 PLAT"
 msgstr ""
 
 #: src/components/nfts/NFTContextualActions.tsx:602
@@ -3006,7 +3006,7 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:86
-msgid "Self pool. When you win a block you will earn KOP rewards."
+msgid "Self pool. When you win a block you will earn PLAT rewards."
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:313
@@ -3172,7 +3172,7 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "از افزودن پوشه نهایی به برداشت گر(harvester) برای مزرعه داری، صرفه نظر شود"
 
 #: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your KOP farming rewards by joining a pool."
+msgid "Smooth out your PLAT farming rewards by joining a pool."
 msgstr ""
 
 #: src/components/notification/NotificationNFTTitle.tsx:30
@@ -3234,7 +3234,7 @@ msgid "Status"
 msgstr ""
 
 #: src/components/app/AppSelectMode.tsx:78
-msgid "Store and Send KOP"
+msgid "Store and Send PLAT"
 msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:111
@@ -3312,7 +3312,7 @@ msgid "The NFT transfer transaction has been successfully submitted to the block
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:165
-msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for KOP, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
+msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for PLAT, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr ""
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:88
@@ -3395,7 +3395,7 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "کل کارمزد های تراکنش ها در این بلوک. به مزرعه دار پاداش داده شده."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:91
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an KOP address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an PLAT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
 msgstr ""
 
 #: src/components/plot/card/PlotCardPlotsFailedToOpen.tsx:13

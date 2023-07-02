@@ -68,7 +68,7 @@ test('Verify that a recipient wallet receives funds from sending wallet!', async
 
   const balance = getWalletBalance('873991444');
 
-  console.log(`KOP Balance: ${balance}`);
+  console.log(`PLAT Balance: ${balance}`);
   // End: Wait for Wallet to Sync
 
   // Given I send funds back

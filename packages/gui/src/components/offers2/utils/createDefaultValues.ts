@@ -5,7 +5,7 @@ import type OfferBuilderData from '../../../@types/OfferBuilderData';
 import { emptyDefaultValues } from './defaultValues';
 
 type CreateDefaultValuesParams = {
-  walletType?: WalletType; // CAT or STANDARD_WALLET (KOP), indicates whether a token or CAT has a default entry
+  walletType?: WalletType; // CAT or STANDARD_WALLET (PLAT), indicates whether a token or CAT has a default entry
   assetId?: string; // Asset ID of the CAT
   nftId?: string; // NFT to include in the offer by default
   nftIds?: string[]; // multiple NFT selection
@@ -14,7 +14,7 @@ type CreateDefaultValuesParams = {
 
 /**
  * Creates default values for OfferBuilder's form data. OfferBuilder can be instantiated with default values
- * for creating an KOP offer, a CAT offer, or an NFT offer. KOP and CAT offers will have a default entry in
+ * for creating an PLAT offer, a CAT offer, or an NFT offer. PLAT and CAT offers will have a default entry in
  * the offered section. NFT offers can have default entries in either the offered or requested sections
  * depending on whether the NFTs and an NFT wallet id are provided.
  */
@@ -32,7 +32,7 @@ export default function createDefaultValues(params: CreateDefaultValuesParams | 
     offered: {
       ...clonedEmptyDefaultValues.offered,
       nfts,
-      kop: walletType === WalletType.STANDARD_WALLET ? [{ amount: '' }] : [],
+      plat: walletType === WalletType.STANDARD_WALLET ? [{ amount: '' }] : [],
       tokens: walletType === WalletType.CAT && assetId ? [{ assetId, amount: '' }] : [],
     },
     requested: {

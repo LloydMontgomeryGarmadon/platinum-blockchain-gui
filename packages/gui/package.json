@@ -30,9 +30,9 @@
         ]
       },
       {
-        "name": "Cryptomines KOP Address",
+        "name": "Cryptomines PLAT Address",
         "schemes": [
-          "kop"
+          "plat"
         ]
       }
     ],

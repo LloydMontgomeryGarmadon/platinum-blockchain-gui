@@ -48,7 +48,7 @@ import { calculateNFTRoyalties } from './utils';
 
 /* ========================================================================== */
 /*              Temporary home for the NFT-specific Offer Editor              */
-/*       An NFT offer consists of a single NFT being offered for KOP/CAT      */
+/*       An NFT offer consists of a single NFT being offered for PLAT/CAT      */
 /* ========================================================================== */
 
 const StyledWarningIcon = styled(WarningIcon)`
@@ -85,7 +85,7 @@ function NFTOfferCreationFee(props: NFTOfferCreationFeeProps) {
             <TooltipIcon>
               <Trans>
                 Including a fee in the offer can help expedite the transaction when the offer is accepted. The
-                recommended minimum fee is 0.000005 KOP (5,000,000 mojos)
+                recommended minimum fee is 0.000005 PLAT (5,000,000 mojos)
               </Trans>
             </TooltipIcon>
           </Box>
@@ -412,7 +412,7 @@ function NFTOfferConditionalsPanel(props: NFTOfferConditionalsPanelProps) {
                       makerFee > 0 && (
                         <div>
                           <FormatLargeNumber value={new BigNumber(makerFee ?? 0)} />
-                          {' KOP'}
+                          {' PLAT'}
                         </div>
                       )}
                   </Typography>
@@ -444,7 +444,7 @@ function NFTOfferConditionalsPanel(props: NFTOfferConditionalsPanelProps) {
 
 /* ========================================================================== */
 /*                              NFT Offer Editor                              */
-/*           Currently only supports a single NFT <--> KOP/CAT offer          */
+/*           Currently only supports a single NFT <--> PLAT/CAT offer          */
 /* ========================================================================== */
 
 export type NFTOfferEditorTokenWalletInfo = {

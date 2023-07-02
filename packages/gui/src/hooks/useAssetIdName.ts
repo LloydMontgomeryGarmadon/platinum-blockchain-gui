@@ -39,7 +39,7 @@ export default function useAssetIdName() {
       let isVerified = false;
 
       if (walletType === WalletType.STANDARD_WALLET) {
-        assetId = 'kop';
+        assetId = 'plat';
         name = 'Cryptomines';
         symbol = currencyCode;
         isVerified = true;
@@ -93,11 +93,11 @@ export default function useAssetIdName() {
       assetIdNameMapping.set(assetId, entry);
     });
 
-    // If using testnet, add a TKOP assetId entry
-    if (currencyCode === 'TKOP') {
-      const assetId = 'tkop';
+    // If using testnet, add a TPLAT assetId entry
+    if (currencyCode === 'TPLAT') {
+      const assetId = 'tplat';
       const name = 'Cryptomines (Testnet)';
-      const symbol = 'TKOP';
+      const symbol = 'TPLAT';
       const displayName = symbol || name;
       const entry: AssetIdMapEntry = {
         walletId: 1,

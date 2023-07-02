@@ -40,7 +40,7 @@ export function summaryStringsForNFTOffer(
   builder: (filename: string, args: [assetInfo: AssetIdMapEntry | undefined, amount: string]) => string
 ): [makerString: string, takerString: string] {
   // const makerAssetType = offerAssetTypeForAssetId
-  // TODO: Remove 1:1 NFT <--> KOP assumption
+  // TODO: Remove 1:1 NFT <--> PLAT assumption
   const makerEntry: [string, string] = Object.entries(summary.offered)[0] as [string, string];
   const takerEntry: [string, string] = Object.entries(summary.requested)[0] as [string, string];
   const makerAssetType = offerAssetTypeForAssetId(makerEntry[0], summary);
@@ -187,7 +187,7 @@ export function offerContainsAssetOfType(
 export function offerAssetTypeForAssetId(assetId: string, offerSummary: OfferSummaryRecord): OfferAsset | undefined {
   let assetType: OfferAsset | undefined;
 
-  if (['kop', 'tkop'].includes(assetId)) {
+  if (['plat', 'tplat'].includes(assetId)) {
     assetType = OfferAsset.CHIA;
   } else {
     const { infos } = offerSummary;
@@ -223,7 +223,7 @@ export function offerAssetIdForAssetType(
   }
 
   if (assetType === OfferAsset.CHIA) {
-    return keys.includes('kop') ? 'kop' : undefined;
+    return keys.includes('plat') ? 'plat' : undefined;
   }
 
   const assetId = Object.keys(offerSummary.infos).find(

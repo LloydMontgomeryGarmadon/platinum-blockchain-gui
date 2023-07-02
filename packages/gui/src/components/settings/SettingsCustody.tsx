@@ -38,11 +38,11 @@ export default function SettingsCustody() {
 
       <Box>
         <SettingsSection>
-          <Trans>Default claw back time for outgoing KOP transactions</Trans>
+          <Trans>Default claw back time for outgoing PLAT transactions</Trans>
         </SettingsSection>
 
         <SettingsText>
-          <Trans>Set a default time frame for all outbound KOP transactions.</Trans>
+          <Trans>Set a default time frame for all outbound PLAT transactions.</Trans>
         </SettingsText>
 
         <SettingsText>

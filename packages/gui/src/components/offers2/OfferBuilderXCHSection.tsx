@@ -25,10 +25,10 @@ export default function OfferBuilderXCHSection(props: OfferBuilderXCHSectionProp
   const amount =
     useWatch({
       name,
-    })?.[0]?.amount ?? 0; // Assume there's only 1 KOP field per trade side
+    })?.[0]?.amount ?? 0; // Assume there's only 1 PLAT field per trade side
   const { requestedRoyalties, offeredRoyalties, isCalculatingRoyalties } = useOfferBuilderContext();
 
-  // Yes, this is correct. Fungible (KOP) assets used to pay royalties are from the opposite side of the trade.
+  // Yes, this is correct. Fungible (PLAT) assets used to pay royalties are from the opposite side of the trade.
   const allRoyalties = offering ? requestedRoyalties : offeredRoyalties;
 
   const loading = isLoadingWallet || isCalculatingRoyalties;
@@ -41,7 +41,7 @@ export default function OfferBuilderXCHSection(props: OfferBuilderXCHSectionProp
     let amountWithRoyaltiesLocal = chiaToMojo(amount);
     const rows: Record<string, any>[] = [];
     Object.entries(allRoyalties).forEach(([nftId, royaltyPaymentsLocal]) => {
-      const matchingPayment = royaltyPaymentsLocal?.find((payment) => payment.asset === 'kop');
+      const matchingPayment = royaltyPaymentsLocal?.find((payment) => payment.asset === 'plat');
       if (matchingPayment) {
         amountWithRoyaltiesLocal = amountWithRoyaltiesLocal.plus(matchingPayment.amount);
         rows.push({

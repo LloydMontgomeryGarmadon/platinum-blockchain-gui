@@ -23,8 +23,8 @@ function getSpendableAmountUponUnlockingAssets(assetStatus: AssetStatusForOffer,
   let { spendableAmount } = assetStatus;
   for (let s = 0; s < assetsToBeUnlocked.length; s++) {
     const lockedAsset = assetsToBeUnlocked[s];
-    if (lockedAsset.type === 'KOP' && assetStatus.type === 'KOP') {
-      // assetId might be either 'KOP' or 'UNKNOWN'(maybe fee) but here both are treated as just a KOP spending
+    if (lockedAsset.type === 'PLAT' && assetStatus.type === 'PLAT') {
+      // assetId might be either 'PLAT' or 'UNKNOWN'(maybe fee) but here both are treated as just a PLAT spending
       spendableAmount = spendableAmount.plus(lockedAsset.amount);
     } else if (lockedAsset.type === assetStatus.type && lockedAsset.assetId === assetStatus.assetId) {
       if (assetStatus.type === 'CAT') {

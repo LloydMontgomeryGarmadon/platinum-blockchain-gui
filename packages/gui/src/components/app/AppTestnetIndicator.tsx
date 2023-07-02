@@ -5,7 +5,7 @@ import { useTheme } from '@mui/material/styles';
 import React, { useState } from 'react';
 
 export default function AppTestnetIndicator() {
-  const isTestnet = useCurrencyCode() === 'TKOP';
+  const isTestnet = useCurrencyCode() === 'TPLAT';
   const theme = useTheme();
   const borderColor = (theme.palette as any).colors.blue.border;
   const [clickCount, setClickCount] = useState(0);

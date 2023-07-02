@@ -35,7 +35,7 @@ test('Confirm Error Dialog when wrong data is entered on Send Page for 192213244
 
   const balance = getWalletBalance(funded_wallet);
 
-  console.log(`KOP Balance: ${balance}`);
+  console.log(`PLAT Balance: ${balance}`);
   //End: Wait for Wallet to Sync
 
   //And I click on Send Page

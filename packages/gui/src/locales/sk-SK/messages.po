@@ -47,8 +47,8 @@ msgid "+ Add a Plot"
 msgstr "+ Pridať pole"
 
 #: src/components/settings/ProfileAdd.tsx:80
-msgid "<0>Need some KOP?</0>"
-msgstr "<0>Potrebujete KOP?</0>"
+msgid "<0>Need some PLAT?</0>"
+msgstr "<0>Potrebujete PLAT?</0>"
 
 #: src/components/settings/ProfileAdd.tsx:92
 msgid "<0>Use one (1) mojo to create a Profile.</0>"
@@ -208,7 +208,7 @@ msgid "Amount before adding royalties"
 msgstr ""
 
 #: src/util/offerBuilderDataToOffer.ts:59
-msgid "Amount exceeds KOP spendable balance"
+msgid "Amount exceeds PLAT spendable balance"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:596
@@ -319,8 +319,8 @@ msgid "Back"
 msgstr "Späť"
 
 #: src/components/settings/ProfileAdd.tsx:98
-msgid "Balance: {standardBalance} KOP"
-msgstr "Zostatok: {standardBalance} KOP"
+msgid "Balance: {standardBalance} PLAT"
+msgstr "Zostatok: {standardBalance} PLAT"
 
 #: src/components/block/Block.jsx:235
 msgid "Base Farmer Reward Amount"
@@ -508,7 +508,7 @@ msgid "Chia ({currencyCode}) is a digital currency that is secure and sustainabl
 msgstr ""
 
 #: src/components/offers2/OfferBuilderTokensSection.tsx:114
-msgid "Chia Asset Tokens (CATs) are tokens built on top of KOP"
+msgid "Chia Asset Tokens (CATs) are tokens built on top of PLAT"
 msgstr ""
 
 #: src/electron/main.tsx:1047
@@ -748,7 +748,7 @@ msgid "Create a Plot NFT"
 msgstr "Vytvoriť NFT poľa"
 
 #: src/components/offers/OfferManager.tsx:440
-msgid "Create a file that you can use to trade KOP, Chia Asset Tokens, or NFTs with no counter-party risk."
+msgid "Create a file that you can use to trade PLAT, Chia Asset Tokens, or NFTs with no counter-party risk."
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:75
@@ -1559,8 +1559,8 @@ msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:91
 #: src/components/offers/OfferEditorConditionsPanel.tsx:392
-msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 KOP (5,000,000 mojos)"
-msgstr "Zahrnutie poplatku do ponuky môže pomôcť urýchliť transakciu, keď bude ponuka prijatá. Odporúčaný minimálny poplatok je 0,000005 KOP (5 000 000 mojos)"
+msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 PLAT (5,000,000 mojos)"
+msgstr "Zahrnutie poplatku do ponuky môže pomôcť urýchliť transakciu, keď bude ponuka prijatá. Odporúčaný minimálny poplatok je 0,000005 PLAT (5 000 000 mojos)"
 
 #: src/components/offers2/OfferIncomingTable.tsx:112
 msgid "Incoming Offers"
@@ -1628,16 +1628,16 @@ msgid "Join a Pool"
 msgstr "Pripojiť sa k združeniu"
 
 #: src/components/plot/add/PlotAddNFT.tsx:41
-msgid "Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "Pripojte sa k združeniu a získajte konzistentné farmárske KOP odmeny. Priemerný výnos je rovnaký, je však oveľa menej volatilný."
+msgid "Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "Pripojte sa k združeniu a získajte konzistentné farmárske PLAT odmeny. Priemerný výnos je rovnaký, je však oveľa menej volatilný."
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:61
-msgid "Join a pool and get consistent KOP farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "Pripojte sa k združeniu a získajte konzistentné farmárske KOP odmeny. Priemerný výnos je rovnaký, je však oveľa menej volatilný. Priraďte polia k NFT poľa. Môžete ľahko prepínať združenia bez nutnosti opakovaného vytvárania polí."
+msgid "Join a pool and get consistent PLAT farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "Pripojte sa k združeniu a získajte konzistentné farmárske PLAT odmeny. Priemerný výnos je rovnaký, je však oveľa menej volatilný. Priraďte polia k NFT poľa. Môžete ľahko prepínať združenia bez nutnosti opakovaného vytvárania polí."
 
 #: src/components/plot/add/PlotAddNFT.tsx:122
-msgid "Join a pool and get more consistent KOP farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "Pripojte sa k združeniu a získajte konzistentnejšie farmárske KOP odmeny. Vytvorte NFT poľa a priraďte svoje nové polia do skupiny."
+msgid "Join a pool and get more consistent PLAT farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr "Pripojte sa k združeniu a získajte konzistentnejšie farmárske PLAT odmeny. Vytvorte NFT poľa a priraďte svoje nové polia do skupiny."
 
 #: src/components/app/AppSelectMode.tsx:133
 msgid "Join farming pools"
@@ -2121,7 +2121,7 @@ msgstr "Nepripojené"
 
 #: src/components/farm/FarmManageFarmingRewards.tsx:152
 msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "Toto však nezmení vaše platobné adresy združovania. Ovplyvňuje to iba polia v starom formáte, a odmenu 0,25 KOP za združovanie polí."
+msgstr "Toto však nezmení vaše platobné adresy združovania. Ovplyvňuje to iba polia v starom formáte, a odmenu 0,25 PLAT za združovanie polí."
 
 #: src/components/notification/NotificationSendDialog.tsx:145
 msgid "Notification has successfully been sent to a full node and included in the mempool."
@@ -2458,7 +2458,7 @@ msgstr "Prosím zadajte identifikátor NFT"
 
 #: src/util/offerBuilderDataToOffer.ts:46
 #: src/util/offerBuilderDataToOffer.ts:111
-msgid "Please enter an KOP amount"
+msgid "Please enter an PLAT amount"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:591
@@ -2801,8 +2801,8 @@ msgid "Recommended"
 msgstr "Odporúčané"
 
 #: src/components/settings/ProfileAdd.tsx:114
-msgid "Recommended: 0.000005 KOP"
-msgstr "Odporúčané: 0,000005 KOP"
+msgid "Recommended: 0.000005 PLAT"
+msgstr "Odporúčané: 0,000005 PLAT"
 
 #: src/components/nfts/NFTContextualActions.tsx:602
 msgid "Refresh NFT data"
@@ -3006,8 +3006,8 @@ msgid "Self Pooling"
 msgstr "Sólo združovanie"
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:86
-msgid "Self pool. When you win a block you will earn KOP rewards."
-msgstr "Osobné združenie. Keď vyhráte blok, získate KOP odmeny."
+msgid "Self pool. When you win a block you will earn PLAT rewards."
+msgstr "Osobné združenie. Keď vyhráte blok, získate PLAT odmeny."
 
 #: src/components/offers/NFTOfferEditor.tsx:313
 msgid "Sell an NFT"
@@ -3172,8 +3172,8 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "Preskočiť pridanie cieľového adresára do zberača pre farmárčenie"
 
 #: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your KOP farming rewards by joining a pool."
-msgstr "Zjemnite si svoje farmárske KOP odmeny pripojením sa k združeniu."
+msgid "Smooth out your PLAT farming rewards by joining a pool."
+msgstr "Zjemnite si svoje farmárske PLAT odmeny pripojením sa k združeniu."
 
 #: src/components/notification/NotificationNFTTitle.tsx:30
 msgid "Something went wrong"
@@ -3234,8 +3234,8 @@ msgid "Status"
 msgstr "Stav"
 
 #: src/components/app/AppSelectMode.tsx:78
-msgid "Store and Send KOP"
-msgstr "Uložiť a odoslať KOP"
+msgid "Store and Send PLAT"
+msgstr "Uložiť a odoslať PLAT"
 
 #: src/components/app/AppPassPrompt.tsx:111
 msgid "Submit"
@@ -3312,8 +3312,8 @@ msgid "The NFT transfer transaction has been successfully submitted to the block
 msgstr "Transakcia prevodu NFT bola úspešne odoslaná do blockchainu."
 
 #: src/components/settings/SettingsPanel.tsx:165
-msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for KOP, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
-msgstr "Derivačný index nastavuje rozsah adries peňaženky, ktoré peňaženka vyhľadáva v blockchaine. Toto číslo je vo všeobecnosti vyššie, ak máte veľa transakcií alebo zrušených ponúk pre KOP, CAT alebo NFT. Ak sa domnievate, že váš zostatok je nesprávny, pretože v ňom chýbajú mince, potom zvýšenie derivačného indexu môže pomôcť peňaženke zahrnúť chýbajúce mince do celkového zostatku."
+msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for PLAT, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
+msgstr "Derivačný index nastavuje rozsah adries peňaženky, ktoré peňaženka vyhľadáva v blockchaine. Toto číslo je vo všeobecnosti vyššie, ak máte veľa transakcií alebo zrušených ponúk pre PLAT, CAT alebo NFT. Ak sa domnievate, že váš zostatok je nesprávny, pretože v ňom chýbajú mince, potom zvýšenie derivačného indexu môže pomôcť peňaženke zahrnúť chýbajúce mince do celkového zostatku."
 
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:88
 #: src/components/plot/add/PlotAddSelectTemporaryDirectory.tsx:137
@@ -3395,8 +3395,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "Celkové poplatky v tomto bloku idú ťažiarovi."
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:91
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an KOP address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "Toto sú inštrukcie, ako chce farmár dostať zaplatené. V predvolenom nastavení to bude adresa KOP, ale dá sa nastaviť na ľubovoľný reťazec s veľkosťou menej ako 1024 znakov, takže môže predstavovať identifikátor iného blockchainu alebo platobného systému."
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an PLAT address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "Toto sú inštrukcie, ako chce farmár dostať zaplatené. V predvolenom nastavení to bude adresa PLAT, ale dá sa nastaviť na ľubovoľný reťazec s veľkosťou menej ako 1024 znakov, takže môže predstavovať identifikátor iného blockchainu alebo platobného systému."
 
 #: src/components/plot/card/PlotCardPlotsFailedToOpen.tsx:13
 msgid "These plots are invalid, you might want to delete them."

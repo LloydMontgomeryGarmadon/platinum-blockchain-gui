@@ -75,7 +75,7 @@ export default function AppSelectMode() {
                     <Flex gap={1} alignItems="center">
                       <StyledCheckIcon color="primary" />
                       <Typography variant="body2">
-                        <Trans>Store and Send KOP</Trans>
+                        <Trans>Store and Send PLAT</Trans>
                       </Typography>
                     </Flex>
                     <Flex gap={1} alignItems="center">
