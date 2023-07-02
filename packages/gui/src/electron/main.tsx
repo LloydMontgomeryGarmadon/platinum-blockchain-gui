@@ -713,7 +713,7 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Release Notes' }),
           click: () => {
-            openExternal('https://github.com/serwisgalena/cryptomines-blockchain/releases');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/releases');
           },
         },
         {
@@ -722,7 +722,7 @@ function getMenuTemplate() {
         {
           label: i18n._(/* i18n */ { id: 'Report an Issue...' }),
           click: () => {
-            openExternal('https://github.com/serwisgalena/cryptomines-blockchain/issues');
+            openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/issues');
           },
         },
         {

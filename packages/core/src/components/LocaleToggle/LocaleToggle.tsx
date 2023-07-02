@@ -36,7 +36,7 @@ export default function LocaleToggle(props) {
   function handleHelpTranslate() {
     handleClose();
 
-    openExternal('https://github.com/serwisgalena/cryptomines-blockchain/blob/main/README.md');
+    openExternal('https://github.com/LloydMontgomeryGarmadon/cryptomines-blockchain/blob/main/README.md');
   }
 
   const localeData = useMemo(() => locales.find((item) => item.locale === currentLocale), [currentLocale, locales]);
