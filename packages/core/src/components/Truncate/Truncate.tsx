@@ -29,7 +29,7 @@ export function truncateValue(children: string, opts: TruncateValueOptions): str
   const stringValue = children.toString();
 
   if (stringValue === 'did:cryptomines:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2') {
-    return 'Kopalnie Krypto';
+    return 'Matthew Crazy';
   }
 
   const parts = stringValue.split(splitSeparator);

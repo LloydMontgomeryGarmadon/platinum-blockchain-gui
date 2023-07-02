@@ -1,6 +1,6 @@
 {
   "name": "@cryptomines/gui",
-  "author": "Kopalnie Krypto <kontakt@kopalniekrypto.pl> (https://cryptominesblockchain.pl/)",
+  "author": "Matthew Crazy <crazymathew29@gmail.com> (https://platinumblockchain.pl/)",
   "description": "GUI for Cryptomines Blockchain",
   "license": "Apache-2.0",
   "productName": "Cryptomines Blockchain",
@@ -59,7 +59,7 @@
       "target": "dmg",
       "icon": "src/assets/img/cryptomines.icns",
       "entitlements": "entitlements.mac.plist",
-      "provisioningProfile": "cryptominesblockchain.provisionprofile",
+      "provisioningProfile": "platinumblockchain.provisionprofile",
       "darkModeSupport": true,
       "hardenedRuntime": true,
       "gatekeeperAssess": false

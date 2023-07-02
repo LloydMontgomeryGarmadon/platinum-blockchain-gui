@@ -72,7 +72,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://cryptominesblockchain.pl';
+const url = 'https://platinumblockchain.pl';
 
 type Props = {
   version: string;
