@@ -1,2 +1,2 @@
-# cryptomines-blockchain-gui
-GUI for cryptomines-blockchain
+# platinum-blockchain-gui
+GUI for platinum-blockchain
