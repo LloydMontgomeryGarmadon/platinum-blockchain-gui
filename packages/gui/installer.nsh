@@ -166,12 +166,12 @@ Var NextButton
 Page custom detectOldChiaVersion detectOldChiaVersionPageLeave
 Page custom finish finishLeave
 
-; Add a page offering to uninstall an older build installed into the cryptomines-blockchain dir
+; Add a page offering to uninstall an older build installed into the platinum-blockchain dir
 Function detectOldChiaVersion
-  ; Check the registry for old cryptomines-blockchain installer keys
-  ReadRegStr $ChiaSquirrelInstallLocation HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\cryptomines-blockchain" "InstallLocation"
-  ReadRegStr $ChiaSquirrelInstallVersion HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\cryptomines-blockchain" "DisplayVersion"
-  ReadRegStr $ChiaSquirrelUninstaller HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\cryptomines-blockchain" "QuietUninstallString"
+  ; Check the registry for old platinum-blockchain installer keys
+  ReadRegStr $ChiaSquirrelInstallLocation HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\platinum-blockchain" "InstallLocation"
+  ReadRegStr $ChiaSquirrelInstallVersion HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\platinum-blockchain" "DisplayVersion"
+  ReadRegStr $ChiaSquirrelUninstaller HKCU "Software\Microsoft\Windows\CurrentVersion\Uninstall\platinum-blockchain" "QuietUninstallString"
 
   StrCpy $UninstallChiaSquirrelInstall ${BST_UNCHECKED} ; Initialize to unchecked so that a silent install skips uninstalling
 

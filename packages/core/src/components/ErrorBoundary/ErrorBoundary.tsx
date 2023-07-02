@@ -52,7 +52,7 @@ export default class ErrorBoundary extends Component {
   render() {
     if (this.state.error) {
       const { stacktrace, error } = this.state;
-      const issueLink = `https://github.com/Chia-Network/cryptomines-blockchain-gui/issues/new?${qs.stringify({
+      const issueLink = `https://github.com/Chia-Network/platinum-blockchain-gui/issues/new?${qs.stringify({
         labels: 'bug',
         template: 'bug_report.yaml',
         title: `[BUG] ${error.message}`,

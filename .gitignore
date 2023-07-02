@@ -25,7 +25,7 @@ config/keys.yaml
 config/plots.yaml
 
 # Bundled code
-cryptomines-blockchain.tar.gz.tar.gz
+platinum-blockchain.tar.gz.tar.gz
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -62,7 +62,7 @@ activate
 .mypy_cache/
 
 # Packaging
-cryptomines-blockchain.tar.gz
+platinum-blockchain.tar.gz
 
 # Timelord utilities
 vdf_bench

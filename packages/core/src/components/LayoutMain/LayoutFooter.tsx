@@ -20,7 +20,7 @@ const SendFeedback = styled.a`
 async function openFAQURL(): Promise<void> {
   try {
     const { shell } = window as any;
-    await shell.openExternal('https://github.com/Chia-Network/cryptomines-blockchain/wiki/FAQ');
+    await shell.openExternal('https://github.com/Chia-Network/platinum-blockchain/wiki/FAQ');
   } catch (e) {
     console.error(e);
   }

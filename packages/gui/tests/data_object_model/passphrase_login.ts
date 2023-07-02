@@ -93,7 +93,7 @@ export class LoginPage {
 
     /*/ Click [data-testid="DashboardSideBar-settings"]
   await page.locator('[data-testid="DashboardSideBar-settings"]').click();
-  await page.waitForURL('file:///Users/jahifaw/Documents/Code/chia-tn-pw-latest/cryptomines-blockchain/cryptomines-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/settings/general');
+  await page.waitForURL('file:///Users/jahifaw/Documents/Code/chia-tn-pw-latest/platinum-blockchain/platinum-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/settings/general');
   // Click [data-testid="SettingsPanel-remove-passphrase"]
   await page.locator('[data-testid="SettingsPanel-remove-passphrase"]').click();
   // Click input[type="password"]
